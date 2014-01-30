@@ -1,0 +1,54 @@
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{table}[htbp]
+\caption {Determinants of Government Consumption Expenditure} \label{tab:title} 
+\centering
+\footnotesize
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+  &\multicolumn{1}{c}{spending.wb} &\multicolumn{1}{c}{spending.wb} &\multicolumn{1}{c}{diff(spending.wb)} \\
+\hline
+lag(trade.wb, 1) 		&0.144 		&0.147 		&0.38\sym{*}\\
+  		&(0.213) 		&(0.213) 		&(0.222) \\
+lag(mdi, 1) 		&-0.157 		&-0.114 		&0.612\sym{*} \\
+  		&(0.402) 		&(0.403) 		&(0.318) \\
+lag(polity2, 1) 		&0.025 		&-0.03 		& \\
+  		&(0.152) 		&(0.157) 		& \\
+lag(gdpcap.wb, 1) 		&0.615\sym{***} 		&0.608\sym{***} 		& \\
+  		&(0.189) 		&(0.189) 		& \\
+lag(dependency.wb, 1) 		&-0.218 		&-0.235 		& \\
+  		&(0.231) 		&(0.232) 		& \\
+lag(land.wb, 1) 		&13.921 		&20.356 		& \\
+  		&(191.648) 		&(191.676) 		& \\
+lag(spending.wb, 1) 		&0.717\sym{***} 		&0.716\sym{***} 		&-0.164\sym{***} \\
+  		&(0.016) 		&(0.016) 		&(0.01) \\
+lag(spending.wb, 2) 		&0.11\sym{***} 		&0.111\sym{***} 		& \\
+  		&(0.016) 		&(0.016) 		& \\
+lag(trade.wb, 1):lag(mdi, 1) 		&-0.97\sym{***} 		&-0.883\sym{***} 		&-0.611\sym{*} \\
+  		&(0.32) 		&(0.325) 		&(0.317) \\
+lag(diff(trade.wb)):lag(diff(mdi)) 		& 		& 		&8.139 \\
+  		& 		& 		&(15.681) \\
+lag(trade.wb, 1):lag(polity2, 1) 		& 		&-0.428 		&-0.434 \\
+  		& 		&(0.303) 		&(0.294) \\
+lag(diff(trade.wb)):lag(diff(polity2)) 		& 		& 		&-3.557\sym{*} \\
+  		& 		& 		&(1.963) \\
+lag(diff(trade.wb), 1) 		& 		& 		&-0.946\sym{**} \\
+  		& 		& 		&(0.388) \\
+lag(diff(mdi), 1) 		& 		& 		&0.562 \\
+  		& 		& 		&(1.716) \\
+lag(diff(polity2), 1) 		& 		& 		&-0.056 \\
+  		& 		& 		&(0.284) \\
+lag(diff(gdpcap.wb), 1) 		& 		& 		&0.668 \\
+  		& 		& 		&(0.723) \\
+lag(diff(dependency.wb), 1) 		& 		& 		&2.4 \\
+  		& 		& 		&(1.794) \\
+lag(diff(spending.wb), 1) 		& 		& 		&-0.104\sym{***} \\
+  		& 		& 		&(0.016) \\
+\hline
+$R^2$ 		&0.672 		&0.672 		&0.104 \\
+$adj.R^2$ 		&0.638 		&0.638 		&0.098 \\
+$N$ 		&\multicolumn{1}{c}{3911} 		&\multicolumn{1}{c}{3911} 		&\multicolumn{1}{c}{3914} \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize $^{*}$ (p $\le$ 0.1), $^{**}$ (p $\le$ 0.05), $^{***}$ (p $\le$ 0.01)}\\
+\end{tabular}
+\end{table}
