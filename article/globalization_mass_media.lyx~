@@ -8,8 +8,8 @@
 \usepackage{dcolumn}
 \usepackage{pdflscape}
 \usepackage{graphicx}
+\usepackage{endnotes}
 \end_preamble
-\options fleqn
 \use_default_options true
 \begin_modules
 endnotes
@@ -76,13 +76,16 @@ endnotes
 
 \begin_layout Title
 \paragraph_spacing double
+
+\series bold
+\size large
 Mass Media and the Domestic Politics of Globalization
 \end_layout
 
 \begin_layout Author
 Justin Murphy
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Lecturer at University of Southampton.
@@ -99,6 +102,8 @@ January 30, 2014
 \end_layout
 
 \begin_layout Abstract
+
+\size normal
 Much is known about the domestic politics of globalization but political
  scientists have largely ignored one critical link between the international
  economy and most individuals around the world: the mass media.
@@ -106,22 +111,26 @@ Much is known about the domestic politics of globalization but political
 ility, this article develops a simple model of the effects of mass media
  on individuals' blame attributions and propensities to mobilize around
  the distributive conflicts of economic globalization.
- These effects of mass media on perception and mobilization should alter
- the incentives of a national policymaker's choice either to compensate
- or neglect domestic groups harmed by globalization.
+ These effects of mass media on perception and mobilization alter the incentives
+ of a national policymaker's choice either to compensate or neglect domestic
+ groups harmed by globalization.
  Individual-level implications of the theory are tested on survey data from
  France in 1992-1993 and state-level implications are tested on data from
  most countries around the world from 1960 to 2010.
- The evidence suggests that mass media demobilize groups harmed by globalization
-, leading to weakened welfare-state responsiveness.
+ The evidence shows that mass media demobilize groups harmed by globalization,
+ leading to weakened welfare-state responsiveness.
  
 \end_layout
 
 \begin_layout Abstract
+
+\size normal
 Word count: 7,740 with tables and graphs.
 \end_layout
 
 \begin_layout Abstract
+
+\size normal
 \begin_inset Newpage newpage
 \end_inset
 
@@ -416,7 +425,9 @@ key "Adsera:2002vt"
  section discusses the core findings, and a final section concludes.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section
+
+\size normal
 Mass Media Between Globalization and Domestic Politics
 \end_layout
 
@@ -893,7 +904,9 @@ key "Sattler:2008vw"
  objective patterns of economic openness and domestic economic outcomes.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
+
+\size normal
 Theory and Hypotheses
 \end_layout
 
@@ -1509,7 +1522,9 @@ Summary of the Hypothesized Effects of Perception and Mass Media in Domestic
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
+
+\size normal
 Data and Method
 \end_layout
 
@@ -1561,34 +1576,10 @@ See the online appendix for the text of the survey questions.
  Respondents are also asked to identify the top two problems facing France,
  and whether individuals, social institutions, the government, or international
  forces beyond government control are to blame for the problem.
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 Respondents were asked to identify national problems in an open-ended fashion;
  their answers were then coded by the interviewer and into the general problem
  types listed here.
@@ -1652,18 +1643,6 @@ Maastricht Treaty.
 
 \end_inset
 
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
  Finally, respondents are asked about their satisfaction with President
  Mitterand, how well they think the government is handling the problem identifie
 d by the respondent as a top problem, and their intention to turnout for
@@ -1737,18 +1716,6 @@ end{eqnarray}
 \begin_layout Standard
 \noindent
 where 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
 \begin_inset Formula $Blame$
 \end_inset
 
@@ -1759,18 +1726,6 @@ l forces and 0 for respondents who blame the government for whichever national
 status collapsed
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 Because of space constraints and for ease of interpretation in light of
  the hypotheses under consideration, I consider here only the difference
  between blaming the government and blaming international forces, omitting
@@ -2116,18 +2071,6 @@ where
  is a binary variable taking a value of 1 for respondents who report that
  they intend to vote in the March 1993 legislative elections and 0 otherwise,
  and 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
 \begin_inset Formula $OpennessProblem_{i}*Blame_{i}$
 \end_inset
 
@@ -2286,7 +2229,9 @@ tive interaction of trade and mass media (
  explanations in a set of subsequent models.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
+
+\size normal
 Findings and Discussion
 \end_layout
 
@@ -2364,7 +2309,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/Justin/Dropbox/Data General/Article1/blame_coefs.pdf
+	filename blame_coefs.pdf
 	rotateOrigin center
 
 \end_inset
@@ -2390,9 +2335,6 @@ As logit estimates are not readily interpretable, I simulate the direct
  marginal effect of mass media on blame attribution.
  Figure 4 plots how a typical respondent's main source of information affects
  the probability they will blame international forces.
-\series medium
-\size large
-
 \begin_inset Foot
 status collapsed
 
@@ -2408,21 +2350,12 @@ y voter, without a bachelor's degree.
 
 \end_inset
 
-
-\series default
-\size default
  The effect is small, increasing the probability of blaming international
  forces by less than one tenth of a point, but it is statistically distinguishab
 le from zero at a 95% confidence level.
  Similarly, the indirect effect of mass media on blame, through its effects
  on perceptions of openness, is only slightly larger than the direct effect.
-
-\series medium
-\size large
  
-\series default
-\size default
-
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2586,7 +2519,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/Justin/Dropbox/Data General/Article1/govhandling_effect.pdf
+	filename govhandling_effect.pdf
 
 \end_inset
 
@@ -2646,7 +2579,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename turnout_coefs.3.pdf
+	filename turnout_coefs.pdf
 
 \end_inset
 
@@ -2830,24 +2763,16 @@ hip between trade and spending, while the interaction found by Adserà and
 \paragraph_spacing single
 \noindent
 \align center
-
-\size tiny
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{main_state_models_standardized.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "main_state_models_standardized.tex"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Rival Explanations
 \end_layout
 
@@ -2930,24 +2855,18 @@ See Supporting Information for more information on variable descriptions
 \paragraph_spacing single
 \noindent
 \align center
-
-\size tiny
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{rival_models_standardized.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "rival_models_standardized.tex"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
+
+\size normal
 Conclusion
 \end_layout
 
@@ -2994,22 +2913,29 @@ directly
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "bib"
-options "apsr"
+options "plainnat"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection
+
+\size normal
 Supporting Information
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 Contents
 \end_layout
 
@@ -3039,6 +2965,8 @@ Descriptive Statistics for State-Level Data
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 Text of Key Survey Questions
 \end_layout
 
@@ -3299,6 +3227,8 @@ Q-20.
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 Descriptive Statistics for Survey Data
 \end_layout
 
@@ -3953,6 +3883,8 @@ end{longtable}
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -3960,6 +3892,8 @@ end{longtable}
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 Additional Individual-Level Model Results
 \end_layout
 
@@ -3969,15 +3903,9 @@ Results Table for Model 1: Effects of Mass Media on Blame Attributions
 
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{table1.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "table1.tex"
 
 \end_inset
 
@@ -4001,15 +3929,9 @@ Alternative DV for Model 1: Blame Government vs.
 
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{table1.B.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand include
+filename "table1.B.tex"
 
 \end_inset
 
@@ -4033,15 +3955,9 @@ Alternative DV for Model 1: Blame International vs.
 
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{table1.C.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "table1.C.tex"
 
 \end_inset
 
@@ -4055,15 +3971,9 @@ Results Table for Model 1.2: Effects of Mass Media on Perceptions of Openness
 
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{table1.2.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "table1.2.tex"
 
 \end_inset
 
@@ -4086,15 +3996,9 @@ Alternative Blame IV for Model 2
 
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{table2.A.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "table2.A.tex"
 
 \end_inset
 
@@ -4117,15 +4021,9 @@ Alternative DV For Model 2: Presidential Satisfaction
 
 \begin_layout Standard
 \align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{table1.1.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "table1.1.tex"
 
 \end_inset
 
@@ -4140,22 +4038,16 @@ input{table1.1.tex}
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 State-Level Variable Descriptions
 \end_layout
 
 \begin_layout Standard
 \align left
-
-\size scriptsize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{state_vars.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "state_vars.tex"
 
 \end_inset
 
@@ -4171,22 +4063,16 @@ input{state_vars.tex}
 \end_layout
 
 \begin_layout Subsection*
+
+\size normal
 Descriptive Statistics for State-Level Data
 \end_layout
 
 \begin_layout Standard
 \align center
-
-\size scriptsize
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{state_vars_summary.tex}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "state_vars_summary.tex"
 
 \end_inset
 
