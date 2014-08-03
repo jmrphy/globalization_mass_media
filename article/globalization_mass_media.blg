@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: globalization_mass_media.aux
+The style file: plainnat.bst
+A level-1 auxiliary file: table1.B.aux
+Database file #1: bib.bib
+Warning--entry type for "Zaller:1996vs" isn't style-file defined
+--line 65 of file bib.bib
+Warning--entry type for "Camber:2013ul" isn't style-file defined
+--line 1514 of file bib.bib
+Warning--string name "forthcoming" is undefined
+--line 1518 of file bib.bib
+Warning--can't use both author and editor fields in adorno2001culture
+Warning--empty year in Chrique:1993us
+Warning--empty journal in Garrett:1995tj
+Warning--empty journal in Guisinger:2009vt
+Warning--empty journal in Hellwig:2012vk
+Warning--empty journal in ZeligEveryonesSt:2009ts
+Warning--there's a number but no volume in :2010fv
+You've used 63 entries,
+            2773 wiz_defined-function locations,
+            991 strings with 14392 characters,
+and the built_in function-call counts, 25060 in all, are:
+= -- 2298
+> -- 1006
+< -- 65
++ -- 361
+- -- 298
+* -- 1853
+:= -- 3820
+add.period$ -- 192
+call.type$ -- 63
+change.case$ -- 282
+chr.to.int$ -- 63
+cite$ -- 133
+duplicate$ -- 1302
+empty$ -- 2334
+format.name$ -- 389
+if$ -- 5294
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 66
+newline$ -- 322
+num.names$ -- 254
+pop$ -- 588
+preamble$ -- 1
+purify$ -- 225
+quote$ -- 0
+skip$ -- 906
+stack$ -- 0
+substring$ -- 1013
+swap$ -- 162
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 653
+warning$ -- 7
+while$ -- 282
+width$ -- 0
+write$ -- 814
+(There were 10 warnings)
