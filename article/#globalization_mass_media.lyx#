@@ -1502,13 +1502,6 @@ P
 \end_layout
 
 \begin_layout Standard
-increasing levels of mass media diffuse blame attributions and therefore
- decrease the incentive for aggreived groups to vote out incumbents based
- on trade policy.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -1535,14 +1528,15 @@ where
 \backslash
 (t'(m)
 \backslash
-) reflects that levels of mass media have an inverse relationship to the
- voter turnout of C and P, for reasons explained above.
- Let it also be assumed that
+) reflects that increasing levels of mass media diffuse blame attributions
+ and therefore decrease the incentive for aggreived groups to vote out i.
+ 
 \end_layout
 
 \begin_layout Plain Layout
 
-
+2.
+ It is assumed that 
 \backslash
 begin{equation*} m
 \backslash
@@ -1550,32 +1544,17 @@ in [0,
 \backslash
 bar m] 
 \backslash
-end{equation*}
-\end_layout
-
-\begin_layout Plain Layout
-
-and
-\end_layout
-
-\begin_layout Plain Layout
-
-
+end{equation*} and 
 \backslash
 begin{equation*} t(m) 
 \backslash
 in [0,1] 
 \backslash
-end{equation*}.
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-If 
+end{equation*} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\backslash
+section{The Electoral Game} 
+\backslash
+setcounter{equation}{0}  % reset counter If 
 \backslash
 (
 \backslash
@@ -1585,12 +1564,7 @@ Omega
 \backslash
 (P
 \backslash
-)'s expected return is:
-\end_layout
-
-\begin_layout Plain Layout
-
-
+)'s expected return is: 
 \backslash
 begin{equation} ER_p=
 \backslash
@@ -1602,16 +1576,7 @@ pi)
 \backslash
 alpha_o 
 \backslash
-end{equation}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-If 
+end{equation} If 
 \backslash
 (
 \backslash
@@ -1621,23 +1586,13 @@ sum
 \backslash
 (P
 \backslash
-)'s expected return is:
-\end_layout
-
-\begin_layout Plain Layout
-
-
+)'s expected return is: 
 \backslash
 begin{equation} ER_p=P_c+
 \backslash
 alpha_c 
 \backslash
-end{equation}
-\end_layout
-
-\begin_layout Plain Layout
-
-
+end{equation} 
 \backslash
 (P
 \backslash
@@ -1647,12 +1602,7 @@ end{equation}
 \backslash
 Omega
 \backslash
-) if
-\end_layout
-
-\begin_layout Plain Layout
-
-
+) if  
 \backslash
 begin{equation} 
 \backslash
@@ -1666,16 +1616,7 @@ alpha_o>P_c+
 \backslash
 alpha_c 
 \backslash
-end{equation}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-In addition, 
+end{equation} In addition, 
 \backslash
 (
 \backslash
@@ -1696,23 +1637,13 @@ alpha_c
 \backslash
 sum
 \backslash
-), that is
-\end_layout
-
-\begin_layout Plain Layout
-
-
+), that is 
 \backslash
 begin{equation} t(m)P 
 \backslash
 alpha_c<(C_c-C_o)t(m)C 
 \backslash
-end{equation}
-\end_layout
-
-\begin_layout Plain Layout
-
-
+end{equation} 
 \backslash
 (
 \backslash
@@ -1726,11 +1657,20 @@ alpha_c<
 \backslash
 frac{C}{P}(C_c-C_o) 
 \backslash
-end{equation}
-\end_layout
-
-\begin_layout Plain Layout
-
+end{equation} Note: In Alicia and Carles's paper, they  set up this constraint
+ by regarding 
+\backslash
+(C
+\backslash
+) voters as a group.
+ But I think it is better consider a constraint that each member in group
+ 
+\backslash
+(C
+\backslash
+) has no incentive to deviate.
+  But, at this stage, we can follow Alicia and Carles's approach.
+ 
 \end_layout
 
 \begin_layout Plain Layout

@@ -1455,37 +1455,452 @@ Adser
 
  and Boix point out in a footnote, if turnout varies across domestic groups
  then the expected policy outcome changes.
- In particular, it easy to see that if 
+ Intuitively, the incentives for pro-trade party 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ to offer a compensation package should decrease as the voter turnout of
+ either 
+\emph on
+C
+\emph default
+ or 
 \emph on
 P
 \emph default
- is expected not to vote, then the pro-trade party has no incentive to offer
- a compensation package.
- Additionally, however, the perception that economic liberalization is a
- process occuring independent of political parties, has an equivalent effect.
- This effect could be conceptualized as an equalization of the value for
- 
-\begin_inset Formula $\gamma$
+ decreases, because the opposition of these groups only requires 
+\begin_inset Formula $\Omega$
 \end_inset
 
- proposed by each group.
- The parties would be increasingly indistinguishable in the risks of internation
-al exposure associated with each party.
- As this perceived difference decreases, the possibility of either party
- losing votes due to their chosen level of openness decreases because neither
- party could credibly commit to do otherwise.
- As a result, the original pressure to provide compensation--to keep voters
- from defecting to the more protectionist party--decreases.
+ to provide compensation to 
+\emph on
+P
+\emph default
+ to the degree they would vote against 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ in the first place.
+ If mass media increases the 
+\emph on
+perception that
+\emph default
+ economic liberalization is a process occurring external to domestic policymaker
+s and is therefore domestically blameless, the effect would be to reduce
+ the electoral salience of liberalization.
+ In turn, this can be conceptualized as effectivey reducing the voter turnout
+ of 
+\emph on
+C
+\emph default
+ and 
+\emph on
+P
+\emph default
+ around trade policy.
  
 \end_layout
 
 \begin_layout Standard
-NEW
+increasing levels of mass media diffuse blame attributions and therefore
+ decrease the incentive for aggreived groups to vote out incumbents based
+ on trade policy.
+ 
 \end_layout
 
 \begin_layout Standard
-1.
- Let participation rate of group C and P be a linear function.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Let the voter turnout for C and P be a linear function 
+\backslash
+(t(m)
+\backslash
+) with the following characteristic: 
+\backslash
+begin{equation*} t'(m)<0 
+\backslash
+end{equation*}
+\end_layout
+
+\begin_layout Plain Layout
+
+where 
+\backslash
+(m
+\backslash
+) represents the level of mass media and the negative derivative 
+\backslash
+(t'(m)
+\backslash
+) reflects that levels of mass media have an inverse relationship to the
+ voter turnout of C and P, for reasons explained above.
+ Let it also be assumed that
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation*} m
+\backslash
+in [0,
+\backslash
+bar m] 
+\backslash
+end{equation*}
+\end_layout
+
+\begin_layout Plain Layout
+
+and
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation*} t(m) 
+\backslash
+in [0,1] 
+\backslash
+end{equation*}.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+If 
+\backslash
+(
+\backslash
+Omega
+\backslash
+) wins, 
+\backslash
+(P
+\backslash
+)'s expected return is:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} ER_p=
+\backslash
+pi P_g+(1-
+\backslash
+pi)P_b+(1-
+\backslash
+pi)
+\backslash
+alpha_o 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+If 
+\backslash
+(
+\backslash
+sum
+\backslash
+) wins, 
+\backslash
+(P
+\backslash
+)'s expected return is:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} ER_p=P_c+
+\backslash
+alpha_c 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+(P
+\backslash
+) voters choose 
+\backslash
+(
+\backslash
+Omega
+\backslash
+) if
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} 
+\backslash
+pi P_g+(1-
+\backslash
+pi)P_b+(1-
+\backslash
+pi)
+\backslash
+alpha_o>P_c+
+\backslash
+alpha_c 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+In addition, 
+\backslash
+(
+\backslash
+alpha_c
+\backslash
+) must satisfy two conditions:
+\end_layout
+
+\begin_layout Plain Layout
+
+(a) 
+\backslash
+(C
+\backslash
+) voters have incentive to choose 
+\backslash
+(
+\backslash
+sum
+\backslash
+), that is
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} t(m)P 
+\backslash
+alpha_c<(C_c-C_o)t(m)C 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+(
+\backslash
+Longrightarrow
+\backslash
+) 
+\backslash
+begin{equation} 
+\backslash
+alpha_c<
+\backslash
+frac{C}{P}(C_c-C_o) 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+(b) 
+\backslash
+(O
+\backslash
+) voters have incentive to choose 
+\backslash
+(
+\backslash
+Omega
+\backslash
+), that is
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} O O_c<O O_c-(1-
+\backslash
+pi)
+\backslash
+alpha_o t(m)P 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+(
+\backslash
+Longrightarrow
+\backslash
+) 
+\backslash
+begin{equation} 
+\backslash
+alpha_o<
+\backslash
+frac{O}{t(m)P(1-
+\backslash
+pi)}(O_o-O_c) 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Based on (5) and (7), (3) becomes:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} 
+\backslash
+pi P_g+(1-
+\backslash
+pi)P_b+(1-
+\backslash
+pi)
+\backslash
+frac{O}{t(m)P(1-
+\backslash
+pi)}(O_o-O_c)>P_c+
+\backslash
+frac{C}{P}(C_c-C_o) 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+(
+\backslash
+Longrightarrow
+\backslash
+) 
+\backslash
+begin{equation} 
+\backslash
+frac{O}{t(m) P}(O_o-O_c)>P_c-
+\backslash
+pi P_g-(1-
+\backslash
+pi)P_b+
+\backslash
+frac{C}{P}(C_c-C_o) 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+Note: (9) indicate the same results in In Alicia and Carles's paper page
+ 257 (last 4 lines).
+  Since we add in mass media, (9) also shows that: when 
+\backslash
+(m 
+\backslash
+uparrow
+\backslash
+) 
+\backslash
+(
+\backslash
+Rightarrow
+\backslash
+) 
+\backslash
+(t(m) 
+\backslash
+downarrow
+\backslash
+) 
+\backslash
+(
+\backslash
+Rightarrow
+\backslash
+)
+\backslash
+(t(m)P 
+\backslash
+downarrow
+\backslash
+)
+\backslash
+(
+\backslash
+Rightarrow
+\backslash
+)
+\backslash
+(
+\backslash
+frac{O}{t(m)P}
+\backslash
+uparrow
+\backslash
+)
+\backslash
+(
+\backslash
+Rightarrow
+\backslash
+)
+\backslash
+(
+\backslash
+Omega
+\backslash
+) is more likely to win.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
