@@ -1454,7 +1454,7 @@ Adser
 \end_inset
 
  and Boix point out in a footnote, if turnout varies across domestic groups
- then the expected policy outcome changes.
+ then the incentives driving the provision of compensation should change.
  Intuitively, the incentives for pro-trade party 
 \begin_inset Formula $\Omega$
 \end_inset
@@ -1483,12 +1483,12 @@ P
  in the first place.
  If mass media increases the 
 \emph on
-perception that
+perception 
 \emph default
- economic liberalization is a process occurring external to domestic policymaker
-s and is therefore domestically blameless, the effect would be to reduce
- the electoral salience of liberalization.
- In turn, this can be conceptualized as effectivey reducing the voter turnout
+that economic liberalization is a process occurring external to domestic
+ policymakers and is therefore domestically blameless, the effect would
+ be to reduce the electoral salience of liberalization.
+ In turn, this can be conceptualized as effectively reducing the voter turnout
  of 
 \emph on
 C
@@ -1502,25 +1502,28 @@ P
 \end_layout
 
 \begin_layout Standard
-increasing levels of mass media diffuse blame attributions and therefore
- decrease the incentive for aggreived groups to vote out incumbents based
- on trade policy.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-Let the voter turnout for C and P be a linear function 
+Thus, insofar as mass media tend to diffuse blame attributions for the negative
+ effects of economic liberalization, this decreases the incentives for harmed
+ groups to oppose liberalization by voting, and thus should have an effect
+ equivalent to decreasing their turnout in this electoral game.
+ To illustrate this formally, let the voter turnout for C and P be a linear
+ function 
 \backslash
 (t(m)
 \backslash
-) with the following characteristic: 
+) with the characteristic:
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
-begin{equation*} t'(m)<0 
+begin{equation*} t'(m)<0, 
 \backslash
 end{equation*}
 \end_layout
@@ -1544,29 +1547,19 @@ where
 
 
 \backslash
-begin{equation*} m
+( m
 \backslash
 in [0,
 \backslash
 bar m] 
 \backslash
-end{equation*}
-\end_layout
-
-\begin_layout Plain Layout
-
-and
-\end_layout
-
-\begin_layout Plain Layout
-
-
+) and 
 \backslash
-begin{equation*} t(m) 
+( t(m) 
 \backslash
 in [0,1] 
 \backslash
-end{equation*}.
+).
 \end_layout
 
 \begin_layout Plain Layout
@@ -1581,7 +1574,7 @@ If
 \backslash
 Omega
 \backslash
-) wins, 
+) wins, then 
 \backslash
 (P
 \backslash
@@ -1617,7 +1610,7 @@ If
 \backslash
 sum
 \backslash
-) wins, 
+) wins, then 
 \backslash
 (P
 \backslash
@@ -1637,11 +1630,13 @@ end{equation}
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
-(P
-\backslash
-) voters choose 
+emph{P} voters choose 
 \backslash
 (
 \backslash
@@ -1682,6 +1677,10 @@ In addition,
 alpha_c
 \backslash
 ) must satisfy two conditions:
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1745,7 +1744,12 @@ end{equation}
 \backslash
 Omega
 \backslash
-), that is 
+), that is
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 begin{equation} O O_c<O O_c-(1-
 \backslash
@@ -1753,7 +1757,12 @@ pi)
 \backslash
 alpha_o t(m)P 
 \backslash
-end{equation} 
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 (
 \backslash
@@ -1774,7 +1783,16 @@ end{equation}
 
 \begin_layout Plain Layout
 
-Based on (5) and (7), (3) becomes: 
+\end_layout
+
+\begin_layout Plain Layout
+
+Based on (8) and (10), (6) becomes:
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 begin{equation} 
 \backslash
@@ -1790,7 +1808,12 @@ pi)}(O_o-O_c)>P_c+
 \backslash
 frac{C}{P}(C_c-C_o) 
 \backslash
-end{equation} 
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 (
 \backslash
@@ -1813,9 +1836,28 @@ end{equation}
 
 \begin_layout Plain Layout
 
-Note: (9) indicate the same results in In Alicia and Carles's paper page
- 257 (last 4 lines).
-  Since we add in mass media, (9) also shows that: when 
+Equation 12 is consistent with the result of Adser
+\backslash
+`{a} and Boix (pp.
+ 257), with the exception that including mass media leads to a new proposition.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Proposition 1: As mass media increases and the turnout of 
+\backslash
+emph{P} decreases, 
+\backslash
+(
+\backslash
+Omega
+\backslash
+) is more likely to win the electoral game without providing a compensation
+ package (
 \backslash
 (m 
 \backslash
@@ -1859,19 +1901,7 @@ frac{O}{t(m)P}
 \backslash
 uparrow
 \backslash
-)
-\backslash
-(
-\backslash
-Rightarrow
-\backslash
-)
-\backslash
-(
-\backslash
-Omega
-\backslash
-) is more likely to win.
+)).
 \end_layout
 
 \end_inset
