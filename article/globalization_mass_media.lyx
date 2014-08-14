@@ -1820,7 +1820,15 @@ end{equation}
 Equation 12 is consistent with the result of Adser
 \backslash
 `{a} and Boix (pp.
- 257), with the exception that including mass media leads to a new proposition.
+ 257), with the exception that mass media condition the strategic pressure
+ on 
+\backslash
+(
+\backslash
+Omega
+\backslash
+) to provide a compensation package.
+ Specifically:
 \end_layout
 
 \begin_layout Plain Layout
@@ -1829,7 +1837,9 @@ Equation 12 is consistent with the result of Adser
 
 \begin_layout Plain Layout
 
-Proposition 1: As mass media increases and the turnout of 
+
+\backslash
+textbf{Proposition:} As mass media increases and the turnout of 
 \backslash
 emph{P} decreases, 
 \backslash
@@ -1837,52 +1847,159 @@ emph{P} decreases,
 \backslash
 Omega
 \backslash
-) is more likely to win the electoral game without providing a compensation
- package (
+) is more likely to win the electoral game 
 \backslash
-(m 
+emph{without} providing a compensation package.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
-uparrow
+textbf{Proof:} Letting 
 \backslash
-) 
+begin{equation} F_l(O_o-O_c)=
+\backslash
+frac{O}{t(m) P}(O_o-O_c), 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+the slope of function 
+\backslash
+(F_l
+\backslash
+) is 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation} F_l'(O_o-O_c)=
+\backslash
+frac{O}{t(m) P}.
+ 
+\backslash
+end{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+Holding all else constant, let the right-hand side of equation (9) be a
+ constant value 
+\backslash
+(R
+\backslash
+).
+ From this, one can visualize how the slope of (9) changes as the value
+ of 
+\backslash
+(m
+\backslash
+) changes.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=.4]{formal_model.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+As the value of 
+\backslash
+(m
+\backslash
+) increases and the turnout of C and P decreases (
+\backslash
+(t(m)
+\backslash
+)), the slope of function 
+\backslash
+(F_l
+\backslash
+) increases.
+ This is reflected in Figure 1, where a hypothetical increase in 
+\backslash
+(m
+\backslash
+) such that 
+\backslash
+(m^{new}>m
+\backslash
+) increases the slope of 
+\backslash
+(F_l
+\backslash
+) to that of 
+\backslash
+(F_l^{new}
+\backslash
+), and thus the area under 
+\backslash
+(F_l^{new}
+\backslash
+) is greater than the area under 
+\backslash
+(F_l
+\backslash
+).
+  Therefore, an increase in 
+\backslash
+(m
+\backslash
+) increases the left-hand side of equation 9 relative to the right-hand
+ side.
+  This demonstrates that as 
+\backslash
+(m
+\backslash
+) increases, 
 \backslash
 (
 \backslash
-Rightarrow
+Omega
 \backslash
-) 
-\backslash
-(t(m) 
-\backslash
-downarrow
-\backslash
-) 
-\backslash
-(
-\backslash
-Rightarrow
-\backslash
-)
-\backslash
-(t(m)P 
-\backslash
-downarrow
-\backslash
-)
-\backslash
-(
-\backslash
-Rightarrow
-\backslash
-)
-\backslash
-(
-\backslash
-frac{O}{t(m)P}
-\backslash
-uparrow
-\backslash
-)).
+) is more likely to win the electoral game holding the compensation package
+ constant.
 \end_layout
 
 \end_inset
@@ -1891,7 +2008,15 @@ uparrow
 \end_layout
 
 \begin_layout Standard
-Thus, 
+The main implication of this proposition is that, to the degree mass media
+ has the predicted effect of diffusing blame attributions and reducing the
+ electoral backlash to economic liberalization, it reduces the pressure
+ on liberalizing policymakers to provide compensation in the form of public
+ spending.
+ Thus, rational policymakers will condition the provision of compensatory
+ public spending on levels of mass media, providing less public spending
+ to the degree that mass media neutralizes the threat of electoral backlash.
+ The final hypothesis encapsulates this implication.
 \end_layout
 
 \begin_layout Standard
@@ -1899,7 +2024,8 @@ Thus,
 \emph on
 Hypothesis 4: At the state level, the interaction of economic globalization
  and mass media penetration will be associated with lower levels of domestic
- welfare spending than predicted by economic globalization alone.
+ welfare spending than predicted by the level of economic globalization
+ alone.
 \end_layout
 
 \begin_layout Standard
