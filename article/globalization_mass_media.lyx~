@@ -279,9 +279,9 @@ tion, the preponderance of previous research strongly converges on a set
  of counter-intuitive arguments: 
 \emph on
 By shifting citizen blame attributions away from governments and toward
- international forces, both economic openness and mass media reduce the
- ability of domestic groups to hold national policymakers accountable for
- the effects of economic openness.
+ international forces, the mass media play an independent causal role in
+ reducing the ability of domestic groups to hold national policymakers accountab
+le for the effects of economic openness.
  In turn, as the global economy and mass media penetrate states, national
  policymakers face less pressure to compensate protectionist domestic groups
  for economic hardships linked to the global economy.
@@ -306,8 +306,9 @@ g for whether economic openness is perceived as a problem, the attribution
 e nexus, the state-level implications of the theory are tested on pooled
  cross-sectional, time-series data from most countries in the world between
  1960 and 2010.
- Using measures of information-communication technology (ICT) penetration
- rates as a proxy for the prevalence of mass media within states, several
+ Using penetration rates of information-communication technology (ICT) as
+ a proxy for the prevalence of mass media within states---in particular,
+ the number of newspapers, televisions, and radios per person---several
  analyses across multiple model specifications suggest that the spread of
  ICT and the mass media they carry is associated with a weakening of the
  positive relationship between economic openness and social welfare spending.
@@ -892,16 +893,44 @@ Theory and Hypotheses
 \end_layout
 
 \begin_layout Standard
-In this section, I deduce specific hypotheses regarding how mass media should
- be expected to affect individuals' perceptions of economic openness, blame
- attributions for national problems, and ultimately the decisions of national
- policymakers.
+The central 
+\emph on
+premise
+\emph default
+ of this article is the stylized empirical fact that issues of economic
+ openness have been socially constructed by elite opinion-leaders as an
+ external and objective process, typically known as 
+\begin_inset Quotes eld
+\end_inset
+
+globalization,
+\begin_inset Quotes erd
+\end_inset
+
+ which shapes policymakers' room-to-maneuver (CITE Hay).
+ The novel and central theoretical 
+\emph on
+claim
+\emph default
+ of this article is that the mass media diffuse responsibility for policies
+ of economic liberalization over and above whatever diffusion of responsibility
+ is created by the objective realities of economic openness.
+ The warrant for this claim is straightforward: the mass media simply amplify
+ and extend the reach of dominant social constructions beyond the reach
+ they would have in the absence of mass media.
+ This section develops the reasoning which moves from this premise to the
+ central claim and then deduces a series of hypotheses regarding how mass
+ media should be expected to affect individuals' perceptions of economic
+ openness, blame attributions for national problems, and ultimately the
+ decisions of national policymakers.
 \end_layout
 
 \begin_layout Standard
-A dominant theory of political news coverage suggests that elite opinion
- is one of the most significant determinants of how journalists report political
- issues (
+One of the standard theories of political news coverage, the theory of indexing,
+ suggests that the distribution of news coverage of political issues tends
+ to follow the distribution of elite opinion, such that elite consensus
+ tends toward consenus among journalists but elite dissensus constitutes
+ the space in which competing views will be reported (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Bennett:1990bp,Zaller:1996vs,Bennett:2006gc"
@@ -909,20 +938,16 @@ key "Bennett:1990bp,Zaller:1996vs,Bennett:2006gc"
 \end_inset
 
 ).
- Because economic globalization can be blamed on both transnational corporations
- and other foreign governments (horizontal diffusion) as well as global
- market pressures outside the authority of states (vertical diffusion),
- we should expect national policymakers to engage in both types of blame
- diffusion.
- If politicians indeed diffuse blame for economic globalization, a simple
- indexing theory of mass media applied to the domestic politics of globalization
- predicts that mass media reports are more likely to evoke room-to-manuever
- constraints than policymaker responsibility in reporting issues of economic
- openness.
- Qualitative evidence for such indexing is already ample in previous research
- on the domestic politics of globalization, which finds that party elites
- consistently invoke room to maneuver constraints in research interviews
- (
+ Because previous research amply demonstrates that the dominant social construct
+ion of economic globalization is that of an external, objective pressure
+ on policymakers---an image of economic globalization which commands a relative
+ consensus among elites---standard indexing theory implies that mass media
+ reportage will tend to mirror this relative elite consensus.
+ In addition to the exhaustive evidence collected by Hay and associates,
+ empirical evidence for such a relative elite consensus is also ample from
+ other research on the domestic politics of globalization, which finds that
+ party elites consistently invoke room to maneuver constraints in research
+ interviews (
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "206-07"
@@ -930,7 +955,7 @@ key "Hellwig:2012vk"
 
 \end_inset
 
-) and via mass media messaging (
+) as well as media messaging (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Hellwig:2011iu"
@@ -965,14 +990,25 @@ key "Hellwig:2011iu"
 \end_inset
 
 .
- Most conservatively, this suggests that mass media will have an indirect
- effect on how individuals attribute blame for national problems, by exposing
- individuals to the argument that economic openness constrains the ability
- of policymakers to meet certain demands from the public.
- A stronger version of this argument is that mass media will have a direct
- effect on how individuals attribute blame for national problems, distinct
- from its effect of making individuals more aware of the problems of economic
- openness per se.
+ Adding to the indexing theory the general responsibility-diffusing tendencies
+ inherent to mass media discussed above, such as its episodic nature and
+ its nature as a platform for generally blame-avoiding political elites,
+ the overall implication is the expectation that mass media will reflect
+ and therefore amplify the dominant construction of economic globalization.
+\end_layout
+
+\begin_layout Standard
+This basic indexing theory leads to two different versions of a first hypothesis
+, a weaker and a stronger version.
+ First, mass media will have an indirect effect on how individuals attribute
+ blame for national problems, by informing individuals of objective problems
+ pertaining to economic openness (merely transmitting information about
+ any objectively constraining realities pertaining to economic openness).
+ The stronger and most provocative version of this argument is that mass
+ media will have a direct effect on how individuals attribute blame for
+ national problems, uniquely diffusing responsibility in their perception
+ of national problems above and beyond its effect of making individuals
+ more aware of the problems of economic openness per se.
 \end_layout
 
 \begin_layout Standard
@@ -1928,7 +1964,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.3]{formal_model.png}
+includegraphics[scale=.4]{formal_model.png}
 \end_layout
 
 \begin_layout Plain Layout
