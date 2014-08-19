@@ -1024,8 +1024,8 @@ y (by increasing awareness of openness as politically problematic).
 \end_layout
 
 \begin_layout Standard
-Hypotheses 2 and 3 capture implications of previous research suggesting
- that perceptions of a policymaker's room to maneuver affect how individuals
+Hypothesis 2 captures implications of previous research suggesting that
+ perceptions of a policymaker's room to maneuver affect how individuals
  evaluate government performance.
  If the effect of economic perceptions on vote choice weakens because increasing
  economic openness shifts blame attributions toward the global economy and
@@ -1043,28 +1043,6 @@ s than those who blame the government.
 Hypothesis 2: Individuals who blame international forces for national problems
  evaluate incumbent governments more favorably than individuals who blame
  the government for national problems.
-\end_layout
-
-\begin_layout Standard
-Combining insights from research on voting in open economies and research
- on voter turnout suggests that the effect of economic openness on the decision
- to vote should be conditional on whether blame for economic openness is
- attributed to the government.
- If they blame the government, then individuals who perceive economic openness
- to be a national problem should be more likely to vote than those who do
- not perceive openness to be a problem.
- If they blame international forces, then individuals who perceive economic
- openness to be a national problem should be less likely to vote than those
- who do not perceive economic openness to be a national problem.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Hypothesis 3: The effect of perceptions of economic openness on the decision
- to vote should be conditional on whether blame is attributed to the government.
- It should have a positive effect for those individuals who blame the government
-, and a negative effect for those who do not blame the government.
 \end_layout
 
 \begin_layout Standard
@@ -1420,7 +1398,7 @@ P
 \end_inset
 
  is greater than the the expected value of a closed economy plus the compensatio
-n package offered by
+n package offered by 
 \begin_inset Formula $\Sigma$
 \end_inset
 
@@ -1477,8 +1455,8 @@ Adser
 \begin_inset Formula $\Omega$
 \end_inset
 
- to offer a compensation package should decrease as the voter turnout of
- either 
+ to offer a compensation package decrease as the voter turnout of either
+ 
 \emph on
 C
 \emph default
@@ -1486,28 +1464,37 @@ C
 \emph on
 P
 \emph default
- decreases, because the opposition of these groups only requires 
+ decreases, because the opposition of these groups only matters for the
+ policy outcome if that opposition has electoral salience for them; 
 \begin_inset Formula $\Omega$
 \end_inset
 
- to provide compensation to 
+ is required to provide compensation to 
 \emph on
 P
 \emph default
- to the degree they would vote against 
+ only to the degree that 
+\emph on
+C
+\emph default
+ and 
+\emph on
+P
+\emph default
+ would vote against 
 \begin_inset Formula $\Omega$
 \end_inset
 
- in the first place.
+ because of its position on trade policy.
  If mass media increases the 
 \emph on
 perception 
 \emph default
 that economic liberalization is a process occurring external to domestic
  policymakers and is therefore domestically blameless, the effect would
- be to reduce the electoral salience of liberalization.
- In turn, this can be conceptualized as effectively reducing the voter turnout
- of 
+ be to reduce the electoral salience of liberalization for those otherwise
+ opposed to it.
+ This is functionally equivalent to reducing the voter turnout of 
 \emph on
 C
 \emph default
@@ -1541,9 +1528,9 @@ Thus, insofar as mass media tend to diffuse blame attributions for the negative
 
 
 \backslash
-begin{equation*} t'(m)<0, 
+begin{equation} t'(m)<0, 
 \backslash
-end{equation*}
+end{equation}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2059,7 +2046,7 @@ The main implication of this proposition is that, to the degree mass media
 \begin_layout Standard
 
 \emph on
-Hypothesis 4: At the state level, the interaction of economic globalization
+Hypothesis 3: At the state level, the interaction of economic globalization
  and mass media penetration will be associated with lower levels of domestic
  welfare spending than predicted by the level of economic globalization
  alone.
@@ -2265,8 +2252,6 @@ beta_{2}Openness
 \backslash
 beta_{3}Media_{i}+ 
 \backslash
-notag 
-\backslash
 
 \backslash
 
@@ -2407,8 +2392,6 @@ beta_{1}General
 \backslash
 beta_{2}Media_{i}+ 
 \backslash
-notag 
-\backslash
 
 \backslash
 
@@ -2485,8 +2468,6 @@ beta_{2}Openness
 \backslash
 :Problem_{i}+ 
 \backslash
-notag 
-\backslash
 
 \backslash
 
@@ -2552,117 +2533,6 @@ th respondent evaluates the government's handling of the top problem they
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing double
-To test Hypothesis 3, I estimate a logistic regression modeling the probability
- a respondent intends to vote in the March 1993 legislative elections as
- a function of several predictors.
- As the traditional ``compensation
-\begin_inset Quotes erd
-\end_inset
-
- model suggests, individuals who are dissatisfied with the domestic consequences
- of economic openness will take their dissatisfaction to the polls.
- According to the compensation perspective, this threat posed by domestic
- groups harmed by economic openness accounts for why we observe larger welfare
- states in countries more exposed to the international economy.
- The theory developed here, however, suggests that this threat should be
- conditional on whether or not individuals blame government policymakers
- for economic openness as a problem.
- Hypothesis 3 modifies the conventional expectation by predicting that individua
-ls who are most dissatisfied with economic openness will be less likely
- to mobilize against a government for this grievance if they think the cause
- of their grievance is outside of the government's purview.
- Our theory is agnostic about whether or not perceptions of openness as
- a top problem makes individuals more or less likely to vote than individuals
- who perceive some other problem as the top problem.
- In other words, testing Hypothesis 3 requires that we consider the behavioral
- effect of perceiving openness as a problem and blaming international forces
- for that problem.
- Thus, I model the probability an individual intends to vote as a function
- of the multiplicative interaction between perceiving openness as a problem
- and blaming international forces for that problem:
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{eqnarray}
-\end_layout
-
-\begin_layout Plain Layout
-
-Turnout_{i}& = &
-\backslash
-alpha+
-\backslash
-beta_{1}GeneralProblemType_{i}+
-\backslash
-beta_{2}OpennessProblem_{i}+ 
-\backslash
-beta_{3}Blame_{i} + 
-\backslash
-notag 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  & 
-\backslash
-beta_{4}OpennessProblem_{i}*Blame_{i}+
-\backslash
-beta_{5}Controls_{i}+e_{i},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{eqnarray}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $\begin{aligned}\end{aligned}
-$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\paragraph_spacing double
-\noindent
-where 
-\begin_inset Formula $Turnout_{i}$
-\end_inset
-
- is a binary variable taking a value of 1 for respondents who report that
- they intend to vote in the March 1993 legislative elections and 0 otherwise,
- and 
-\begin_inset Formula $OpennessProblem_{i}*Blame_{i}$
-\end_inset
-
- is the multiplicative interaction of the two respective binary variables.
- In this equation, the coefficient of interest is the coefficient of the
- interaction term, 
-\begin_inset Formula $\beta_{4}$
-\end_inset
-
-, which we would expect to be negative if blaming international forces decreases
- the mobilizing effect of dissatisfaction with openness.
-\end_layout
-
-\begin_layout Standard
 To test Hypothesis 4, state-level economic data are gathered from the World
  Bank's World Development Indicators (
 \begin_inset CommandInset citation
@@ -2719,8 +2589,6 @@ beta_{1}Trade_{it}+
 beta_{2}MDI_{it}+
 \backslash
 beta_{3}Trade_{it}*MDI_{it}+ 
-\backslash
-notag 
 \backslash
 
 \backslash
@@ -2909,10 +2777,9 @@ Direct Effect of Mass Media on Blaming International Forces
 
 \end_inset
 
-As logit estimates are not readily interpretable, I simulate the direct
- marginal effect of mass media on blame attribution.
- Figure 4 plots how a typical respondent's main source of information affects
- the probability they will blame international forces.
+As logit estimates are not readily interpretable, I calculate how a typical
+ respondent's main source of information affects the probability they will
+ blame international forces.
 \begin_inset Foot
 status collapsed
 
@@ -2929,56 +2796,18 @@ y voter, without a bachelor's degree.
 \end_inset
 
  The effect is small, increasing the probability of blaming international
- forces by less than one tenth of a point, but it is statistically distinguishab
-le from zero at a 95% confidence level.
+ forces from about .34 to .38.
+ Although, as the coefficient plot reveals, the effect is greater than zero
+ at a 95% confidence level.
  Similarly, the indirect effect of mass media on blame, through its effects
- on perceptions of openness, is only slightly larger than the direct effect.
- 
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+ on perceptions of openness, is only slightly larger than the direct effect
+ in terms of probability
 \end_layout
 
 \begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename media_blame_effect.pdf
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Direct Effect of Mass Media on Blame.
- 95% confidence intervals in grey.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The coefficient plot and simulated probabilities in Figures 5 and 6 reveal
- statistical evidence for the expectation that blaming international forces,
- in turn, has a positive effect on evaluations of the government.
+The coefficient plot in Figure 3 reveals statistical evidence for the expectatio
+n that blaming international forces, in turn, has a positive effect on evaluatio
+ns of the government.
 \begin_inset Foot
 status collapsed
 
@@ -3067,9 +2896,10 @@ Effects of Blame on Evaluations of the Government
 \end_layout
 
 \begin_layout Standard
-Figure 6 shows the simulated effect on evaluations of the government's handling
- of a problem from shifting their blame for that problem from the government
- toward international forces (Hypothesis 2).
+Calculating the effect size on the four-point scale of the dependent variable,
+ the typical respondent would be expected to increase their evaluation of
+ the government roughly .25 points after a shift in blame toward international
+ forces.
 \begin_inset Foot
 status collapsed
 
@@ -3082,144 +2912,10 @@ These results also hold when the dependent variable refers to satisfaction
 
 \end_inset
 
- The typical respondent would be expected to increase their evaluation of
- the government (on a four point scale) about .25 points after a shift in
- blame toward international forces.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename govhandling_effect.pdf
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Based on 1000 simulations.
- 95% confidence intervals in grey.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
 \begin_layout Standard
-Consistent with the evidence in favor of Hypothesis 2, Figures 7 and 8 suggest
- evidence for the predicted, interactive effects of perceptions of openness
- and blame for openness on voter turnout.
- Whereas perceptions of openness as a problem and blaming international
- forces for that problem both have positive correlations with voter turnout
- (only the latter is statistically significant), their interaction has a
- negative and statistically significant effect.
- The logit estimate for the multiplicative interaction of Problem:Openness
-\emph on
- 
-\emph default
-and
-\emph on
- 
-\emph default
-Blame International is .98 with a standard error of .04
-\emph on
-.
- 
-\emph default
-Again, the size of the effect is small, but this is largely because the
- unconditional probability that a respondent intends to vote is very high.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename turnout_coefs.pdf
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-The Effect of the Interaction of Openness and Blame on Voter Turnout
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename turnout.pdf
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Based on 1000 simulations.
- 95% confidence intervals in grey.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
 Table 1 displays results from three regression models which provide initial
  support for the state-level expectations regarding the effect of mass media
  on the globalization-welfare relationship.
@@ -3351,14 +3047,14 @@ filename "main_state_models_standardized.tex"
 \end_layout
 
 \begin_layout Subsection
-Rival Explanations
+Rival Hypotheses at the State-Level 
 \end_layout
 
 \begin_layout Standard
 To check for the possibility that the above models are spuriously driven
  by some different but unobserved process distinct from the effects of mass
- media, I gather additional data to test my arguments against a series of
- rival explanations.
+ media, I gather additional data to test my state-level argument against
+ a series of rival explanations.
  Specifically, it is argued that left parties and union density are aspects
  of the domestic institutional environment which lead to more redistributive
  responses to economic liberalization (
