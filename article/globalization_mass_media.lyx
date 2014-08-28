@@ -509,31 +509,37 @@ Despite the leverage it provides to most models of the relationship between
  for the assumption that domestic groups harmed by economic liberalization
  exert sufficient political pressure on national policymakers that policymakers
  provide welfare compensation to appease them.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-One exception is Hays, Ehrlich, and Peinhardt
+ Hays, Ehrlich, and Peinhardt
 \begin_inset CommandInset citation
 LatexCommand citeyearpar
 key "Hays:2005vo"
 
 \end_inset
 
-, who find evidence that government spending helps sustain support for free
- trade.
- This does not, however, answer the very different question of whether globaliza
-tion induces in the public a demand for compensation on its basis.
- Another exception is 
+ find evidence that government spending helps sustain support for free trade,
+ and Walter (
 \begin_inset CommandInset citation
-LatexCommand citealt
+LatexCommand citeyear
+key "Walter:2010ky"
+
+\end_inset
+
+) finds consistent evidence in Swiss survey data for multiple points in
+ the individual-level causal chain of the compensation thesis.
+ This current of research on the individual-level evidence for a compensation
+ dynamic does not, however, answer the very different question of whether
+ the economic insecurity induced by globalization induces an electorally
+ significant threat for liberalizing policymakers.
+ Margalit (
+\begin_inset CommandInset citation
+LatexCommand citeyear
 key "Margalit:2011hm"
 
 \end_inset
 
-, who finds that job losses due to offshoring had a stronger negative effect
+) finds that job losses due to offshoring had a stronger negative effect
  on incumbent vote share than job losses not related to offshoring.
- Significantly, that study also finds that spending from the Trade Adjustment
+ Additionally, that study also finds that spending from the Trade Adjustment
  Assistance program significantly reduced the size of the effect.
  Still, it remains unclear whether and how other institutions moderate the
  public perceptions and electoral consequences of liberalization and if
@@ -550,16 +556,12 @@ key "Guisinger:2009vt"
  affected groups, to justify voter-driven models of trade policy.
 \end_layout
 
-\end_inset
-
- Indeed, diverse perspectives in the social sciences suggest causal pathways
+\begin_layout Standard
+Indeed, diverse perspectives in the social sciences suggest causal pathways
  through which citizens harmed by the adjustment costs of liberalization
  would not hold policymakers accountable for the political decision of liberaliz
 ation.
-\end_layout
-
-\begin_layout Standard
-First, research mostly from advanced democratic countries finds that as
+ First, research mostly from advanced democratic countries finds that as
  the sources of economic growth shift, citizens accordingly adjust their
  expectations of government policymaking and their attributions of blame
  for national problems.
@@ -1121,7 +1123,7 @@ P
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\ensuremath{U_{C}=(1-\gamma)C_{C}+\gamma C_{O}}
+\ensuremath{U_{C}=(1-\lambda)C_{C}+\lambda C_{O}}
 \end{equation}
 
 \end_inset
@@ -1132,7 +1134,7 @@ P
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\ensuremath{\ensuremath{U_{O}=(1-\gamma)O_{C}+\gamma C_{O}}}
+\ensuremath{\ensuremath{U_{O}=(1-\lambda)O_{C}+\lambda C_{O}}}
 \end{equation}
 
 \end_inset
@@ -1143,7 +1145,7 @@ P
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\ensuremath{EU_{P}=(1-\gamma)P_{C}+\gamma[\pi P_{g}+(1-\gamma)P_{b}]},
+\ensuremath{EU_{P}=(1-\lambda)P_{C}+\lambda[\pi P_{g}+(1-\lambda)P_{b}]},
 \end{equation}
 
 \end_inset
@@ -1272,16 +1274,40 @@ P
 \end_inset
 
 .
- For any 
-\emph on
+ It is assumed that the distribution of 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
 
-\begin_inset Formula $P$
+\begin_inset Formula $\pi$
 \end_inset
 
 
+\family default
+\series default
+\shape default
+\size default
 \emph default
-, an open economy is preferable to a closed economy: 
-\begin_inset Formula $\pi P_{g}+(1-\gamma)P_{b}<P_{c}$
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ is such that the expected return of a closed economy for 
+\emph on
+P
+\emph default
+ is greater than that of an open economy: 
+\begin_inset Formula $\pi P_{g}+(1-\lambda)P_{b}<P_{c}$
 \end_inset
 
 .
@@ -1305,7 +1331,7 @@ Groups
 
 , 
 \emph default
-
+and 
 \begin_inset Formula $O$
 \end_inset
 
@@ -1349,7 +1375,7 @@ P
 \end_inset
 
  , credibly commit to a level of openness, 
-\begin_inset Formula $\gamma$
+\begin_inset Formula $\lambda$
 \end_inset
 
 , and a publicly-funded compensation package, 
@@ -2012,7 +2038,7 @@ As the value of
 \backslash
 ) increases the left-hand side of equation 9 relative to the right-hand
  side.
-  This demonstrates that as 
+ This demonstrates that as 
 \backslash
 (m
 \backslash
