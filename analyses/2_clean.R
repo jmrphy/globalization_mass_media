@@ -172,7 +172,7 @@ x$OpennessXBlame<-x$open * x$blame
 #########################
 ### Merge Polity ########
 #########################
-setwd("~/Dropbox/Data General/Polity IV")
+setwd("~/Dropbox/gh_projects/globalization_mass_media/data/Polity IV")
 polity<-read.csv("polityiv.csv") # read in the Polity IV dataset
 polity$scode<-as.factor(polity$ccode)   
 dem<-subset(polity, select=c("scode", "year", "democ", "autoc", "polity2")) # make subset of key variables
@@ -183,7 +183,8 @@ df<-subset(merged3, year>=1960 & year<=2010)
 ############################################
 ### Gerring and Thacker Unitarism and PR ###
 ############################################
-setwd("~/Dropbox/Data General/Gerring & Thacker Centripetalism")
+setwd("~/Dropbox/gh_projects/globalization_mass_media/data/Gerring & Thacker Centripetalism")
+
 gt<-read.csv("Gerring_Thacker.csv")
 names(gt)
 #gt$scode<-countrycode(gt$Country, "country.name", "cown")
@@ -201,7 +202,7 @@ merged4$unitarism<-merged4$Unit2
 ### Swank Comparative Parties ##############
 ############################################
 require(countrycode)
-setwd("~/Dropbox/Data General/Swank Comparative Parties")
+setwd("~/Dropbox/gh_projects/globalization_mass_media/data/Swank Comparative Parties")
 swank<-read.csv("Swank_Comparative_Parties.csv")
 swank$scode<-countrycode(swank$countrycode, "iso3c", "cown")
 swank$scode<-as.factor(swank$scode)
@@ -217,7 +218,7 @@ dfex<-merge(merged4, swank, by=c("scode", "year"), all.x=TRUE)
 ### Golden et al. Union Data  ##############
 ############################################
 
-setwd("~/Dropbox/Data General/Golden Union Data")
+setwd("~/Dropbox/gh_projects/globalization_mass_media/data/golden_union_data")
 union<-read.csv("Golden_Lange_Wallerstein_Union_Data_OECD_1950_2000.csv")
 names(union)
 union$country<-ifelse(union$country=="ARL", "AUS", paste(union$country))

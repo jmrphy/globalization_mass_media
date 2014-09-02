@@ -35,7 +35,7 @@ endnotes
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing double
+\spacing onehalf
 \use_hyperref false
 \papersize default
 \use_geometry true
@@ -89,24 +89,20 @@ Much is known about the domestic politics of globalization but political
  scientists have largely ignored one critical link between the international
  economy and most individuals around the world: the mass media.
  Considering the likely effects of mass media on public perceptions of responsib
-ility, this article develops a simple model of the effects of mass media
- on individuals' blame attributions and propensities to mobilize around
- the distributive conflicts of economic globalization.
- These effects of mass media on perception and mobilization alter the incentives
- of a national policymaker's choice either to compensate or neglect domestic
- groups harmed by globalization.
+ility, this article develops an argument about the effects of mass media
+ on individuals' blame attributions for the adjustment costs of economic
+ globalization.
+ The article also develops a simple formal model of how mass media alter
+ the incentives of a national policymaker's choice either to compensate
+ or neglect domestic groups harmed by globalization, decreasing the political
+ pressure to compensate.
  Individual-level implications of the theory are tested on survey data from
  France in 1992-1993 and state-level implications are tested on data from
  most countries around the world from 1960 to 2010.
- The evidence shows that mass media demobilize groups harmed by globalization,
- leading to weakened welfare-state responsiveness.
+ The evidence shows that mass media diffuse the political backlash from
+ groups harmed by globalization, leading to weakened welfare-state responsivenes
+s.
  
-\end_layout
-
-\begin_layout Abstract
-
-\size normal
-Word count: 7,740 with tables and graphs.
 \end_layout
 
 \begin_layout Abstract
@@ -895,13 +891,9 @@ Theory and Hypotheses
 \end_layout
 
 \begin_layout Standard
-The central 
-\emph on
-premise
-\emph default
- of this article is the stylized empirical fact that issues of economic
- openness have been socially constructed by elite opinion-leaders as an
- external and objective process, typically known as 
+The central premise of this article is the stylized empirical fact that
+ issues of economic openness have been socially constructed by elite opinion-lea
+ders as an external and objective process, typically known as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -909,7 +901,14 @@ globalization,
 \begin_inset Quotes erd
 \end_inset
 
- which shapes policymakers' room-to-maneuver (CITE Hay).
+ which shapes policymakers' room-to-maneuver (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Hay:2002iy,Hay:2011dh"
+
+\end_inset
+
+).
  The novel and central theoretical 
 \emph on
 claim
@@ -917,9 +916,9 @@ claim
  of this article is that the mass media diffuse responsibility for policies
  of economic liberalization over and above whatever diffusion of responsibility
  is created by the objective realities of economic openness.
- The warrant for this claim is straightforward: the mass media simply amplify
- and extend the reach of dominant social constructions beyond the reach
- they would have in the absence of mass media.
+ The warrant for this claim is straightforward: the mass media amplify and
+ extend the reach of dominant social constructions beyond the reach they
+ would have in the absence of mass media.
  This section develops the reasoning which moves from this premise to the
  central claim and then deduces a series of hypotheses regarding how mass
  media should be expected to affect individuals' perceptions of economic
@@ -928,29 +927,16 @@ claim
 \end_layout
 
 \begin_layout Standard
-One of the standard theories of political news coverage, the theory of indexing,
- suggests that the distribution of news coverage of political issues tends
- to follow the distribution of elite opinion.
- Elite consensus on a particular issues tends toward consenus in the reportage
- of that issue, but elite dissensus constitutes the space in which competing
- views will be reported (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Bennett:1990bp,Zaller:1996vs,Bennett:2006gc"
-
-\end_inset
-
-).
- Because previous research amply demonstrates that the dominant social construct
-ion of economic globalization is that of an external, objective pressure
- on policymakers---an image of economic globalization which commands a relative
+Previous research amply demonstrates that the dominant social construction
+ of economic globalization is that of an external, objective pressure on
+ policymakers---an image of economic globalization which commands a relative
  consensus among elites---standard indexing theory implies that mass media
  reportage will tend to mirror this relative elite consensus.
- In addition to the exhaustive evidence collected by Hay and associates,
- empirical evidence for such a relative elite consensus is also ample from
- other research on the domestic politics of globalization, which finds that
- party elites consistently invoke room to maneuver constraints in research
- interviews (
+ In addition to the multiple studies by Colin Hay and associates on elite
+ discourse from multiple European countries, empirical evidence for an elite
+ consensus is also ample from other research on the domestic politics of
+ globalization, which finds that party elites consistently invoke room to
+ maneuver constraints in research interviews (
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "206-07"
@@ -993,16 +979,38 @@ key "Hellwig:2011iu"
 \end_inset
 
 .
+ 
+\end_layout
+
+\begin_layout Standard
+Given this elite consensus regarding the dominant social construction of
+ globalization, standard theories of media coverage lead to the expectation
+ that the media will tend to amplify this particular social construction.
+ One of the standard theories of political news coverage, the theory of
+ indexing, suggests that the distribution of news coverage of political
+ issues tends to follow the distribution of elite opinion.
+ Elite consensus on a particular issues tends toward consenus in the reportage
+ of that issue, but elite dissensus constitutes the space in which competing
+ views will be reported (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Bennett:1990bp,Zaller:1996vs,Bennett:2006gc"
+
+\end_inset
+
+).
  Adding to the indexing theory the general responsibility-diffusing tendencies
  inherent to mass media discussed above, such as its episodic nature and
  its nature as a platform for generally blame-avoiding political elites,
- the overall implication is the expectation that mass media will reflect
- and therefore amplify the dominant construction of economic globalization.
+ the overall implication is the expectation that mass media will amplify
+ the dominant construction of economic globalization as an external pressure
+ which imposes itself on domestic policymakers, rather than an outcome of
+ international economic policymaking.
 \end_layout
 
 \begin_layout Standard
 This basic indexing theory leads to two different versions of a first hypothesis
-, a weaker and a stronger version.
+, one implying a direct effect and the other implying an indirect effect.
  First, mass media will have an indirect effect on how individuals attribute
  blame for national problems, by informing individuals of objective problems
  pertaining to economic openness (merely transmitting information about
@@ -1978,7 +1986,7 @@ centering
 
 
 \backslash
-includegraphics[scale=.4]{formal_model.png}
+includegraphics[scale=1.5]{formal_model.png}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2059,10 +2067,9 @@ Omega
 
 \begin_layout Standard
 The main implication of this proposition is that, to the degree mass media
- has the predicted effect of diffusing blame attributions and reducing the
- electoral backlash to economic liberalization, it reduces the pressure
- on liberalizing policymakers to provide compensation in the form of public
- spending.
+ has the predicted effect of diffusing blame attributions for hardships
+ inflicted by economic liberalization, it reduces the pressure on liberalizing
+ policymakers to provide compensation in the form of public spending.
  Thus, rational policymakers will condition the provision of compensatory
  public spending on levels of mass media, providing less public spending
  to the degree that mass media neutralizes the threat of electoral backlash.
@@ -2140,16 +2147,6 @@ key "Chrique:1993us"
 \end_inset
 
 ).
- Around the time of the Maastricht Treaty, especially controversial in France,
- the problems of economic openness are likely to be highly salient.
- Additionally, France has relatively high rates of voter turnout, and a
- statist, egalitarian political culture.
- Thus, evidence that mass media leads French citizens near the time of Maastrich
-t to blame international forces rather than their government suggests that
- such a relationship is at least as likely in the many countries in which
- the economy and globalization are less politicized.
- Similarly, if mass media pacifies French citizens in either perceptions
- or political behavior, it is likely to do so in other countries.
  The survey asks respondents several questions tapping blame attribution,
  media exposure, and political mobilization.
 \begin_inset Foot
@@ -2238,6 +2235,44 @@ Maastricht Treaty.
  Mitterand, how well they think the government is handling the problem identifie
 d by the respondent as a top problem, and their intention to turnout for
  the March 1993 elections.
+ There are several reasons why French survey data from the early 1990s is
+ an attractive testing ground for the individual-level hypotheses.
+ First, while other surveys gauge perceptions of responsibility on many
+ issues, and many other surveys gauge media exposure, this is the only survey
+ known to the author which effectively gauges both perceptions of responsbility
+ for issues of economic openness and media exposure.
+ Second, although the survey data is limited to France and therefore limits
+ our ability to generalize to other countries, France is a relatively hard
+ case for testing the hypotheses, and so evidence for the hypotheses would
+ suggest such a process is likely to occur in other countries as well.
+ First, the survey takes place around the time of the Maastricht Treaty,
+ a time when the problems of economic openness are highly policy-related,
+ relative to exogenous changes in openness such as global fluctuations of
+ trade.
+ If media diffuses blame away from governments and onto international forces
+ in France in the early 1990s, it would seem even more likely to do the
+ same in situations where problems of economic openness are less related
+ to particular policy decisions.
+ Additionally, France has relatively high rates of political engagement,
+ and a statist, egalitarian political culture in which elite opinion claims
+ more control over globalization than in countries such as Italy or the
+ United Kingdom (
+\begin_inset CommandInset citation
+LatexCommand citealt
+after "159"
+key "Hay:2011dh"
+
+\end_inset
+
+).
+ Thus, evidence that mass media leads French citizens near the time of Maastrich
+t to blame international forces rather than their government suggests that
+ such a relationship is even more likely in the countries in which globalization
+ is seen as more ineluctable.
+ Although ideally the hypotheses could be tested in multiple countries at
+ once, this particular survey data from France in the early 1990s represent
+ a unique opportunity to test the hypotheses under conditions relatively
+ favorable to generalization.
 \end_layout
 
 \begin_layout Standard

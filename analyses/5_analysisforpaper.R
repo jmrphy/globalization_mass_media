@@ -559,8 +559,8 @@ industry.model<-plm(diff(spending.wb) ~
                       lag(diff(trade.wb), 1):lag(diff(mdi),1) +
                       lag(industry.wb, 1) +
                       lag(diff(industry.wb), 1) +
-                      lag(industry.wb, 1):lag(mdi, 1) +
-                      lag(diff(industry.wb), 1):lag(diff(mdi), 1) +
+                      lag(trade.wb, 1):lag(industry.wb, 1) +
+                      lag(diff(trade.wb), 1):lag(diff(industry.wb), 1) +
                       lag(spending.wb, 1),
                     index = c("scode","year"),
                     model="within",
