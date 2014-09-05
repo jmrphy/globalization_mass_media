@@ -87,22 +87,25 @@ Mass Media and the Domestic Politics of Globalization
 \size normal
 Much is known about the domestic politics of globalization but political
  scientists have largely ignored one critical link between the international
- economy and most individuals around the world: the mass media.
+ economy and most individuals around the world: mass media.
  Considering the likely effects of mass media on public perceptions of responsib
 ility, this article develops an argument about the effects of mass media
  on individuals' blame attributions for the adjustment costs of economic
  globalization.
- The article also develops a simple formal model of how mass media alter
- the incentives of a national policymaker's choice either to compensate
- or neglect domestic groups harmed by globalization, decreasing the political
- pressure to compensate.
+ The article then develops a simple formal model of how these effects on
+ blame attributions affect the incentives of policymakers, illustrating
+ that mass media undermine the political pressures which have traditionally
+ required policymakers to compensate domestic groups harmed by globalization.
  Individual-level implications of the theory are tested on survey data from
  France in 1992-1993 and state-level implications are tested on data from
  most countries around the world from 1960 to 2010.
  The evidence shows that mass media diffuse the political backlash from
  groups harmed by globalization, leading to weakened welfare-state responsivenes
 s.
- 
+ By providing novel evidence of the socially-constructed nature of international
+ politics using formal and quantitative tools within a rational-choice framework
+, the article contributes to bridging the divide between rationalism and
+ constructivism in international relations and comparative politics.
 \end_layout
 
 \begin_layout Abstract
@@ -165,8 +168,8 @@ key "Katzenstein:1985ub,Rodrik:1998te,Adsera:2002vt"
 
 \begin_layout Standard
 However, one current of research in comparative political behavior shows
- convincingly that as domestic economies become increasingly integrated,
- citizens perceive that governments have less 
+ that as domestic economies become increasingly integrated, citizens perceive
+ that governments have less 
 \begin_inset Quotes eld
 \end_inset
 
@@ -203,12 +206,37 @@ key "Hellwig:2008ia"
  by the political decisions to maintain open national economies, then an
  essential causal link in current accounts of the globalization-welfare
  nexus would appear to be broken.
+ Furthermore, this current of research has yet to take seriously the stylized
+ empirical fact that economic globalization does not 
+\emph on
+inherently
+\emph default
+ constrain policymakers' 
+\begin_inset Quotes eld
+\end_inset
+
+room to maneuver
+\begin_inset Quotes erd
+\end_inset
+
+ but rather has been 
+\emph on
+socially constructed
+\emph default
+ as such by elites and often through the mass media (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Hay:2011dh,Hay:2005dh,Hay:2002iy"
+
+\end_inset
+
+) .
 \end_layout
 
 \begin_layout Standard
-At the same time, beyond objective increases in economic globalization,
- previous research has shown that mass media have direct effects on perceptions
- relevant to how citizens are likely to understand the politics of globalization.
+At the same time, previous research has shown that mass media have direct
+ effects on perceptions relevant to how citizens are likely to understand
+ the politics of globalization.
  Specifically, mass media have direct effects on perceptions of responsibility
  (
 \begin_inset CommandInset citation
@@ -274,10 +302,12 @@ key "JamesMSnyder:2012th,Besley:2002tg,Adsera:2003cc"
 tion, the preponderance of previous research strongly converges on a set
  of counter-intuitive arguments: 
 \emph on
-By shifting citizen blame attributions away from governments and toward
- international forces, the mass media play an independent causal role in
- reducing the ability of domestic groups to hold national policymakers accountab
-le for the effects of economic openness.
+By amplifying the dominant construction of globalization as an external
+ imperative constraining policymakers and therefore shifting citizen blame
+ attributions away from governments and toward international forces, the
+ mass media play an independent causal role in reducing the ability of domestic
+ groups to hold national policymakers accountable for the effects of economic
+ openness.
  In turn, as the global economy and mass media penetrate states, national
  policymakers face less pressure to compensate protectionist domestic groups
  for economic hardships linked to the global economy.
@@ -338,7 +368,7 @@ institution
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "341"
-key "Kayser:2007ig"
+key "Kayser:2007iga"
 
 \end_inset
 
@@ -347,23 +377,54 @@ key "Kayser:2007ig"
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "474"
-key "Hays:2005vo"
+key "Hays:2005vo,Walter:2010ky"
 
 \end_inset
 
 ).
- Substantively, this research highlights a source of cross-national and
- temporal variation often omitted in analyses of comparative and international
- political economy.
- State-level evidence presented here suggests the omission of mass media
- has led to biased conclusions which over-estimate the egalitarian effects
- of democratic institutions in the globalization-welfare nexus.
- Third, this research bears important implications for democratic representation
- in a globalized world.
- The evidence suggests that from the standpoint of democratic theory, mass
- media can have subtle but perverse effects on the distributive politics
- of open economies, disempowering domestic groups from holding national
- policymakers accountable for the unevenly distributed costs of globalization.
+ Third, this research bears important implications for debates between rationali
+sm and constructivism as analytical frameworks for the study of international
+ relations and comparative politics.
+ It directly challenges the conventional dichotomy wherein the former is
+ supposed to focus on strategic incentives or the 
+\begin_inset Quotes eld
+\end_inset
+
+logic of consequences
+\begin_inset Quotes erd
+\end_inset
+
+ and the latter on over-arching norms or the 
+\begin_inset Quotes eld
+\end_inset
+
+logic of appropriateness (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Dessler:2005io"
+
+\end_inset
+
+).
+\begin_inset Quotes erd
+\end_inset
+
+ The article shows that some dynamics in the logic of appropriateness (in
+ this case, the reality-constructing power of the mass media) can also be
+ modeled for the logic of their consequences.
+ This approach permits quantitative tests of deductive hypotheses from rational-
+choice models in the service of an essentially constructivist argument.
+ Thus the article provides a novel contribution to the long-standing project
+ of bridging the divide between constructivism and rationalism in the study
+ of international and comparative politics (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Katzenstein:1998ef,Checkel:1997cw,Zurn:2005ja"
+
+\end_inset
+
+).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -374,8 +435,8 @@ The article proceeds as follows.
  suggest how a formidable history of mass media research speaks directly
  to this gap.
  A second section develops specific hypotheses regarding how mass media
- is likely to affect individual perceptions, blame attributions, and propensitie
-s to mobilize around the politics of economic openness.
+ is likely to affect individual perceptions, blame attributions, and electoral
+ accountability around the politics of economic openness.
  That section concludes by incorporating the expected effects of mass media
  into a baseline model of the globalization-welfare nexus typical of the
  most influential work in this area (
@@ -3235,6 +3296,80 @@ directly
  that mass media shifts blame attributions away from governments and toward
  unaccountable international forces, which in turn allows national economic
  policymakers to neglect welfare-state compensation of harmed domestic groups.
+\end_layout
+
+\begin_layout Standard
+The findings have several implications for the study of international and
+ comparative politics and one important substantive implication for the
+ prospects of democracy in a globalized world.
+ First, the results provide some of the first evidence that mass media can
+ be understood as a political institution that conditions the domestic politics
+ of the global economy, thus placing on the agenda a source of cross-national
+ and temporal variation typically omitted from previous analyses of comparative
+ and international political economy.
+ As such, they contribute to current research agendas seeking more finely-tuned
+ political accounts of the domestic effects of globalization (
+\begin_inset CommandInset citation
+LatexCommand citealt
+after "341"
+key "Kayser:2007iga"
+
+\end_inset
+
+) and a better understanding of public opinion and voting behavior in the
+ context of economic openness (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Hellwig:2008ia,Hellwig:2008cj"
+
+\end_inset
+
+).
+ Specifically, the article suggests that mass media is an independent cause
+ of voters discounting their evaluations of policymakers (by increasing
+ the probability they will identify economic openness as a top problem,
+ but also by directly diffusing blame attributions toward international
+ forces 
+\emph on
+even holding constant the types of problems they perceive to be most important
+\emph default
+).
+ The findings should be of particular interest to scholars seeking to develop
+ more rigorous micro-foundations for the relationship between economic openness
+ and welfare states (
+\begin_inset CommandInset citation
+LatexCommand citealt
+after "474"
+key "Hays:2005vo,Walter:2010ky"
+
+\end_inset
+
+).
+ Methodologically, the article employed a novel application of a rational-choice
+ framework, simple formal modeling, and quantitative analyses at multiple
+ levels of analysis in the service of an essentially constructivist argument
+ about the social construction of the international political economy.
+ The approach taken here, and its findings, should therefore be of interest
+ to researchers seeking to bridge the divide between rationalist and constructiv
+ist approaches to the study of international and comparative politics (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Katzenstein:1998ef,Checkel:1997cw,Zurn:2005ja"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Finally, the state-level findings in particular have an important substantive
+ implication, for they suggest that the omission of mass media in previous
+ studies has led to biased conclusions which over-estimate the egalitarian
+ effects of democratic institutions in the globalization-welfare nexus.
+ The evidence suggests that from the standpoint of democratic values, mass
+ media can have subtle but perverse effects on the distributive politics
+ of open economies, disempowering domestic groups from holding national
+ policymakers accountable for the unevenly distributed costs of globalization.
 \end_layout
 
 \begin_layout Standard
