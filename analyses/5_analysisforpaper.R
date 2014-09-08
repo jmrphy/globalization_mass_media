@@ -1,7 +1,7 @@
-setwd("~/Dropbox/Data General/Article1")
-source('1_load.R')
-source('2_clean.R')
-source('3_functions.R')
+setwd("~/Dropbox/gh_projects/globalization_mass_media")
+source('analyses/1_load.R')
+source('analyses/2_clean.R')
+source('analyses/3_functions.R')
 
 
 ########################
@@ -13,7 +13,7 @@ library(reporttools)
 tableContinuous(surveyvars[,sapply(surveyvars, is.numeric)], font.size=12)
 tableNominal(surveyvars[,!sapply(surveyvars, is.numeric)], font.size=12)
 
-
+setwd("~/Dropbox/gh_projects/globalization_mass_media/")
 #############################################
 ### Model 1.A: Media and Blame (direct) #####
 #############################################
@@ -26,6 +26,18 @@ model1<-zelig(causes ~ Age + gender + urban + Interest + college + occ + leftpar
 ############## Model 1 - Blame Coefficient Plot #################
 
 coefplot(model1,
+         newNames=c("(Intercept)"="Intercept",
+                    "genderFemale"="Female",
+                    "urbanUrban"="Urban",
+                    "collegeUniversity"="University",
+                    "occWhite Collar"="White Collar",
+                    "leftpartyLeft Party"="Left Party",
+                    "genprob2Problem:Social"="ProblemArea:Social",
+                    "genprob2Problem:Political"="ProblemArea:Political",
+                    "genprob2Problem:Foreign"="ProblemArea:Foreign",
+                    "mediaMedia"="Media",
+                    "openprob2Problem:Openness"="Problem:Openness"),
+         pointsize=.5,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
@@ -35,7 +47,7 @@ coefplot(model1,
          theme_bw() +
          theme(title=element_text(size=8)) + 
          theme(text=element_text(size=10))
-ggsave(filename="blame_coefs.pdf", width=4, height=4)
+ggsave(filename="article/model1.pdf", width=6, height=6)
 
 ############## Model 1 - Media-Blame Effect Plot #################
 
@@ -46,179 +58,240 @@ source('~/Dropbox/Data General/Article1/media_blame_effect.R')
 ##############################################
 
 ############## Model 1 - Media-Blame Effect Plot #################
-library(apsrtable)
-writeLines(apsrtable(model1, coef.rows=1), file("table1.tex"))
+require(stargazer)
 
-########## Model 1.B - Gov't Blame Model Results Table #################
+stargazer(model1,
+          title="Results Table for Model 1",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model1.tex")
 
-model1.B<-zelig(cause.gov ~ Age + gender + urban + Interest + college + occ + leftparty + media + genprob2 + openprob2,
+########## Model 1.altdv1 - Gov't Blame Model Results Table #################
+
+model1.altdv1<-zelig(cause.gov ~ Age + gender + urban + Interest + college + occ + leftparty + media + genprob2 + openprob2,
              model="logit",
              data=x,
              cite=FALSE)
 
-############## Model 1.B - Gov't Blame Effect Plot #################
+############## Model 1.altdv1 - Gov't Blame Effect Plot #################
 
-nobs(model1.B)
-coefplot(model1.B,
+nobs(model1.altdv1)
+coefplot(model1.altdv1,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
          vertical=TRUE, xlab="Logit Estimates", ylab="") +
   annotate("text", x=.65, y=.7, label="N = 5,148", size=2.5) +
-  ggtitle("Model 1.B: Blame Government") +
+  ggtitle("Model 1 with Alternative DV: Blame Government vs. All Others") +
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="blame_coefs.1.B.pdf", width=4, height=4)
+ggsave(filename="article/model1_coefs_altdv1.pdf", width=6, height=6)
 
-############## Model 1.B - Gov't Blame Model Results Table #################
+############## Model 1.altdv1 - Gov't Blame Model Results Table #################
 
-writeLines(apsrtable(model1.B, coef.rows=1), file("table1.B.tex"))
+stargazer(model1.altdv1,
+          title="Results Table for Model 1 with Alternative DV: Blame Government vs. All Others",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model1.altdv1.tex")
 
 ############## Model 1.C - Int'l Blame Effect Plot #################
 
-model1.C<-zelig(cause.intl ~ Age + gender + urban + Interest + college + occ + leftparty + media + genprob2 + openprob2,
+model1.altdv2<-zelig(cause.intl ~ Age + gender + urban + Interest + college + occ + leftparty + media + genprob2 + openprob2,
              model="logit",
              data=x,
              cite=FALSE)
 
 ############## Model 1.C - Int't Blame Effect Plot #################
 
-nobs(model1.C)
-coefplot(model1.C,
+nobs(model1.altdv2)
+coefplot(model1.altdv2,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
          vertical=TRUE, xlab="Logit Estimates", ylab="") +
   annotate("text", x=.65, y=.7, label="N = 5,148", size=2.5) +
-  ggtitle("Model 1.C: Blame International") +
+  ggtitle("Model 1 with Alternative DV: Blame International vs All Others") +
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="blame_coefs.1.C.pdf", width=4, height=4)
+ggsave(filename="article/model1_altdv2.pdf", width=6, height=6)
 
-############## Model 1.C - Int'l Blame Model Results Table #################
+############## Model 1.altdv2 - Int'l Blame Model Results Table #################
 
-writeLines(apsrtable(model1.C, coef.rows=1), file("table1.C.tex"))
+stargazer(model1.altdv2,
+          title="Results Table for Model 1 with Alternative DV2: Blame Government vs. All Others",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model1.altdv2.tex")
 
 ###########################################################
-### Model 1.2: Media -> Openprob2 -> Blame (indirect) #####
+### Model 2: Media -> Openprob2 -> Blame (indirect) #####
 ###########################################################
-model1.2<-zelig(openprob2 ~ foreignprob2 + econprob2 + Age + gender + urban + Interest + college + occ + mitterand + leftparty + media,
+model2<-zelig(openprob2 ~ foreignprob2 + econprob2 + Age + gender + urban + Interest + college + occ + mitterand + leftparty + media,
               model="logit",
               data=x,
               cite=FALSE)
 
 ############## Model 1.2 - Media -> Openprob2 #################
-nobs(model1.2)
-coefplot(model1.2,
+nobs(model2$result)
+coefplot(model2,
+         newNames=c("(Intercept)"="Intercept",
+                    "genderFemale"="Female",
+                    "urbanUrban"="Urban",
+                    "collegeUniversity"="University",
+                    "occWhite Collar"="White Collar",
+                    "leftpartyLeft Party"="Left Party",
+                    "mitterandMitterand"="Mitterrand",
+                    "econprob2Problem:Economic"="ProblemArea:Economic",
+                    "foreignprob2Problem:Foreign"="ProblemArea:Foreign",
+                    "mediaMedia"="Media"),
+         pointsize=.5,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
          vertical=TRUE, xlab="Logit Estimates", ylab="") +
   annotate("text", x=2.5, y=.7, label="N = 4,770", size=2.5) +
-  ggtitle("Model 1.2: Openness as a Problem") +
+  ggtitle("Model 2: Openness as a Problem") +
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="blame_coefs.1.2.pdf", width=4, height=4)
+ggsave(filename="article/model2.pdf", width=6, height=6)
 
 ##############################################
-## Supporting Information for Model 1.2: Media->Openprob2->Blame
+## Supporting Information for Model 2: Media->Openprob2->Blame
 ##############################################
 
-############## Model 1.2 - Media->Openprob2-> Blame Model Results Table #################
+############## Model 2 - Media->Openprob2-> Blame Model Results Table #################
 
-writeLines(apsrtable(model1.2, coef.rows=1), file("table1.2.tex"))
+stargazer(model2,
+          title="Results Table for Model 2: Openness as a Problem",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model2.tex")
 
 ####################################
-### Model 2: Government Handling ###
+### Model 3: Government Handling ###
 ####################################
 
 ###################### Model 2 ####################################
 library(Zelig)
 options(scipen=999)
 model<-glm(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + causes, data=x, family=gaussian)
-model2<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + causes,
+model3<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + causes,
               model="ls",
               data=x,
               cite=FALSE)
 
-################# Model 2 - Coefficient Plot #####################
+################# Model 3 - Coefficient Plot #####################
 library(coefplot)
-coefplot(model2,
+coefplot(model3,
+         newNames=c("(Intercept)"="Intercept",
+                    "genderFemale"="Female",
+                    "urbanUrban"="Urban",
+                    "collegeUniversity"="University",
+                    "occWhite Collar"="White Collar",
+                    "leftpartyLeft Party"="Left Party",
+                    "mitterandMitterand"="Mitterrand",
+                    "genprob2Problem:Social"="ProblemArea:Social",
+                    "genprob2Problem:Political"="ProblemArea:Political",
+                    "genprob2Problem:Foreign"="ProblemArea:Foreign",
+                    "mediaMedia"="Media",
+                    "openprob2Problem:Openness"="Problem:Openness",
+                    "causesBlame International"="Blame International",
+                    "PresSatisfaction"="Presidential Satisfaction"),
+         pointsize=.5,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
          vertical=TRUE, xlab="Regression Coefficients", ylab="") +
   annotate("text", x=.9, y=2, label="N = 2,401", size=2.5) +
-  ggtitle("Model 2: Government Handling") +
+  ggtitle("Model 3: Government Handling") +
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="govhandling_coefs.pdf", width=4, height=4)
-
-############# Model 2 - Simulation Plot #################################
-
-source('~/Dropbox/Data General/Article1/blame_govhandle.R')
+ggsave(filename="article/model3.pdf", width=6, height=6)
 
 #########################################
-## Supporting Information for Model 2 ###
+## Supporting Information for Model 3 ###
 #########################################
 
-###################### Model 2 - Coefficient Table #####################
-library(apsrtable)
-writeLines(apsrtable(model2, coef.rows=1), file("table2.tex"))
+###################### Model 3 - Coefficient Table #####################
+stargazer(model3,
+          title="Results Table for Model 3: Government Handling",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model3.tex")
 
-################# Model 2 with alternative, full cause variable #########
+################# Model 3 with alternative, full cause variable #########
 
-model2.A<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + cause,
-              summmodel="ls",
+model3.altiv1<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + cause,
+              model="ls",
               data=x,
               cite=FALSE)
 
 library(coefplot)
-coefplot(model2.A,
+coefplot(model3.altiv1,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
          vertical=TRUE, xlab="Regression Coefficients", ylab="") +
   annotate("text", x=.9, y=2, label="N = 2,401", size=2.5) +
-  ggtitle("Model 2.A: Government Handling") +
+  ggtitle("Model 3: Government Handling with Alternative IV for Blame") +
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="govhandling_altcause_coefs.pdf", width=4, height=4)
+ggsave(filename="article/model3_altiv1.pdf", width=6, height=6)
 
 
-library(apsrtable)
-writeLines(apsrtable(model2.A, coef.rows=1), file("table2.A.tex"))
+stargazer(model3.altiv1,
+          title="Results Table for Model 3 Alternative IV: All Causes",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model3_altiv1.tex")
 
-################# Model 2.1 - PresSat Model Table #####################
+################# Model 3.altdv1 - PresSat Model Table #####################
 
-model2.B<-zelig(PresSatisfaction ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + GovHandling + genprob1 + openprob2 + causes,
+model3.altdv1<-zelig(PresSatisfaction ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + GovHandling + genprob1 + openprob2 + causes,
                 model="ls",
                 data=x,
                 cite=FALSE)
-writeLines(apsrtable(model2.B, coef.rows=1), file("table2.B.tex"))
 
 ############ Model 2.1 - PresSat Coefficient Plot ################
 
-coefplot(model2.B,
+coefplot(model3.altdv1,
          color="black",
          lwdInner=0,
          lwdOuter=.5,
          vertical=TRUE, xlab="Regression Coefficients", ylab="") +
   annotate("text", x=1.3, y=2, label="N = 2,401", size=2.5) +
-  ggtitle("Model2.B: Presidential Satisfaction") +
+  ggtitle("Model 3 with Alternative DV: Presidential Satisfaction") +
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="pressat_coefs.pdf", width=4, height=4)
+ggsave(filename="article/model3_altdv1.pdf", width=6, height=6)
 
-############## Model 2.B - PresSat Effect Plot #################
 
-source('~/Dropbox/Data General/Article1/blame_pressat.R')
+stargazer(model3.altdv1,
+          title="Results Table for Model 3 Alternative DV: Presidential Satisfaction",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/model3_altdv1.tex")
 
 ########################
 ### Model 3: Turnout

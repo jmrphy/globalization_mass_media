@@ -1,4 +1,4 @@
-source('~/Dropbox/Data General/Article1/3_functions.R')
+source('~/Dropbox/gh_projects/globalization_mass_media/analyses/3_functions.R')
 
 require(effects)
 require(car)

@@ -9,7 +9,6 @@
 \usepackage{pdflscape}
 \usepackage{graphicx}
 \usepackage{endnotes}
-\usepackage{lscape}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -2878,7 +2877,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename model1.pdf
+	filename model1_coefs.pdf
 	rotateOrigin center
 
 \end_inset
@@ -2937,7 +2936,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename model2.pdf
+	filename model1_coefs_altdv1.pdf
 	rotateOrigin center
 
 \end_inset
@@ -2949,7 +2948,8 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Effect of Mass Media on Perception of Openness as a Top Problem
+Indirect Effect of Mass Media on Blaming International Forces Through Increasing
+ Awareness of Openness as a Top Problem
 \end_layout
 
 \end_inset
@@ -3029,7 +3029,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename model3.pdf
+	filename model1_coefs_altdv1.pdf
 
 \end_inset
 
@@ -3732,16 +3732,15 @@ Q-20.
  Don’t Know/NoResponse (Column 29)
 \end_layout
 
+\begin_layout Subsection*
+
+\size normal
+Descriptive Statistics for Survey Data
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-clearpage
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -4404,6 +4403,10 @@ end{longtable}
 Additional Individual-Level Model Results
 \end_layout
 
+\begin_layout Subsubsection*
+Results Table for Model 1: Effects of Mass Media on Blame Attributions
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset CommandInset include
@@ -4415,6 +4418,11 @@ filename "model1.tex"
 
 \end_layout
 
+\begin_layout Subsubsection*
+Alternative DV1 for Model 1: Blame Government vs.
+ Any Other
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -4423,7 +4431,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename model1.pdf
+	filename model1_coefs_altdv1.pdf
 
 \end_inset
 
@@ -4455,6 +4463,11 @@ filename "model1.altdv1.tex"
 
 \end_layout
 
+\begin_layout Subsubsection*
+Alternative DV2 for Model 1: Blame International vs.
+ Any Other
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -4463,7 +4476,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename model1_altdv2.pdf
+	filename model1_coefs_altdv1.pdf
 
 \end_inset
 
@@ -4488,27 +4501,7 @@ Model1 with Alternative DV: Blame Government vs.
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "model1.altdv2.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "model2.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "model3.tex"
+filename "model1.altdv1.tex"
 
 \end_inset
 
@@ -4516,91 +4509,16 @@ filename "model3.tex"
 \end_layout
 
 \begin_layout Subsubsection*
-
+Results Table for Model 1.2: Effects of Mass Media on Perceptions of Openness
+ as a Problem
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename model3_altiv1.pdf
-
-\end_inset
-
-
+\begin_layout Subsubsection*
+Alternative Blame IV for Model 2
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Model 3 Alternative IV: All Causes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "model3_altiv1.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename model3_altdv1.pdf
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Model 3 Alternative DV: Presidential Satisfaction
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "model3_altdv1.tex"
-
-\end_inset
-
-
+\begin_layout Subsubsection*
+Alternative DV For Model 2: Presidential Satisfaction
 \end_layout
 
 \begin_layout Standard
@@ -4611,56 +4529,41 @@ filename "model3_altdv1.tex"
 \end_layout
 
 \begin_layout Subsection*
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-begin{flushleft} 
-\backslash
-input{state_vars.tex}
+\size normal
+State-Level Variable Descriptions
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
+\align left
+\begin_inset CommandInset include
+LatexCommand input
+filename "state_vars.tex"
+
+\end_inset
 
 
-\backslash
-clearpage
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
+\align left
+\begin_inset Newpage pagebreak
+\end_inset
 
 
-\backslash
-footnotesize
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Subsection*
 
-
-\backslash
-input{state_vars_summary.tex}
+\size normal
+Descriptive Statistics for State-Level Data
 \end_layout
 
-\begin_layout Plain Layout
-
-
-\backslash
-normalsize
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{flushleft} 
-\backslash
-end{center} 
-\end_layout
+\begin_layout Standard
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+filename "state_vars_summary.tex"
 
 \end_inset
 

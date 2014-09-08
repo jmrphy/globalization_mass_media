@@ -9,6 +9,7 @@
 \usepackage{pdflscape}
 \usepackage{graphicx}
 \usepackage{endnotes}
+\usepackage{lscape}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -87,7 +88,7 @@ Mass Media and the Domestic Politics of Globalization
 \size normal
 Much is known about the domestic politics of globalization but political
  scientists have largely ignored one critical link between the international
- economy and most individuals around the world: mass media.
+ economy and many individuals around the world: mass media.
  Considering the likely effects of mass media on public perceptions of responsib
 ility, this article develops an argument about the effects of mass media
  on individuals' blame attributions for the adjustment costs of economic
@@ -223,7 +224,7 @@ room to maneuver
 \emph on
 socially constructed
 \emph default
- as such by elites and often through the the mass media (
+ as such by elites and often through the mass media (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Hay:2011dh,Hay:2005dh,Hay:2002iy"
@@ -1076,11 +1077,11 @@ This basic indexing theory leads to two different versions of a first hypothesis
  blame for national problems, by informing individuals of objective problems
  pertaining to economic openness (merely transmitting information about
  any objectively constraining realities pertaining to economic openness).
- The stronger and most provocative version of this argument is that mass
- media will have a direct effect on how individuals attribute blame for
- national problems, uniquely diffusing responsibility in their perception
- of national problems above and beyond its effect of making individuals
- more aware of the problems of economic openness per se.
+ The stronger version of this argument is that mass media will have a direct
+ effect on how individuals attribute blame for national problems, uniquely
+ diffusing responsibility in their perception of national problems above
+ and beyond its effect of making individuals more aware of the problems
+ of economic openness per se.
 \end_layout
 
 \begin_layout Standard
@@ -2877,7 +2878,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename blame_coefs.pdf
+	filename model1.pdf
 	rotateOrigin center
 
 \end_inset
@@ -2923,7 +2924,42 @@ y voter, without a bachelor's degree.
  at a 95% confidence level.
  Similarly, the indirect effect of mass media on blame, through its effects
  on perceptions of openness, is only slightly larger than the direct effect
- in terms of probability
+ in terms of probability.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename model2.pdf
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Effect of Mass Media on Perception of Openness as a Top Problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2993,7 +3029,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename govhandling_coefs.pdf
+	filename model3.pdf
 
 \end_inset
 
@@ -3696,15 +3732,16 @@ Q-20.
  Don’t Know/NoResponse (Column 29)
 \end_layout
 
-\begin_layout Subsection*
-
-\size normal
-Descriptive Statistics for Survey Data
-\end_layout
-
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+clearpage
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -4375,7 +4412,7 @@ Results Table for Model 1: Effects of Mass Media on Blame Attributions
 \align center
 \begin_inset CommandInset include
 LatexCommand input
-filename "table1.tex"
+filename "model1.tex"
 
 \end_inset
 
@@ -4383,25 +4420,44 @@ filename "table1.tex"
 \end_layout
 
 \begin_layout Subsubsection*
-Alternative DV for Model 1: Blame Government vs.
+Model 1 Alternative DV #1: Blame Government vs.
  Any Other
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename blame_coefs.1.B.pdf
+	filename model1.pdf
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Model1 with Alternative DV: Blame Government vs.
+ All Others
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
-filename "table1.B.tex"
+filename "model1.altdv1.tex"
 
 \end_inset
 
@@ -4409,25 +4465,44 @@ filename "table1.B.tex"
 \end_layout
 
 \begin_layout Subsubsection*
-Alternative DV for Model 1: Blame International vs.
+Model 1 Alternative DV #2: Blame International vs.
  Any Other
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename blame_coefs.1.C.pdf
+	filename model1_altdv2.pdf
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Model1 with Alternative DV: Blame Government vs.
+ All Others
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
-LatexCommand input
-filename "table1.C.tex"
+LatexCommand include
+filename "model1.altdv2.tex"
 
 \end_inset
 
@@ -4435,15 +4510,14 @@ filename "table1.C.tex"
 \end_layout
 
 \begin_layout Subsubsection*
-Results Table for Model 1.2: Effects of Mass Media on Perceptions of Openness
+Results Table for Model 2: Effects of Mass Media on Perceptions of Openness
  as a Problem
 \end_layout
 
 \begin_layout Standard
-\align center
 \begin_inset CommandInset include
-LatexCommand input
-filename "table1.2.tex"
+LatexCommand include
+filename "model2.tex"
 
 \end_inset
 
@@ -4451,24 +4525,13 @@ filename "table1.2.tex"
 \end_layout
 
 \begin_layout Subsubsection*
-Alternative Blame IV for Model 2
+Results Table for Model 3: Government Handling
 \end_layout
 
 \begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename govhandling_altcause_coefs.pdf
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
 \begin_inset CommandInset include
-LatexCommand input
-filename "table2.A.tex"
+LatexCommand include
+filename "model3.tex"
 
 \end_inset
 
@@ -4476,13 +4539,85 @@ filename "table2.A.tex"
 \end_layout
 
 \begin_layout Subsubsection*
-Alternative DV For Model 2: Presidential Satisfaction
+Model 3 Alternative IV: All Causes
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename pressat_coefs.pdf
+	filename model3_altiv1.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Model 3 Alternative IV: All Causes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Results Table for Model 3 Alternative IV: All Causes
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "model3_altiv1.tex"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Model 3 Alternative DV: Presidential Satisfaction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename model3_altdv1.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Model 3 Alternative DV: Presidential Satisfaction
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -4490,10 +4625,9 @@ Alternative DV For Model 2: Presidential Satisfaction
 \end_layout
 
 \begin_layout Standard
-\align center
 \begin_inset CommandInset include
-LatexCommand input
-filename "table1.1.tex"
+LatexCommand include
+filename "model3_altdv1.tex"
 
 \end_inset
 
@@ -4508,41 +4642,56 @@ filename "table1.1.tex"
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset ERT
+status open
 
-\size normal
-State-Level Variable Descriptions
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 
+\backslash
+begin{flushleft} 
+\backslash
+input{state_vars.tex}
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset CommandInset include
-LatexCommand input
-filename "state_vars.tex"
-
-\end_inset
+\begin_layout Plain Layout
 
 
+\backslash
+clearpage
 \end_layout
 
-\begin_layout Standard
-\align left
-\begin_inset Newpage pagebreak
-\end_inset
+\begin_layout Plain Layout
 
 
+\backslash
+footnotesize
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Plain Layout
 
-\size normal
-Descriptive Statistics for State-Level Data
+
+\backslash
+input{state_vars_summary.tex}
 \end_layout
 
-\begin_layout Standard
-\align center
-\begin_inset CommandInset include
-LatexCommand input
-filename "state_vars_summary.tex"
+\begin_layout Plain Layout
+
+
+\backslash
+normalsize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft} 
+\backslash
+end{center} 
+\end_layout
 
 \end_inset
 
