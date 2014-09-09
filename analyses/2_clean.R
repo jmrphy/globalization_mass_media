@@ -164,6 +164,14 @@ x$blame<-as.numeric(x$causes)
 x$open<-as.numeric(x$openprob2)
 x$OpennessXBlame<-x$open * x$blame
 
+surveyvars<-x[c("causes", "Age", "gender", "urban", "Interest", "college", "occ", "leftparty", "media", "genprob2", "openprob2",
+    "cause.gov", "cause.intl", "GovHandling", "mitterand", "PresSatisfaction")]
+require(arm)
+x$Age<-rescale(x$Age)
+x$Interest<-rescale(x$Interest)
+x$PresSatIV<-rescale(x$PresSatisfaction)
+
+
 
 #####################################
 #  State Data Cleaning   ###########
@@ -234,4 +242,4 @@ dfextra<-merge(dfex, union, by=c("scode", "year"), all.x=TRUE)
 rm(merged3, merged4, union, swank, gt, polity, dem, dfex)
 
 
-
+setwd("~/Dropbox/gh_projects/globalization_mass_media")

@@ -18,9 +18,10 @@ setwd("~/Dropbox/gh_projects/globalization_mass_media/")
 ### Model 1.A: Media and Blame (direct) #####
 #############################################
 library(Zelig)
+x1<-x[complete.cases(subset(x, select=c("causes", "Age", "gender", "urban", "Interest", "college", "occ", "leftparty", "media", "genprob2", "openprob2"))),]
 model1<-zelig(causes ~ Age + gender + urban + Interest + college + occ + leftparty + media + genprob2 + openprob2,
              model="logit",
-             data=x,
+             data=x1,
              cite=FALSE)
 
 ############## Model 1 - Blame Coefficient Plot #################
@@ -49,9 +50,17 @@ coefplot(model1,
          theme(text=element_text(size=10))
 ggsave(filename="article/model1.pdf", width=6, height=6)
 
-############## Model 1 - Media-Blame Effect Plot #################
+############## Model 1 - Media-Blame Effect #################
 
-source('~/Dropbox/Data General/Article1/media_blame_effect.R')
+x.high <- setx(model1, media = "Media")
+x.low <- setx(model1, media = "Other")
+s.out <- sim(model1, x = x.low, x1 = x.high)
+summary(s.out)
+
+x.high <- setx(model1, openprob2 = "Problem:Openness")
+x.low <- setx(model1, openprob2 = "Problem:Not Openness")
+s.out <- sim(model1, x = x.low, x1 = x.high)
+summary(s.out)
 
 ##############################################
 ## Supporting Information for Model 1: Blame
@@ -125,7 +134,7 @@ ggsave(filename="article/model1_altdv2.pdf", width=6, height=6)
 ############## Model 1.altdv2 - Int'l Blame Model Results Table #################
 
 stargazer(model1.altdv2,
-          title="Results Table for Model 1 with Alternative DV2: Blame International vs. All Others",
+          title="Results Table for Model 1 with Alternative DV: Blame International vs. All Others",
           dep.var.labels.include=FALSE,
           digits = 2,
           style = "ajps",
@@ -135,9 +144,11 @@ stargazer(model1.altdv2,
 ###########################################################
 ### Model 2: Media -> Openprob2 -> Blame (indirect) #####
 ###########################################################
-model2<-zelig(openprob2 ~ foreignprob2 + econprob2 + Age + gender + urban + Interest + college + occ + mitterand + leftparty + media,
+x2<-x[complete.cases(subset(x, select=c("Age", "gender", "urban", "Interest", "college", "occ", "mitterand", "leftparty", "media", "openprob2"))),]
+
+model2<-zelig(openprob2 ~ Age + gender + urban + Interest + college + occ + mitterand + leftparty + media,
               model="logit",
-              data=x,
+              data=x2,
               cite=FALSE)
 
 ############## Model 1.2 - Media -> Openprob2 #################
@@ -165,6 +176,11 @@ coefplot(model2,
   theme(text=element_text(size=10))
 ggsave(filename="article/model2.pdf", width=6, height=6)
 
+x.high <- setx(model2, media = "Media")
+x.low <- setx(model2, media = "Other")
+s.out <- sim(model2, x = x.low, x1 = x.high)
+summary(s.out)
+
 ##############################################
 ## Supporting Information for Model 2: Media->Openprob2->Blame
 ##############################################
@@ -183,14 +199,19 @@ stargazer(model2,
 ### Model 3: Government Handling ###
 ####################################
 
-###################### Model 2 ####################################
 library(Zelig)
 options(scipen=999)
-model<-glm(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + causes, data=x, family=gaussian)
-model3<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + causes,
+x3<-x[complete.cases(subset(x, select=c("Age", "gender", "urban", "Interest", "college", "occ", "mitterand", "GovHandling", "leftparty", "media", "genprob2", "PresSatIV", "causes",  "openprob2"))),]
+
+model3<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatIV + genprob2 + openprob2 + causes,
               model="ls",
-              data=x,
+              data=x3,
               cite=FALSE)
+
+x.high <- setx(model3, causes = "Blame International")
+x.low <- setx(model3, causes = "Blame Government")
+s.out <- sim(model3, x = x.low, x1 = x.high)
+summary(s.out)
 
 ################# Model 3 - Coefficient Plot #####################
 library(coefplot)
@@ -208,7 +229,7 @@ coefplot(model3,
                     "mediaMedia"="Media",
                     "openprob2Problem:Openness"="Problem:Openness",
                     "causesBlame International"="Blame International",
-                    "PresSatisfaction"="Presidential Satisfaction"),
+                    "PresSatIV"="Presidential Satisfaction"),
          pointsize=.5,
          color="black",
          lwdInner=0,
@@ -236,9 +257,9 @@ stargazer(model3,
 
 ################# Model 3 with alternative, full cause variable #########
 
-model3.altiv1<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatisfaction + genprob2 + openprob2 + cause,
+model3.altiv1<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatIV + genprob2 + openprob2 + cause,
               model="ls",
-              data=x,
+              data=x3,
               cite=FALSE)
 
 library(coefplot)
@@ -267,7 +288,7 @@ stargazer(model3.altiv1,
 
 model3.altdv1<-zelig(PresSatisfaction ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + GovHandling + genprob1 + openprob2 + causes,
                 model="ls",
-                data=x,
+                data=x3,
                 cite=FALSE)
 
 ############ Model 2.1 - PresSat Coefficient Plot ################

@@ -2457,7 +2457,7 @@ people like you and me.
 \end_inset
 
  
-\begin_inset Formula $General\: Problem\: Type$
+\begin_inset Formula $ProblemArea$
 \end_inset
 
  is a categorical variable with four levels indicating whether the problem
@@ -2823,9 +2823,22 @@ Findings and Discussion
 \end_layout
 
 \begin_layout Standard
-The coefficient plots in Figures 2 and 3 show statistical support for the
- expectation that mass media have both direct and indirect effects on blaming
- international forces for national problems.
+Before analysis, all numerical independent variables were de-meaned and
+ divided by two standard deviations so that coefficients reflect the expected
+ effect of a two standard deviation increase in the variable and are therefore
+ roughly comparable to the coefficients for any categorical independent
+ variables (Gelman 
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "Gelman:2008gz"
+
+\end_inset
+
+).
+ The coefficient plots in Figures 2 and 3 show mixed statistical support
+ for Hypothesis 1 regarding the expectation that mass media diffuse blame
+ for national problems away from governments and toward international forces
+ (directly and indirectly).
 \begin_inset Foot
 status collapsed
 
@@ -2843,14 +2856,47 @@ key "ZeligEveryonesSt:2009ts"
 
 \end_inset
 
- Considering the direct effect of mass media on blame attributions graphed
- in Figure 2, respondents who rely on the mass media as their most important
- source of information are significantly more likely to blame international
- forces for what they identify as one of the nation's top problems (a logit
- estimate of .35 and standard error of .12), even controlling for perceptions
- of economic openness as a problem and the more general issue area in which
- a respondent locates that problem.
- But as we would expect from previous research on public opinion and voting
+ Respondents who rely on the mass media as their most important source of
+ information are significantly more likely to blame international forces
+ for what they identify as one of the nation's top problems (a logit estimate
+ of .35 and standard error of .12), even controlling for perceptions of economic
+ openness as a problem and the more general issue area in which a respondent
+ locates that problem.
+ To get a better sense of the effect size, consider probabilities.
+ Based on 1000 simulations, the probability of blaming international forces
+ for a typical individual who does not rely primarily on the mass media
+ for information is .33.
+ Relying primarily on mass media increases this probability to .41 (a mean
+ change of .08 with a standard deviation of .03).
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Typical
+\begin_inset Quotes erd
+\end_inset
+
+ refers to mean values on the numerical independent variables and the reference
+ levels for categorical variables, i.e., in this case, a non-urban, non-university
+-educated, non-white-collar, non-left-party male at the mean age and with
+ mean levels of political interest, who identifies the second top problem
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+Economic
+\begin_inset Quotes erd
+\end_inset
+
+ and not related to economic openness.
+\end_layout
+
+\end_inset
+
+ Also as we would expect from previous research on public opinion and voting
  in open economies, the perception of economic openness as a problem also
  increases the probability a respondent will blame international forces
  for that problem.
@@ -2880,10 +2926,15 @@ because
  openness as one of the nation's top problems is the strongest determinant
  of whether a respondent will blame international forces for that problem
  (a logit estimate of 1.1 and standard error of .14).
- In turn, considering the indirect effect of mass media on blame attributions,
- reliance on mass media has a positive and statistically significant marginal
- effect on the perception of openness as a problem (a logit estimate of
- .44 and standard error of .18).
+ In this case, for a typical individual who identifies a top problem other
+ than one of openness the probability of blaming international forces is
+ .41 but for the same individual who identifies a top problem related to
+ openness, that probability increases to .68 (a mean increase of .26 and standard
+ deviation .03).
+ To fully appreciate how mass media shifts blame from government to internationa
+l forces, I also investigate the degree to which mass media accounts for
+ perceptions of openness.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2918,31 +2969,30 @@ Determinants of Blaming International Forces
 
 \end_inset
 
-As logit estimates are not readily interpretable, I calculate how a typical
- respondent's main source of information affects the probability they will
- blame international forces.
-\begin_inset Foot
-status collapsed
 
-\begin_layout Plain Layout
-``Typical
-\begin_inset Quotes erd
-\end_inset
-
- respondent refers to a female between the ages of 35 and 49, who is a left-part
-y voter, without a bachelor's degree.
- 
 \end_layout
 
-\end_inset
-
- The effect is small, increasing the probability of blaming international
- forces from about .34 to .38.
- Although, as the coefficient plot reveals, the effect is greater than zero
- at a 95% confidence level.
- Similarly, the indirect effect of mass media on blame, through its effects
- on perceptions of openness, is only slightly larger than the direct effect
- in terms of probability.
+\begin_layout Standard
+Model 2 considers the indirect effect of mass media on blame attributions
+ through their effect on perceptions of openness as a problem.
+ Reliance on mass media has a positive marginal effect on the perception
+ of openness as a problem (a logit estimate of .33 and standard error of
+ .17; 
+\emph on
+p
+\emph default
+=.06).
+ For a typical individual who does not rely primarily on mass media, the
+ probability of perceiving an issue of openness to be a top problem is .08;
+ relying on mass media increases this probability by a mean of .03 (standard
+ deviation = .01) to .11.
+ Thus, the indirect effect of mass media on blaming international forces,
+ through its slight marginal effect on the perception of openness as a problem,
+ is .01 (.26*.03).
+ The small size of this effect and its statistical significance near the
+ conventional cutoff of 95% confidence suggest only weak evidence that mass
+ media exerts much indirect effect on blame attributions by increasing awareness
+ of openness as a problem.
 \end_layout
 
 \begin_layout Standard
@@ -2981,9 +3031,13 @@ Determinants of Perceiving Openness as a Top Problem
 \end_layout
 
 \begin_layout Standard
-The coefficient plot in Figure 3 reveals statistical evidence for the expectatio
-n that blaming international forces, in turn, has a positive effect on evaluatio
-ns of the government.
+The coefficient plot for Model 3, testing Hypothesis 2, reveals statistical
+ evidence for the expectation that blaming international forces, in turn,
+ has a positive effect on evaluations of the government 
+\emph on
+(
+\emph default
+logit estimate = .38, standard error = .03).
 \begin_inset Foot
 status collapsed
 
@@ -3034,7 +3088,35 @@ ip and the two separate controls for support of President Mitterrand likely
 
 \end_inset
 
+ Simulating quantities of interest suggests that blaming international forces
+ for a top problem increases a typical individual's evaluation of government
+ handling by .38 (standard devation = .03), from 1.6 to 2.0 on the four-point
+ scale of the dependent variable.
+\begin_inset Foot
+status collapsed
 
+\begin_layout Plain Layout
+These results also hold when the dependent variable refers to satisfaction
+ with the President.
+ See supplementary information.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus the results provide evidence consistent with each essential step of
+ the causal chain at the individual level, though there is only weak evidence
+ that mass media exert an indirect effect on diffusing blame (by increasing
+ perceptions of openness as a problem).
+ Rather, the evidence suggests that mass media directly diffuse blame away
+ from governments toward international forces (increasing the probability
+ of blaming international forces by about 8%) even controlling for the general
+ issue area in which the respondent locates a top problem and whether it
+ is related to openness.
 \end_layout
 
 \begin_layout Standard
@@ -3072,41 +3154,16 @@ Determinants of Government Evaluations
 \end_layout
 
 \begin_layout Standard
-Calculating the effect size on the four-point scale of the dependent variable,
- the typical respondent would be expected to increase their evaluation of
- the government roughly .25 points after a shift in blame toward international
- forces.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-These results also hold when the dependent variable refers to satisfaction
- with the President.
- See appendix.
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Table 1 displays results from three regression models which provide initial
  support for the state-level expectations regarding the effect of mass media
  on the globalization-welfare relationship.
  In each of the three model specifications, the variable Trade*MDI is negative
  and statistically significant, suggesting that media density decreases
  the effect that trade has on government consumption expenditure.
- Before the analysis, all variables were de-meaned and divided by two standard
- deviations so that the coefficient for any independent variable can be
- interpreted as the expected effect of a two standard deviation increase
- in that variable.
- In other words, the coefficient of -.97 for Trade*MDI in Model 1 suggests
- that, on average, a two standard deviation increase in media density (109.3
- points) in the long-run decreases the effect that a two standard deviation
- increase in trade openness (85.2% of GDP) has on government spending by
- .97% of GDP.
+ The coefficient of -.97 for Trade*MDI in Model 1 suggests that, on average,
+ a two standard deviation increase in media density (109.3 points) in the
+ long-run decreases the effect that a two standard deviation increase in
+ trade openness (85.2% of GDP) has on government spending by .97% of GDP.
  Model 3 estimates that this negative conditioning effect of media density
  is as little as .61% of GDP.
  Moving from the minimum density of media (0) to the maximum in the sample
@@ -4663,13 +4720,6 @@ Model 3
 LatexCommand include
 filename "model3_altdv1.tex"
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
