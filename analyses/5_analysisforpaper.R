@@ -88,7 +88,7 @@ coefplot(model1.altdv1,
   theme_bw() +
   theme(title=element_text(size=8)) + 
   theme(text=element_text(size=10))
-ggsave(filename="article/model1_coefs_altdv1.pdf", width=6, height=6)
+ggsave(filename="article/model1_altdv1.pdf", width=6, height=6)
 
 ############## Model 1.altdv1 - Gov't Blame Model Results Table #################
 
@@ -125,7 +125,7 @@ ggsave(filename="article/model1_altdv2.pdf", width=6, height=6)
 ############## Model 1.altdv2 - Int'l Blame Model Results Table #################
 
 stargazer(model1.altdv2,
-          title="Results Table for Model 1 with Alternative DV2: Blame Government vs. All Others",
+          title="Results Table for Model 1 with Alternative DV2: Blame International vs. All Others",
           dep.var.labels.include=FALSE,
           digits = 2,
           style = "ajps",

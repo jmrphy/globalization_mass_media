@@ -2055,6 +2055,17 @@ includegraphics[scale=1.5]{formal_model.png}
 
 
 \backslash
+caption{Effect on 
+\backslash
+(F_l
+\backslash
+) from an Increase in Mass Media}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 end{figure}
 \end_layout
 
@@ -2106,9 +2117,16 @@ As the value of
 \backslash
 (m
 \backslash
-) increases the left-hand side of equation 9 relative to the right-hand
- side.
- This demonstrates that as 
+) increases the left-hand side of (9) relative to the right-hand side.
+ The greater area under 
+\backslash
+(F_l^{new}
+\backslash
+) compared to 
+\backslash
+(F_l
+\backslash
+) demonstrates that as 
 \backslash
 (m
 \backslash
@@ -2118,8 +2136,8 @@ As the value of
 \backslash
 Omega
 \backslash
-) is more likely to win the electoral game holding the compensation package
- constant.
+) is more likely to win the electoral game while holding the compensation
+ package constant.
 \end_layout
 
 \end_inset
@@ -2890,7 +2908,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Direct Effect of Mass Media on Blaming International Forces
+Determinants of Blaming International Forces
 \end_layout
 
 \end_inset
@@ -2949,7 +2967,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Effect of Mass Media on Perception of Openness as a Top Problem
+Determinants of Perceiving Openness as a Top Problem
 \end_layout
 
 \end_inset
@@ -3040,7 +3058,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Effects of Blame on Evaluations of the Government
+Determinants of Government Evaluations
 \end_layout
 
 \end_inset
@@ -3306,23 +3324,30 @@ Conclusion
 This study has presented individual- and state-level evidence that mass
  media functions as a political institution which conditions the domestic
  politics of economic globalization.
- Because politicians use mass media to avoid blame, mass media decrease
- the accountability of national economic policymakers who pursue liberalization.
- Survey evidence shows that individuals most reliant on mass media are less
- likely to blame incumbent governments for problems wrought by economic
- liberalization.
+ Because the dominant social construction of economic globalization is that
+ of an external constraint imposed on policymakers by impersonal and internation
+al forces, by amplifying this construction mass media decrease the accountabilit
+y of national economic policymakers who pursue liberalization.
+ Survey evidence from France shows that individuals most reliant on mass
+ media are less likely to blame top national problems on incumbent governments,
+ and more likely to blame international forces, for indirect and direct
+ reasons.
  Mass media 
 \emph on
 indirectly
 \emph default
- deflects blame away from incumbent governments by making individuals more
- aware of economic openness as a political issue, but it also 
+ deflects blame away from incumbent governments and toward international
+ forces by making individuals more aware of economic openness as a political
+ issue, but it also 
 \emph on
 directly
 \emph default
- decreases individuals' propensities to blame incumbents (controlling for
- the awareness effect), most likely due to framing effects inherent in mass
- media.
+ decreases individuals' propensities to blame incumbents relative to internation
+al forces (controlling for the awareness effect), most likely due to the
+ responsbility-diffusing framing effects previously found in mass media
+ studies.
+ In turn, individuals who blame international forces rather than the government
+ evaluate the government more favorably.
  Cross-sectional, time-series data reveal that mass media is associated
  with a decrease in the relationship between economic openness and welfare-state
  spending, providing further evidence that mass media diffuses the domestic
@@ -3330,14 +3355,15 @@ directly
  welfare-state compensation for aggreived domestic groups.
  The state-level evidence is consistent with the individual-level evidence
  that mass media shifts blame attributions away from governments and toward
- unaccountable international forces, which in turn allows national economic
- policymakers to neglect welfare-state compensation of harmed domestic groups.
+ international forces, which weakens the strategic pressure on national
+ economic policymakers to provide welfare-state compensation to harmed domestic
+ groups.
 \end_layout
 
 \begin_layout Standard
 The findings have several implications for the study of international and
- comparative politics and one important substantive implication for the
- prospects of democracy in a globalized world.
+ comparative politics and for the prospects of democracy in a globalized
+ world.
  First, the results provide some of the first evidence that mass media can
  be understood as a political institution that conditions the domestic politics
  of the global economy, thus placing on the agenda a source of cross-national
@@ -3401,7 +3427,7 @@ key "Katzenstein:1998ef,Checkel:1997cw,Zurn:2005ja"
 Finally, the state-level findings in particular have an important substantive
  implication, for they suggest that the omission of mass media in previous
  studies has led to biased conclusions which over-estimate the egalitarian
- effects of democratic institutions in the globalization-welfare nexus.
+ responsiveness of welfare states in the globalization-welfare nexus.
  The evidence suggests that from the standpoint of democratic values, mass
  media can have subtle but perverse effects on the distributive politics
  of open economies, disempowering domestic groups from holding national
@@ -3433,10 +3459,10 @@ options "plainnat"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section*
 
 \size normal
-Supporting Information
+Supplementary Information
 \end_layout
 
 \begin_layout Subsection*
@@ -3452,7 +3478,7 @@ Text of Key Survey Questions
 
 \begin_layout Standard
 \noindent
-Descriptive Statistics for Survey Data
+Descriptive Statistics for Individual-Level Survey Data
 \end_layout
 
 \begin_layout Standard
@@ -3752,9 +3778,33 @@ footnotesize
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
-begin{longtable}{lrrrrrrrrrr}  
+begin{longtable}{lrrrrrrrrrr}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Individual-Level Summary Statistics for Continuous Variables}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 textbf{Variable} & $
 \backslash
@@ -3812,8 +3862,6 @@ hline x.age & 29009 & 1 & 2 & 3 & 3.1 & 4 & 5 & 1.3 & 2 &    0
 \backslash
 hline 
 \backslash
-caption{} 
-\backslash
 label{} 
 \backslash
 end{longtable}
@@ -3827,7 +3875,27 @@ end{longtable}
 
 
 \backslash
-begin{longtable}{ll|rrr}  
+begin{longtable}{ll|rrr}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Individual-Level Summary Statistics for Categorical Variables}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 textbf{Variable} & 
 \backslash
@@ -4377,8 +4445,6 @@ hline
 \backslash
 hline 
 \backslash
-caption{} 
-\backslash
 label{} 
 \backslash
 end{longtable}
@@ -4404,10 +4470,6 @@ end{longtable}
 Additional Individual-Level Model Results
 \end_layout
 
-\begin_layout Subsubsection*
-Results Table for Model 1: Effects of Mass Media on Blame Attributions
-\end_layout
-
 \begin_layout Standard
 \align center
 \begin_inset CommandInset include
@@ -4419,11 +4481,6 @@ filename "model1.tex"
 
 \end_layout
 
-\begin_layout Subsubsection*
-Model 1 Alternative DV #1: Blame Government vs.
- Any Other
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -4432,7 +4489,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename model1.pdf
+	filename model1_altdv1.pdf
 
 \end_inset
 
@@ -4443,7 +4500,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Model1 with Alternative DV: Blame Government vs.
+Model 1 with Alternative DV: Blame Government vs.
  All Others
 \end_layout
 
@@ -4462,11 +4519,6 @@ filename "model1.altdv1.tex"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection*
-Model 1 Alternative DV #2: Blame International vs.
- Any Other
 \end_layout
 
 \begin_layout Standard
@@ -4488,7 +4540,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Model1 with Alternative DV: Blame Government vs.
+Model 1 with Alternative DV: Blame Government vs.
  All Others
 \end_layout
 
@@ -4509,11 +4561,6 @@ filename "model1.altdv2.tex"
 
 \end_layout
 
-\begin_layout Subsubsection*
-Results Table for Model 2: Effects of Mass Media on Perceptions of Openness
- as a Problem
-\end_layout
-
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
@@ -4524,10 +4571,6 @@ filename "model2.tex"
 
 \end_layout
 
-\begin_layout Subsubsection*
-Results Table for Model 3: Government Handling
-\end_layout
-
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
@@ -4536,10 +4579,6 @@ filename "model3.tex"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection*
-Model 3 Alternative IV: All Causes
 \end_layout
 
 \begin_layout Standard
@@ -4561,7 +4600,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Model 3 Alternative IV: All Causes
+Model 3 with Alternative IV: All Causes
 \end_layout
 
 \end_inset
@@ -4572,10 +4611,6 @@ Model 3 Alternative IV: All Causes
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection*
-Results Table for Model 3 Alternative IV: All Causes
 \end_layout
 
 \begin_layout Standard
@@ -4586,10 +4621,6 @@ filename "model3_altiv1.tex"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection*
-Model 3 Alternative DV: Presidential Satisfaction
 \end_layout
 
 \begin_layout Standard
@@ -4611,7 +4642,10 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Model 3 Alternative DV: Presidential Satisfaction
+Model 3
+ with
+\lang english
+ Alternative DV: Presidential Satisfaction
 \end_layout
 
 \end_inset
