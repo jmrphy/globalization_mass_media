@@ -2166,33 +2166,47 @@ Hypothesis 3: At the state level, the interaction of economic globalization
 \end_layout
 
 \begin_layout Standard
+\noindent
 \align center
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Flowchart.eps
-
-\end_inset
 
 
+\backslash
+begin{figure}
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption
 
-\begin_layout Plain Layout
-Summary of the Hypothesized Effects of Perception and Mass Media in Domestic
- Responses to Economic Liberalization
+
+\backslash
+centering
 \end_layout
 
-\end_inset
+\begin_layout Plain Layout
 
 
+\backslash
+centerline{
+\backslash
+includegraphics[scale=.45]{flowchart.pdf}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Summary of the Hypothesized Effects of Perception and Mass Media
+ in Domestic Responses to Economic Liberalization}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
 \end_layout
 
 \end_inset
@@ -3109,11 +3123,11 @@ These results also hold when the dependent variable refers to satisfaction
 
 \begin_layout Standard
 Thus the results provide evidence consistent with each essential step of
- the causal chain at the individual level, though there is only weak evidence
- that mass media exert an indirect effect on diffusing blame (by increasing
- perceptions of openness as a problem).
- Rather, the evidence suggests that mass media directly diffuse blame away
- from governments toward international forces (increasing the probability
+ the causal chain at the individual level, though the estimated indirect
+ effect of mass media on diffusing blame (through increasing perceptions
+ of openness as a problem) is very weak.
+ Nonetheless, the evidence suggests that mass media directly diffuse blame
+ away from governments toward international forces (increasing the probability
  of blaming international forces by about 8%) even controlling for the general
  issue area in which the respondent locates a top problem and whether it
  is related to openness.
@@ -4699,10 +4713,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Model 3
- with
-\lang english
- Alternative DV: Presidential Satisfaction
+Model 3 with Alternative DV: Presidential Satisfaction
 \end_layout
 
 \end_inset
