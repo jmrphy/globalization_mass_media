@@ -103,10 +103,10 @@ ility, this article develops an argument about the effects of mass media
  The evidence shows that mass media diffuse the political backlash from
  groups harmed by globalization, leading to weakened welfare-state responsivenes
 s.
- By providing novel evidence of the socially-constructed nature of international
- politics using formal and quantitative tools within a rational-choice framework
-, the article contributes to bridging the divide between rationalism and
- constructivism in international relations and comparative politics.
+ A key implication is that this article provides novel empirical evidence
+ of the socially-constructed nature of international politics and contributes
+ to bridging the divide between rationalism and constructivism in international
+ relations research.
 \end_layout
 
 \begin_layout Abstract
@@ -145,10 +145,12 @@ key "Hellwig:2007wt"
 The Great Transformation,
 \emph default
  is that policymakers who wish to liberalize economic markets are held accountab
-le by those groups who would suffer the adjustment costs (
+le by those groups who would suffer the adjustment costs (Polanyi [1944]
+ 
 \begin_inset CommandInset citation
-LatexCommand citealt
-key "Polanyi:2001vc,Ruggie:1982wx"
+LatexCommand citeyear
+after "79, 385"
+key "Polanyi:2001vc"
 
 \end_inset
 
@@ -231,7 +233,7 @@ key "Hay:2011dh,Hay:2005dh,Hay:2002iy"
 
 \end_inset
 
-) .
+).
 \end_layout
 
 \begin_layout Standard
@@ -301,14 +303,12 @@ key "JamesMSnyder:2012th,Besley:2002tg,Adsera:2003cc"
 ).
  Yet, in the specific context of the distributive domestic politics of globaliza
 tion, the preponderance of previous research strongly converges on a set
- of counter-intuitive arguments: 
-\emph on
-By amplifying the dominant construction of globalization as an external
- imperative constraining policymakers and therefore shifting citizen blame
- attributions away from governments and toward international forces, the
- mass media play an independent causal role in reducing the ability of domestic
- groups to hold national policymakers accountable for the effects of economic
- openness.
+ of counter-intuitive arguments: By amplifying the dominant construction
+ of globalization as an external imperative constraining policymakers and
+ in this way shifting citizen blame attributions away from governments and
+ toward international forces, the mass media play an independent causal
+ role in reducing the ability of domestic groups to hold national policymakers
+ accountable for the effects of economic openness.
  In turn, as the global economy and mass media penetrate states, national
  policymakers face less pressure to compensate protectionist domestic groups
  for economic hardships linked to the global economy.
@@ -377,7 +377,6 @@ key "Kayser:2007iga"
  this tradition (
 \begin_inset CommandInset citation
 LatexCommand citealt
-after "474"
 key "Hays:2005vo,Walter:2010ky"
 
 \end_inset
@@ -399,7 +398,11 @@ logic of consequences
 \begin_inset Quotes eld
 \end_inset
 
-logic of appropriateness (
+logic of appropriateness
+\begin_inset Quotes erd
+\end_inset
+
+ (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Dessler:2005io"
@@ -407,9 +410,6 @@ key "Dessler:2005io"
 \end_inset
 
 ).
-\begin_inset Quotes erd
-\end_inset
-
  The article shows that some dynamics in the logic of appropriateness (in
  this case, the reality-constructing power of the mass media) can also be
  modeled for the logic of their consequences.
@@ -453,7 +453,7 @@ Adser
 
 \end_inset
 
- and Boix
+ and Boix 
 \begin_inset CommandInset citation
 LatexCommand citeyear
 key "Adsera:2002vt"
@@ -525,15 +525,15 @@ on or expansion of markets often induces political backlash from domestic
  increasing openness breaks down.
  In the 1940s, Karl Polanyi first advanced this perspective in his famous
  notion of the ``double movement" that characterizes market expansions and
- corresponding expansions of state welfare provision (
+ corresponding expansions of state welfare provision (Polanyi [1944] 
 \begin_inset CommandInset citation
-LatexCommand citealt
+LatexCommand citeyear
 after "79, 385"
 key "Polanyi:2001vc"
 
 \end_inset
 
-;).
+).
  Even across much disagreement about which aspects of economic openness
  have the most effect on the various components of welfare spending (
 \begin_inset CommandInset citation
@@ -545,7 +545,7 @@ key "Mares:2004el,Ansell:2008wl,Burgoon:2001dp"
 ), in which countries the relationship holds (
 \begin_inset CommandInset citation
 LatexCommand citealt
-key "Rudra:2002ui,Anonymous:2008ur"
+key "Rudra:2002ui"
 
 \end_inset
 
@@ -567,7 +567,7 @@ Despite the leverage it provides to most models of the relationship between
  for the assumption that domestic groups harmed by economic liberalization
  exert sufficient political pressure on national policymakers that policymakers
  provide welfare compensation to appease them.
- Hays, Ehrlich, and Peinhardt
+ Hays, Ehrlich, and Peinhardt 
 \begin_inset CommandInset citation
 LatexCommand citeyearpar
 key "Hays:2005vo"
@@ -603,7 +603,7 @@ key "Margalit:2011hm"
  public perceptions and electoral consequences of liberalization and if
  different dimensions of liberalization have the same domestic effects as
  offshoring in particular.
- For instance,
+ For instance, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Guisinger:2009vt"
@@ -823,10 +823,10 @@ key "Hood:2002ko"
 
 \end_inset
 
-suggests that by lowering the potential costs of communicating malign policy
+ suggests that by lowering the potential costs of communicating malign policy
  effects to harmed groups, mass media may increase the incentives for politician
 s to avoid blame.
- See also
+ See also 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Hood:2009ed"
@@ -877,7 +877,7 @@ key "Iyengar:1987uo"
 
 \end_inset
 
-;
+; 
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Iyengar:1991uf"
@@ -953,9 +953,9 @@ Theory and Hypotheses
 \end_layout
 
 \begin_layout Standard
-The central premise of this article is the stylized empirical fact that
- issues of economic openness have been socially constructed by elite opinion-lea
-ders as an external and objective process, typically known as 
+A central premise of this article is the stylized empirical fact that issues
+ of economic openness have been socially constructed by elite opinion-leaders
+ as an external and objective process, typically known as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -966,21 +966,18 @@ globalization,
  which shapes policymakers' room-to-maneuver (
 \begin_inset CommandInset citation
 LatexCommand citealt
-key "Hay:2002iy,Hay:2011dh"
+key "Hay:2002iy,Hay:2005dh,Hay:2011dh"
 
 \end_inset
 
 ).
- The novel and central theoretical 
-\emph on
-claim
-\emph default
- of this article is that the mass media diffuse responsibility for policies
- of economic liberalization over and above whatever diffusion of responsibility
- is created by the objective realities of economic openness.
+ The novel and central theoretical claim of this article is that the mass
+ media diffuse responsibility for policies of economic liberalization over
+ and above whatever diffusion of responsibility is created by the objective
+ realities of economic openness.
  The warrant for this claim is straightforward: the mass media amplify and
- extend the reach of dominant social constructions beyond the reach they
- would have in the absence of mass media.
+ extend the reach of elite-sponsored social constructions beyond the reach
+ they would have in the absence of mass media.
  This section develops the reasoning which moves from this premise to the
  central claim and then deduces a series of hypotheses regarding how mass
  media should be expected to affect individuals' perceptions of economic
@@ -992,8 +989,7 @@ claim
 Previous research amply demonstrates that the dominant social construction
  of economic globalization is that of an external, objective pressure on
  policymakers---an image of economic globalization which commands a relative
- consensus among elites---standard indexing theory implies that mass media
- reportage will tend to mirror this relative elite consensus.
+ consensus among elites.
  In addition to the multiple studies by Colin Hay and associates on elite
  discourse from multiple European countries, empirical evidence for an elite
  consensus is also ample from other research on the domestic politics of
@@ -1013,7 +1009,7 @@ key "Hellwig:2011iu"
 
 \end_inset
 
-)
+).
 \begin_inset Foot
 status collapsed
 
@@ -1040,7 +1036,6 @@ key "Hellwig:2011iu"
 
 \end_inset
 
-.
  
 \end_layout
 
@@ -1048,9 +1043,8 @@ key "Hellwig:2011iu"
 Given this elite consensus regarding the dominant social construction of
  globalization, standard theories of media coverage lead to the expectation
  that the media will tend to amplify this particular social construction.
- One of the standard theories of political news coverage, the theory of
- indexing, suggests that the distribution of news coverage of political
- issues tends to follow the distribution of elite opinion.
+ The theory of indexing suggests that the distribution of news coverage
+ of political issues tends to follow the distribution of elite opinion.
  Elite consensus on a particular issues tends toward consenus in the reportage
  of that issue, but elite dissensus constitutes the space in which competing
  views will be reported (
@@ -2232,7 +2226,7 @@ Full summary statistics for both datasets can be found in the online appendix.
 
 \end_inset
 
-The individual-level data come from a Legidoscope survey of public opinion
+ The individual-level data come from a Legidoscope survey of public opinion
  in France between 1992 and 1993 (
 \begin_inset CommandInset citation
 LatexCommand citealt
@@ -2379,52 +2373,10 @@ To test the direct and indirect effects of mass media on blame (Hypothesis
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{eqnarray}
-\end_layout
-
-\begin_layout Plain Layout
-
-Blame_{i} & = & 
-\backslash
-alpha+
-\backslash
-beta_{1}General
-\backslash
-: Problem
-\backslash
-: Type_{i}+
-\backslash
-beta_{2}Openness
-\backslash
-: Problem_{i}+
-\backslash
-beta_{3}Media_{i}+ 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  & 
-\backslash
-beta_{4}Controls_{i}+e_{i},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{eqnarray}
-\end_layout
+\begin_inset Formula 
+\begin{equation}
+Blame_{i}=\alpha+\beta_{1}ProblemArea_{i}+\beta_{2}Openness\: Problem_{i}+\beta_{3}Media_{i}+\beta_{4}Controls_{i}+e_{i}
+\end{equation}
 
 \end_inset
 
@@ -2521,50 +2473,10 @@ Then, to assess the indirect effect of mass media on blame as its channeled
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{eqnarray}
-\end_layout
-
-\begin_layout Plain Layout
-
-Openness
-\backslash
-:Problem_{i} & = & 
-\backslash
-alpha+
-\backslash
-beta_{1}General
-\backslash
-:Problem
-\backslash
-:Type_{i}+
-\backslash
-beta_{2}Media_{i}+ 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  & 
-\backslash
-beta_{3}Controls_{i}+e_{i}.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{eqnarray}
-\end_layout
+\begin_inset Formula 
+\begin{equation}
+Openness\: Problem_{i}=\alpha+\beta_{1}ProblemArea_{i}+\beta_{2}Media_{i}+\beta_{3}Controls_{i}+e_{i}
+\end{equation}
 
 \end_inset
 
@@ -2595,54 +2507,10 @@ To test Hypothesis 2 regarding the effect of blame attributions on evaluations
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{eqnarray}
-\end_layout
-
-\begin_layout Plain Layout
-
-Gov
-\backslash
-:Handling_{i} & = & 
-\backslash
-alpha+
-\backslash
-beta_{1}General
-\backslash
-:Problem
-\backslash
-:Type_{i}+
-\backslash
-beta_{2}Openness
-\backslash
-:Problem_{i}+ 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  & 
-\backslash
-beta_{3}Blame_{i} + 
-\backslash
-beta_{4}Controls_{i}+e_{i},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{eqnarray}
-\end_layout
+\begin_inset Formula 
+\begin{equation}
+Gov\: Handling_{i}=\alpha+\beta_{1}ProblemArea_{i}+\beta_{2}Openness\: Problem_{i}+\beta_{3}Blame_{i}+\beta_{4}Controls_{i}+e_{i}
+\end{equation}
 
 \end_inset
 
@@ -2723,46 +2591,10 @@ See online appendix.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{eqnarray}
-\end_layout
-
-\begin_layout Plain Layout
-
-Spending_{it}& = &
-\backslash
-alpha+
-\backslash
-beta_{1}Trade_{it}+
-\backslash
-beta_{2}MDI_{it}+
-\backslash
-beta_{3}Trade_{it}*MDI_{it}+ 
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-&  & 
-\backslash
-beta_{4}Controls_{it}+e_{it},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{eqnarray}
-\end_layout
+\begin_inset Formula 
+\begin{equation}
+Spending_{it}=\alpha+\beta_{1}Trade_{it}+\beta_{2}MDI_{it}+\beta_{3}Trade_{it}*MDI_{it}+\beta_{4}Controls_{it}+e_{it}
+\end{equation}
 
 \end_inset
 
@@ -2854,10 +2686,25 @@ key "Gelman:2008gz"
  for national problems away from governments and toward international forces
  (directly and indirectly).
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Numerical model results are available in the appendix.
+On the use of graphs in lieu of tables, see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Gelman:2002ih"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kastellec:2007ha"
+
+\end_inset
+
+.
+ Numerical model results are included in Supplementary Information.
  All models were estimated with the Zelig package in R (
 \begin_inset CommandInset citation
 LatexCommand citealt
@@ -2865,7 +2712,7 @@ key "ZeligEveryonesSt:2009ts"
 
 \end_inset
 
-)
+).
 \end_layout
 
 \end_inset
@@ -2945,9 +2792,24 @@ because
  .41 but for the same individual who identifies a top problem related to
  openness, that probability increases to .68 (a mean increase of .26 and standard
  deviation .03).
- To fully appreciate how mass media shifts blame from government to internationa
-l forces, I also investigate the degree to which mass media accounts for
- perceptions of openness.
+ To check the robustness of this finding, I also estimate several models
+ using different operationalizations of the dependent variable.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Whereas Model 1 considers for simplicity the binary opposition between blaming
+ the government (dependent variable equal to 0) and blaming international
+ forces (dependent variable equal to 1), I estimated additional models where
+ the binary dependent variable opposes each of these targets of blame to
+ anyone who blames any other target.
+ See Supplementary Information.
+\end_layout
+
+\end_inset
+
+ These additional models are consistent with the evidence presented in this
+ section.
  
 \end_layout
 
@@ -3106,35 +2968,21 @@ ip and the two separate controls for support of President Mitterrand likely
  for a top problem increases a typical individual's evaluation of government
  handling by .38 (standard devation = .03), from 1.6 to 2.0 on the four-point
  scale of the dependent variable.
+ These results also hold when the dependent variable refers to satisfaction
+ with the President rather than government handling of a top problem.
+ They are also robust to an expanded operationalization of the blame variable
+ considering the government, international forces, and other possible targets.
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-These results also hold when the dependent variable refers to satisfaction
- with the President.
- See supplementary information.
+See Supplementary Information.
  
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Thus the results provide evidence consistent with each essential step of
- the causal chain at the individual level, though the estimated indirect
- effect of mass media on diffusing blame (through increasing perceptions
- of openness as a problem) is very weak.
- Nonetheless, the evidence suggests that mass media directly diffuse blame
- away from governments toward international forces (increasing the probability
- of blaming international forces by about 8%) even controlling for the general
- issue area in which the respondent locates a top problem and whether it
- is related to openness.
-\end_layout
-
-\begin_layout Standard
-\align center
 \begin_inset Float figure
 wide false
 sideways false
@@ -3168,17 +3016,29 @@ Determinants of Government Evaluations
 \end_layout
 
 \begin_layout Standard
+Thus the results provide evidence consistent with each essential step of
+ the causal chain at the individual level, though the estimated indirect
+ effect of mass media on diffusing blame (through increasing perceptions
+ of openness as a problem) is very weak.
+ Nonetheless, the evidence suggests that mass media directly diffuse blame
+ away from governments toward international forces (increasing the probability
+ of blaming international forces by about 8%) even controlling for the general
+ issue area in which the respondent locates a top problem and whether it
+ is related to openness.
+\end_layout
+
+\begin_layout Standard
 Table 1 displays results from three regression models which provide initial
  support for the state-level expectations regarding the effect of mass media
  on the globalization-welfare relationship.
  In each of the three model specifications, the variable Trade*MDI is negative
  and statistically significant, suggesting that media density decreases
  the effect that trade has on government consumption expenditure.
- The coefficient of -.97 for Trade*MDI in Model 1 suggests that, on average,
+ The coefficient of -.97 for Trade*MDI in Model 4 suggests that, on average,
  a two standard deviation increase in media density (109.3 points) in the
  long-run decreases the effect that a two standard deviation increase in
  trade openness (85.2% of GDP) has on government spending by .97% of GDP.
- Model 3 estimates that this negative conditioning effect of media density
+ Model 6 estimates that this negative conditioning effect of media density
  is as little as .61% of GDP.
  Moving from the minimum density of media (0) to the maximum in the sample
  (313.3) is associated, on average, with a decrease of as much as 2.78%, and
@@ -3195,7 +3055,7 @@ Table 1 displays results from three regression models which provide initial
 \end_layout
 
 \begin_layout Standard
-Models 1 and 2 consider variable levels only, while Model 3 is an error-correcti
+Models 4 and 5 consider variable levels only, while Model 6 is an error-correcti
 on model using first-differences or year-to-year changes in the dependent
  variable and lagged levels of the dependent variable on the right-hand
  side of the equation, with levels and first-differences of the key independent
@@ -3225,20 +3085,56 @@ The error-correction specification is useful here for another reason.
  All three models include fixed effects for country and year to account
  for unobserved differences in countries or unobserved temporal shocks in
  any particular year.
- To control for the clustering of errors within countries and the possibility
- of downwardly biased standard errors, I subsequently calculated panel-corrected
- standard errors following Beck and Katz 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This was done using the 
+\begin_inset Quotes eld
+\end_inset
+
+within
+\begin_inset Quotes erd
+\end_inset
+
+ transformation and 
+\begin_inset Quotes eld
+\end_inset
+
+two-way
+\begin_inset Quotes erd
+\end_inset
+
+ effect option in the 
+\emph on
+plm 
+\emph default
+package for R (
 \begin_inset CommandInset citation
-LatexCommand citeyearpar
-key "Anonymous:DMdF8icE"
+LatexCommand citealt
+key "Croissant:2013ty"
 
 \end_inset
 
-.
+).
+\end_layout
+
+\end_inset
+
+ To control for the clustering of errors within countries and the possibility
+ of downwardly biased standard errors, I also calculated panel-corrected
+ standard errors following Beck and Katz (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "Beck:1995hm"
+
+\end_inset
+
+).
  Panel-corrected standard errors did not appreciably change the statistical
  significance of any estimates reported in this paper.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 It is common to display the panel-corrected standard errors rather than
@@ -3256,7 +3152,7 @@ key "Wilson:2007kz"
  data.
  Fixed effects, lagged dependent variables, and dynamic specifications are
  some of the other techniques stressed by those authors.
- Here, I employ all of these techniques, and in some cases all together.
+ Here, I employ all of these latter techniques, and in some cases all together.
 \end_layout
 
 \end_inset
@@ -3265,9 +3161,9 @@ key "Wilson:2007kz"
 \end_layout
 
 \begin_layout Standard
-Columns 2 and 3 test the conditioning effect of media density against the
- conditioning effects of democracy on the trade-welfare relationship, which
- previous research has found to increase the redistributive responsiveness
+Models 5 and 6 also test the conditioning effect of media density against
+ the conditioning effects of democracy on the trade-welfare relationship,
+ which previous research has found to increase the redistributive responsiveness
  of domestic welfare spending to international trade (
 \begin_inset CommandInset citation
 LatexCommand citealt
@@ -3278,23 +3174,6 @@ key "Adsera:2002vt"
 ), suggests that media density has a robust conditioning effect on the relations
 hip between trade and spending, while the interaction found by Adserà and
  Boix no longer appears statistically distinguishable from zero.
-\end_layout
-
-\begin_layout Standard
-\paragraph_spacing single
-\noindent
-\align center
-\begin_inset CommandInset include
-LatexCommand input
-filename "main_state_models_standardized.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Rival Hypotheses at the State-Level 
 \end_layout
 
 \begin_layout Standard
@@ -3347,11 +3226,21 @@ key "Iversen:2000ch"
 
 ) that deindustrialization rather than globalization has driven the expansion
  of welfare spending since the 1960s.
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "main_state_models_standardized.tex"
 
-\begin_layout Standard
-In Table 2, I re-estimate the error-correction model (as in Column 3 of
- Table 1) controlling for each of the rival explanations above.
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "rival_models_standardized.tex"
+
+\end_inset
+
+In Table 2, I re-estimate the error-correction model (as in Model 6 of Table
+ 1) controlling for each of the rival explanations above.
 \begin_inset Foot
 status collapsed
 
@@ -3368,21 +3257,8 @@ See Supporting Information for more information on variable descriptions
  is not a spurious correlation due to an omitted variable.
  Rather, the state-level models overall furnish another level of robust
  evidence that mass media shape perceptions and blame attributions around
- economic globalization in a way that diffuses the domestic political pressure
- required for compensatory, redistributive policy response.
-\end_layout
-
-\begin_layout Standard
-\paragraph_spacing single
-\noindent
-\align center
-\begin_inset CommandInset include
-LatexCommand input
-filename "rival_models_standardized.tex"
-
-\end_inset
-
-
+ economic globalization in a way that weakens the compensatory responsivness
+ of welfare spending.
 \end_layout
 
 \begin_layout Section
@@ -3423,7 +3299,7 @@ al forces (controlling for the awareness effect), most likely due to the
  with a decrease in the relationship between economic openness and welfare-state
  spending, providing further evidence that mass media diffuses the domestic
  political pressure against liberalization that has historically elicited
- welfare-state compensation for aggreived domestic groups.
+ welfare-state compensation for aggrieved domestic groups.
  The state-level evidence is consistent with the individual-level evidence
  that mass media shifts blame attributions away from governments and toward
  international forces, which weakens the strategic pressure on national
@@ -3516,7 +3392,7 @@ Finally, the state-level findings in particular have an important substantive
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "bib"
-options "plainnat"
+options "apsr2006"
 
 \end_inset
 

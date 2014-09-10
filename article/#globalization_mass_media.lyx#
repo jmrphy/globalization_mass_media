@@ -3086,7 +3086,7 @@ The error-correction specification is useful here for another reason.
  for unobserved differences in countries or unobserved temporal shocks in
  any particular year.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 This was done using the 
@@ -3109,14 +3109,7 @@ two-way
 \emph on
 plm 
 \emph default
-package for R (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Croissant:2013ty"
-
-\end_inset
-
-).
+package for R ()
 \end_layout
 
 \end_inset
@@ -3299,7 +3292,7 @@ al forces (controlling for the awareness effect), most likely due to the
  with a decrease in the relationship between economic openness and welfare-state
  spending, providing further evidence that mass media diffuses the domestic
  political pressure against liberalization that has historically elicited
- welfare-state compensation for aggrieved domestic groups.
+ welfare-state compensation for aggreived domestic groups.
  The state-level evidence is consistent with the individual-level evidence
  that mass media shifts blame attributions away from governments and toward
  international forces, which weakens the strategic pressure on national
@@ -3348,6 +3341,7 @@ even holding constant the types of problems they perceive to be most important
  and welfare states (
 \begin_inset CommandInset citation
 LatexCommand citealt
+after "474"
 key "Hays:2005vo,Walter:2010ky"
 
 \end_inset

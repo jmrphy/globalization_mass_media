@@ -1,7 +1,7 @@
 setwd("~/Dropbox/gh_projects/globalization_mass_media")
 source('analyses/1_load.R')
 source('analyses/2_clean.R')
-source('analyses/3_functions.R')
+
 
 
 ########################
@@ -256,10 +256,11 @@ stargazer(model3,
           out="article/model3.tex")
 
 ################# Model 3 with alternative, full cause variable #########
+x3b<-x[complete.cases(subset(x, select=c("Age", "gender", "urban", "Interest", "college", "occ", "mitterand", "GovHandling", "leftparty", "media", "genprob2", "PresSatIV", "cause",  "openprob2"))),]
 
 model3.altiv1<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + media + leftparty + mitterand + PresSatIV + genprob2 + openprob2 + cause,
               model="ls",
-              data=x3,
+              data=x3b,
               cite=FALSE)
 
 library(coefplot)
