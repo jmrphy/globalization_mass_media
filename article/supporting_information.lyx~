@@ -32,6 +32,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -68,10 +69,15 @@
 
 \begin_body
 
-\begin_layout Part*
+\begin_layout Title
 
 \size normal
-Supplementary Information
+Supplementary Information for Mass Media and the Domestic Politics of Economic
+ Globalization
+\end_layout
+
+\begin_layout Date
+
 \end_layout
 
 \begin_layout Subsection*
@@ -365,10 +371,6 @@ Q-20.
 \begin_layout Standard
 5.
  Don’t Know/NoResponse (Column 29)
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -1071,15 +1073,6 @@ end{longtable}
 \begin_layout Subsection*
 
 \size normal
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-
-\size normal
 Additional Individual-Level Model Results
 \end_layout
 
@@ -1095,12 +1088,15 @@ filename "model1.tex"
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename model1_altdv1.pdf
 
@@ -1135,12 +1131,15 @@ filename "model1.altdv1.tex"
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename model1_altdv2.pdf
 
@@ -1166,7 +1165,7 @@ Model 1 with Alternative DV: Blame Government vs.
 
 
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "model1.altdv2.tex"
 
 \end_inset
@@ -1175,8 +1174,17 @@ filename "model1.altdv2.tex"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "model2.tex"
 
 \end_inset
@@ -1185,8 +1193,17 @@ filename "model2.tex"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "model3.tex"
 
 \end_inset
@@ -1195,6 +1212,8 @@ filename "model3.tex"
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Float figure
 wide false
 sideways false
@@ -1227,6 +1246,8 @@ Model 3 with Alternative IV: All Causes
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset CommandInset include
 LatexCommand include
 filename "model3_altiv1.tex"
@@ -1237,6 +1258,8 @@ filename "model3_altiv1.tex"
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Float figure
 wide false
 sideways false
@@ -1270,7 +1293,7 @@ Model 3 with Alternative DV: Presidential Satisfaction
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "model3_altdv1.tex"
 
 \end_inset

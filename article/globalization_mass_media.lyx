@@ -33,7 +33,7 @@ endnotes
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command default
+\bibtex_command bibtex
 \index_command default
 \paperfontsize 12
 \spacing onehalf
@@ -80,7 +80,7 @@ endnotes
 
 \series bold
 \size large
-Mass Media and the Domestic Politics of Globalization
+Mass Media and the Domestic Politics of Economic Globalization
 \end_layout
 
 \begin_layout Abstract
@@ -107,10 +107,6 @@ s.
  of the socially-constructed nature of international politics and contributes
  to bridging the divide between rationalism and constructivism in international
  relations research.
-\end_layout
-
-\begin_layout Abstract
-7045 words (including tables and bibliography) plus graphs.
 \end_layout
 
 \begin_layout Abstract
@@ -4609,63 +4605,6 @@ Model 3 with Alternative DV: Presidential Satisfaction
 \begin_inset CommandInset include
 LatexCommand include
 filename "model3_altdv1.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 
-\backslash
-begin{flushleft} 
-\backslash
-input{state_vars.tex}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-clearpage
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-footnotesize
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{state_vars_summary.tex}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-normalsize
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{flushleft} 
-\backslash
-end{center} 
-\end_layout
 
 \end_inset
 
