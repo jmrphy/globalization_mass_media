@@ -110,6 +110,10 @@ s.
 \end_layout
 
 \begin_layout Abstract
+7045 words (including tables and bibliography) plus graphs.
+\end_layout
+
+\begin_layout Abstract
 
 \size normal
 \begin_inset Newpage newpage
@@ -2864,7 +2868,7 @@ p
  deviation = .01) to .11.
  Thus, the indirect effect of mass media on blaming international forces,
  through its slight marginal effect on the perception of openness as a problem,
- is .01 (.26*.03).
+ is merely .01 (.26*.03).
  The small size of this effect and its statistical significance near the
  conventional cutoff of 95% confidence suggest only weak evidence that mass
  media exerts much indirect effect on blame attributions by increasing awareness
@@ -3134,7 +3138,7 @@ key "Beck:1995hm"
  Panel-corrected standard errors did not appreciably change the statistical
  significance of any estimates reported in this paper.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 It is common to display the panel-corrected standard errors rather than
