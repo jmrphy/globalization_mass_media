@@ -33,7 +33,7 @@ endnotes
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command biber
+\bibtex_command bibtex
 \index_command default
 \paperfontsize 12
 \spacing onehalf
