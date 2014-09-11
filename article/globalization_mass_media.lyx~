@@ -80,7 +80,19 @@ endnotes
 
 \series bold
 \size large
-Mass Media and the Domestic Politics of Globalization
+Mass Media and the Domestic Politics of Economic Globalization
+\end_layout
+
+\begin_layout Author
+Justin Murphy
+\end_layout
+
+\begin_layout Address
+University of Southampton
+\end_layout
+
+\begin_layout Standard
+sdfsadf
 \end_layout
 
 \begin_layout Abstract
@@ -3134,7 +3146,7 @@ key "Beck:1995hm"
  Panel-corrected standard errors did not appreciably change the statistical
  significance of any estimates reported in this paper.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 It is common to display the panel-corrected standard errors rather than
