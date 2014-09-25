@@ -1622,8 +1622,10 @@ Thus, insofar as mass media tend to diffuse blame attributions for the negative
  effects of economic liberalization, this decreases the incentives for harmed
  groups to oppose liberalization by voting, and thus should have an effect
  equivalent to decreasing their turnout in this electoral game.
- To illustrate this formally, let the voter turnout for C and P be a linear
- function 
+\backslash
+footnote{I thank Qi Zhang for her assistance with the formal modeling in
+ this section.}  To illustrate this formally, let the voter turnout for C
+ and P be a linear function 
 \backslash
 (t(m)
 \backslash
