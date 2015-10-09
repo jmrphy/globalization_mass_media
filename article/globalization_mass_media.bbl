@@ -1,397 +1,409 @@
-\begin{thebibliography}{63}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{xx}
 
 \bibitem[Adorno(1991)]{adorno2001culture}
-Theodor Adorno.
-\newblock \emph{{The Culture Industry: Selected Essays on Mass Culture}}.
-\newblock Routledge, Abingdon, 1991.
+Adorno, Theodor. 1991.
+{\em {The Culture Industry: Selected Essays on Mass Culture}}.
+Abingdon:  Routledge.
 
-\bibitem[Adser{\`a} and Boix(2002)]{Adsera:2002vt}
-Al{\'\i}cia Adser{\`a} and Carles Boix.
-\newblock {Trade, Democracy, Public Sector: The Political Underpinnings of
-  Openness}.
-\newblock \emph{International Organization}, 56\penalty0 (2):\penalty0
-  229--262, March 2002.
+\bibitem[Adser{\`a} \harvardand\ Boix(2002)]{Adsera:2002vt}
+Adser{\`a}, Al{\'\i}cia, \harvardand\ Carles Boix. 2002.
+``{Trade, Democracy, Public Sector: The Political Underpinnings of Openness}.''
+  {\em International Organization} 56 (March): 229--262.
 
-\bibitem[Adser{\`a} et~al.(2003)Adser{\`a}, Boix, and Payne]{Adsera:2003cc}
-Al{\'\i}cia Adser{\`a}, Carles Boix, and Mark Payne.
-\newblock {Are You Being Served? Political Accountability and Quality of
-  Government}.
-\newblock \emph{Journal of Law, Economics, and Organization}, 19\penalty0
-  (2):\penalty0 445--490, October 2003.
+\bibitem[Adser{\`a}, Boix, \harvardand\ Payne(2003)]{Adsera:2003cc}
+Adser{\`a}, Al{\'\i}cia, Carles Boix, \harvardand\ Mark Payne. 2003.
+``{Are You Being Served? Political Accountability and Quality of Government}.''
+  {\em Journal of Law, Economics, and Organization} 19 (October): 445--490.
 
-\bibitem[Alca{\~n}iz and Hellwig(2010)]{Alcaniz:2010gb}
-Isabella Alca{\~n}iz and Timothy Hellwig.
-\newblock {Who's to Blame? The Distribution of Responsibility in Developing
-  Democracies}.
-\newblock \emph{British Journal of Political Science}, 41\penalty0
-  (02):\penalty0 389--411, November 2010.
+\bibitem[Alca{\~n}iz \harvardand\ Hellwig(2010)]{Alcaniz:2010gb}
+Alca{\~n}iz, Isabella, \harvardand\ Timothy Hellwig. 2010.
+``{Who{\textquoteright}s to Blame? The Distribution of Responsibility in
+  Developing Democracies}.'' {\em British Journal of Political Science} 41
+  (November): 389--411.
 
 \bibitem[Ansell(2008)]{Ansell:2008wl}
-Ben~W Ansell.
-\newblock {Traders, teachers, and tyrants: democracy, globalization, and public
-  investment in education}.
-\newblock \emph{International Organization}, 62\penalty0 (02):\penalty0
-  289--322, 2008.
+Ansell, Ben~W. 2008.
+``{Traders, teachers, and tyrants: democracy, globalization, and public
+  investment in education}.'' {\em International Organization} 62~(02):
+  289--322.
 
 \bibitem[Arceneaux(2003)]{Arcenaux:2003ue}
-Kevin Arceneaux.
-\newblock {The Conditional Impact of Blame Attribution on the Relationship
-  Between Economic Adversity and Turnout}.
-\newblock \emph{Political Research Quarterly}, pages 1--10, November 2003.
+Arceneaux, Kevin. 2003.
+``{The Conditional Impact of Blame Attribution on the Relationship Between
+  Economic Adversity and Turnout}.'' {\em Political Research Quarterly}
+  (November): 1--10.
 
-\bibitem[Avelino et~al.(2005)Avelino, Brown, and Hunter]{Anonymous:2008ur}
-George Avelino, David~S Brown, and Wendy Hunter.
-\newblock {The Effects of Capital Mobility, Trade Openness, and Democracy on
-  Social Spending in Latin America, 1980-1999}.
-\newblock \emph{American Journal of Political Science}, 49:\penalty0 1--18,
-  July 2005.
+\bibitem[Banks \harvardand\ Wilson(2005)]{CrossNationalTime:td}
+Banks, Arthur~A, \harvardand\ Kenneth~A Wilson. 2005.
+{\em {Cross-National Time-Series Data Archive}}.
+Binghamton, NY:  Databanks International.
 
-\bibitem[Banks and Wilson(2005)]{CrossNationalTime:td}
-Arthur~A Banks and Kenneth~A Wilson.
-\newblock {Cross-National Time-Series Data Archive}.
-\newblock Databanks International, 2005.
+\bibitem[Beck \harvardand\ Katz(1995)]{Beck:1995hm}
+Beck, Nathaniel, \harvardand\ Jonathan~N Katz. 1995.
+``{What to do (and Not to Do) with Time-Series Cross-Section Data}.'' {\em
+  American Political Science Review} 89 (September): 634--647.
 
-\bibitem[Beck and Katz(1995)]{Anonymous:DMdF8icE}
-Nathaniel Beck and Jonathan~N Katz.
-\newblock {What to do (and not to do) with Time-Series Cross-Section Data}.
-\newblock \emph{The American political science review}, 89\penalty0
-  (3):\penalty0 634--647, September 1995.
+\bibitem[Beck, Katz, \harvardand\ Mignozzetti(2014)]{Beck:2014bo}
+Beck, Nathaniel~L, Jonathan~N Katz, \harvardand\ Umberto~G Mignozzetti. 2014.
+``{Of Nickell Bias and its Cures: Comment on Gaibulloev, Sandler, and Sul}.''
+  {\em Political Analysis} 22 (April): 274--278.
 
 \bibitem[Bennett(1990)]{Bennett:1990bp}
-W~Lance Bennett.
-\newblock {Toward a Theory of Press-State Relations in the United States}.
-\newblock \emph{International Studies Quarterly}, 40\penalty0 (2):\penalty0
-  103--127, June 1990.
+Bennett, W~Lance. 1990.
+``{Toward a Theory of Press-State Relations in the United States}.'' {\em
+  International Studies Quarterly} 40 (June): 103--127.
 
-\bibitem[Bennett et~al.(2006)Bennett, Lawrence, and Livingston]{Bennett:2006gc}
-W~Lance Bennett, Regina~G Lawrence, and Steven Livingston.
-\newblock {None Dare Call It Torture: Indexing and the Limits of Press
-  Independence in the Abu Ghraib Scandal}.
-\newblock \emph{International Studies Quarterly}, 56\penalty0 (3):\penalty0
-  467--485, September 2006.
+\bibitem[Bennett, Lawrence, \harvardand\ Livingston(2006)]{Bennett:2006gc}
+Bennett, W~Lance, Regina~G Lawrence, \harvardand\ Steven Livingston. 2006.
+``{None Dare Call It Torture: Indexing and the Limits of Press Independence in
+  the Abu Ghraib Scandal}.'' {\em International Studies Quarterly} 56
+  (September): 467--485.
 
-\bibitem[Besley and Burgess(2002)]{Besley:2002tg}
-Timothy Besley and Robin Burgess.
-\newblock {The Political Economy of Government Responsiveness: Theory and
-  Evidence from India}.
-\newblock \emph{The Quarterly Journal of Economics}, pages 1--38, March 2002.
+\bibitem[Besley \harvardand\ Burgess(2002)]{Besley:2002tg}
+Besley, Timothy, \harvardand\ Robin Burgess. 2002.
+``{The Political Economy of Government Responsiveness: Theory and Evidence from
+  India}.'' {\em The Quarterly Journal of Economics} (March): 1--38.
 
 \bibitem[Burgoon(2001)]{Burgoon:2001dp}
-Brian Burgoon.
-\newblock {Globalization and Welfare Compensation: Disentangling the Ties that
-  Bind}.
-\newblock \emph{International Organization}, 55\penalty0 (3):\penalty0
-  509--551, September 2001.
+Burgoon, Brian. 2001.
+``{Globalization and Welfare Compensation: Disentangling the Ties that Bind}.''
+  {\em International Organization} 55 (September): 509--551.
 
 \bibitem[Cameron(1978)]{Cameron:1978vb}
-David~R Cameron.
-\newblock {The Expansion of the Public Economy}.
-\newblock \emph{American Political Science Review}, pages 1--20, December 1978.
+Cameron, David~R. 1978.
+``{The Expansion of the Public Economy}.'' {\em American Political Science
+  Review} (December): 1--20.
 
-\bibitem[Chrique()]{Chrique:1993us}
-Philippe Chrique.
-\newblock {Legidoscope: Trend Surveys of French Public Opinion and Media Usage,
-  September 1992-May 1993}.
-\newblock Inter-university Consortium for Political and Social Research.
+\bibitem[Checkel(1997)]{Checkel:1997cw}
+Checkel, Jeffrey~T. 1997.
+``{International Norms and Domestic Politics: Bridging the
+  Rationalist{\textemdash}Constructivist Divide}.'' {\em European Journal of
+  International Relations} 3 (December): 473--495.
+
+\bibitem[Chrique(1997)]{Chrique:1993us}
+Chrique, Philippe. 1997.
+``{Legidoscope: Trend Surveys of French Public Opinion and Media Usage,
+  September 1992-May 1993}.'' Inter-university Consortium for Political and
+  Social Research.
 
 \bibitem[Crepaz(1998)]{Crepaz:1998vj}
-Markus M~L Crepaz.
-\newblock {Inclusion versus Exclusion: Political Institutions and Welfare
-  Expenditures}.
-\newblock \emph{Comparative Politics}, 31\penalty0 (1):\penalty0 61--80,
-  January 1998.
+Crepaz, Markus M~L. 1998.
+``{Inclusion versus Exclusion: Political Institutions and Welfare
+  Expenditures}.'' {\em Comparative Politics} 31 (January): 61--80.
+
+\bibitem[Croissant \harvardand\ Millo(2013)]{Croissant:2013ty}
+Croissant, Yves, \harvardand\ Giovanni Millo. 2013.
+``{plm: Linear Models for Panel Data}.'' {\em R package}.
+
+\bibitem[Dessler \harvardand\ Owen(2005)]{Dessler:2005io}
+Dessler, David, \harvardand\ John Owen. 2005.
+``{Constructivism and the Problem of Explanation: A Review Article}.'' {\em
+  Perspectives on Politics} 3 (September): 597--610.
+
+\bibitem[Freeman(2008)]{Hellwig:2008cj}
+Freeman, John~R. 2008.
+``{The American Public and the Room to Maneuver: Responsibility Attributions
+  and Policy Efficacy in an Era of Globalization}.'' {\em International Studies
+  Quarterly} 52 (December): 855--880.
+
+\bibitem[Gaibulloev, Sandler, \harvardand\ Sul(2014)]{Gaibulloev:2014eg}
+Gaibulloev, Khusrav, Todd Sandler, \harvardand\ Donggyu Sul. 2014.
+``{Dynamic Panel Analysis under Cross-Sectional Dependence}.'' {\em Political
+  Analysis} 22 (April): 258--273.
 
 \bibitem[Garrett(1995)]{Garrett:1995tj}
-Geoffrey Garrett.
-\newblock {Capital mobility, trade, and the domestic politics of economic
-  policy}.
-\newblock pages 1--31, February 1995.
+Garrett, Geoffrey. 1995.
+``{Capital mobility, trade, and the domestic politics of economic policy}.''
+  (February): 1--31.
+
+\bibitem[Gelman(2008)]{Gelman:2008gz}
+Gelman, Andrew. 2008.
+``{Scaling regression inputs by dividing by two standard deviations}.'' {\em
+  Statistics in Medicine} 27~(15): 2865--2873.
+
+\bibitem[Gelman, Pasarica, \harvardand\ Dodhia(2002)]{Gelman:2002ih}
+Gelman, Andrew, Cristian Pasarica, \harvardand\ Rahul Dodhia. 2002.
+``{Let's Practice What We Preach}.'' {\em The American Statistician} 56 (May):
+  121--130.
 
 \bibitem[Gourevitch(1978)]{Gourevitch:1978bn}
-Peter Gourevitch.
-\newblock {The second image reversed: the international sources of domestic
-  politics}.
-\newblock \emph{International Organization}, 32\penalty0 (04):\penalty0 881,
-  1978.
+Gourevitch, Peter. 1978.
+``{The second image reversed: the international sources of domestic
+  politics}.'' {\em International Organization} 32~(04): 881.
 
 \bibitem[Guisinger(2009)]{Guisinger:2009vt}
-Alexandra Guisinger.
-\newblock {Determining Trade Policy: Do Voters Hold Politicians Accountable?}
-\newblock pages 1--25, July 2009.
+Guisinger, Alexandra. 2009.
+``{Determining Trade Policy: Do Voters Hold Politicians Accountable?}''
+  (July): 1--25.
 
-\bibitem[Hays et~al.(2005)Hays, Ehrlich, and Peinhardt]{Hays:2005vo}
-Jude Hays, Sean~D Ehrlich, and Clint Peinhardt.
-\newblock {Spending and Support for Trade in the OECD}.
-\newblock \emph{International Organization}, pages 1--23, October 2005.
+\bibitem[Hay(2002)]{Hay:2002iy}
+Hay, Colin. 2002.
+``{Globalisation as a Problem of Political Analysis: Restoring Agents to
+  a'Process without a Subject'and Politics to a Logic of Economic
+  Compulsion{\textasteriskcentered}}.'' {\em Cambridge Review of International
+  Affairs}.
 
-\bibitem[Hellwig and Samuels(2007)]{Hellwig:2007gn}
-T~Hellwig and D~Samuels.
-\newblock {Voting in Open Economies: The Electoral Consequences of
-  Globalization}.
-\newblock \emph{Comparative Political Studies}, 40\penalty0 (3):\penalty0
-  283--306, March 2007.
+\bibitem[Hay \harvardand\ Rosamond(2011)]{Hay:2011dh}
+Hay, Colin, \harvardand\ Ben Rosamond. 2011.
+``{Globalization, European integration and the discursive construction of
+  economic imperatives}.'' {\em Journal of European Public Policy} 9
+  (February): 147--167.
+
+\bibitem[Hay \harvardand\ Smith(2005)]{Hay:2005dh}
+Hay, Colin, \harvardand\ Nicola Smith. 2005.
+``{Horses for courses? The political discourse of globalisation and European
+  integration in the UK and Ireland}.'' {\em West European Politics}.
+
+\bibitem[Hays, Ehrlich, \harvardand\ Peinhardt(2005)]{Hays:2005vo}
+Hays, Jude, Sean~D Ehrlich, \harvardand\ Clint Peinhardt. 2005.
+``{Spending and Support for Trade in the OECD}.'' {\em International
+  Organization} (October): 1--23.
+
+\bibitem[Hellwig \harvardand\ Samuels(2007)]{Hellwig:2007gn}
+Hellwig, T, \harvardand\ D Samuels. 2007.
+``{Voting in Open Economies: The Electoral Consequences of Globalization}.''
+  {\em Comparative Political Studies} 40 (March): 283--306.
 
 \bibitem[Hellwig(2007)]{Hellwig:2007wt}
-Timothy Hellwig.
-\newblock {Globalization and Perceptions of Policy Maker Competence: Evidence
-  from France}.
-\newblock \emph{Political Research Quarterly}, 60\penalty0 (1):\penalty0
-  146--158, March 2007.
+Hellwig, Timothy. 2007.
+``{Globalization and Perceptions of Policy Maker Competence: Evidence from
+  France}.'' {\em Political Research Quarterly} 60 (March): 146--158.
 
 \bibitem[Hellwig(2008)]{Hellwig:2008ia}
-Timothy Hellwig.
-\newblock {Globalization, Policy Constraints, and Vote Choice}.
-\newblock \emph{The Journal of Politics}, 70\penalty0 (04):\penalty0 1128,
-  September 2008.
+Hellwig, Timothy. 2008.
+``{Globalization, Policy Constraints, and Vote Choice}.'' {\em The Journal of
+  Politics} 70 (September): 1128.
 
 \bibitem[Hellwig(2012)]{Hellwig:2012vk}
-Timothy Hellwig.
-\newblock {Retaining the Room to Maneuver? Globalization and Electoral
-  Politics}.
-\newblock pages 1--242, March 2012.
+Hellwig, Timothy. 2012.
+``{Retaining the Room to Maneuver? Globalization and Electoral Politics}.''
+  {\em Unpublished manuscript}: 1--242.
 
-\bibitem[Hellwig and Coffey(2011)]{Hellwig:2011iu}
-Timothy Hellwig and Eva Coffey.
-\newblock {Public opinion, party messages, and responsibility for the financial
-  crisis in Britain}.
-\newblock \emph{Electoral Studies}, 30\penalty0 (3):\penalty0 417--426,
-  September 2011.
+\bibitem[Hellwig \harvardand\ Coffey(2011)]{Hellwig:2011iu}
+Hellwig, Timothy, \harvardand\ Eva Coffey. 2011.
+``{Public opinion, party messages, and responsibility for the financial crisis
+  in Britain}.'' {\em Electoral Studies} 30 (September): 417--426.
 
-\bibitem[Herman and Chomsky(1988)]{Herman:1988ta}
-Edward~S Herman and Noam Chomsky.
-\newblock \emph{{Manufacturing Consent: The Political Economy of the Mass
-  Media}}.
-\newblock Pantheon, New York, 1988.
+\bibitem[Herman \harvardand\ Chomsky(1988)]{Herman:1988ta}
+Herman, Edward~S, \harvardand\ Noam Chomsky. 1988.
+{\em {Manufacturing Consent: The Political Economy of the Mass Media}}.
+New York:  Pantheon.
 
 \bibitem[Hood(2002)]{Hood:2002ko}
-Christopher Hood.
-\newblock {The Risk Game and the Blame Game}.
-\newblock \emph{Government and Opposition}, 37\penalty0 (1):\penalty0 15--37,
-  January 2002.
+Hood, Christopher. 2002.
+``{The Risk Game and the Blame Game}.'' {\em Government and Opposition} 37
+  (January): 15--37.
 
-\bibitem[Hood et~al.(2009)Hood, jennings, Dixon, Hogwood, and
-  Beeston]{Hood:2009ed}
-Christopher Hood, Will jennings, Ruth Dixon, Brian Hogwood, and Craig Beeston.
-\newblock {Testing times: Exploring staged responses and the impact of blame
-  management strategies in two examination fiasco cases}.
-\newblock \emph{European Journal of Political Research}, 48\penalty0
-  (6):\penalty0 695--722, October 2009.
+\bibitem[Hood et~al.(2009)]{Hood:2009ed}
+Hood, Christopher, Will jennings, Ruth Dixon, Brian Hogwood, \harvardand\ Craig
+  Beeston. 2009.
+``{Testing times: Exploring staged responses and the impact of blame management
+  strategies in two examination fiasco cases}.'' {\em European Journal of
+  Political Research} 48 (October): 695--722.
 
 \bibitem[Hooghe(2002)]{Hooghe:2002bi}
-M~Hooghe.
-\newblock {Watching Television and Civic Engagement: Disentangling the Effects
-  of Time, Programs, and Stations}.
-\newblock \emph{The Harvard International Journal of Press/Politics},
-  7\penalty0 (2):\penalty0 84--104, April 2002.
+Hooghe, M. 2002.
+``{Watching Television and Civic Engagement: Disentangling the Effects of Time,
+  Programs, and Stations}.'' {\em The Harvard International Journal of
+  Press/Politics} 7 (April): 84--104.
 
-\bibitem[Imai et~al.(2009)Imai, King, and Lau]{ZeligEveryonesSt:2009ts}
-Kosuke Imai, Gary King, and Olivia Lau.
-\newblock {Zelig: Everyone's Statistical Software}.
-\newblock 2009.
+\bibitem[Imai, King, \harvardand\ Lau(2009)]{ZeligEveryonesSt:2009ts}
+Imai, Kosuke, Gary King, \harvardand\ Olivia Lau. 2009.
+``{Zelig: Everyone's Statistical Software}.''.
 
 \bibitem[Iversen(2001)]{Iversen:2001vr}
-T~Iversen.
-\newblock {The Dynamics of Welfare State Expansion: Trade Openness,
-  Deindustrialization, and Partisan Politics}.
-\newblock In Paul Pierson, editor, \emph{The New Politics of the Welfare
-  State}. Oxford University Press, Oxford, 2001.
+Iversen, T. 2001.
+``{The Dynamics of Welfare State Expansion: Trade Openness,
+  Deindustrialization, and Partisan Politics}.''  In {\em The New Politics of
+  the Welfare State}.
+Oxford:  Oxford University Press.
 
-\bibitem[Iversen and Cusack(2000)]{Iversen:2000ch}
-Torben Iversen and Thomas~R Cusack.
-\newblock {The Causes of Welfare State Expansion: Deindustrialization or
-  Globalization?}
-\newblock \emph{World Politics}, 52\penalty0 (03):\penalty0 313--349, June
-  2000.
+\bibitem[Iversen \harvardand\ Soskice(2006)]{Iversen:2006wd}
+Iversen, Torben, \harvardand\ David Soskice. 2006.
+``{Electoral Institutions and the Politics of Coalitions: Why Some Democracies
+  Redistribute More Than Others}.'' {\em American Political Science Review} 100
+  (May).
 
-\bibitem[Iversen and Soskice(2006)]{Iversen:2006wd}
-Torben Iversen and David Soskice.
-\newblock {Electoral Institutions and the Politics of Coalitions: Why Some
-  Democracies Redistribute More Than Others}.
-\newblock \emph{American Political Science Review}, 100\penalty0 (2), May 2006.
+\bibitem[Iversen \harvardand\ Cusack(2000)]{Iversen:2000ch}
+Iversen, Torben, \harvardand\ Thomas~R Cusack. 2000.
+``{The Causes of Welfare State Expansion: Deindustrialization or
+  Globalization?}'' {\em World Politics} 52 (June): 313--349.
 
 \bibitem[Iyengar(1987)]{Iyengar:1987uo}
-Shanto Iyengar.
-\newblock {Television News and Citizens' Explanations of National Affairs}.
-\newblock \emph{The American political science review}, 81:\penalty0 815--832,
-  1987.
+Iyengar, Shanto. 1987.
+``{Television News and Citizens' Explanations of National Affairs}.'' {\em The
+  American Political Science Review} 81: 815--832.
 
 \bibitem[Iyengar(1991)]{Iyengar:1991uf}
-Shanto Iyengar.
-\newblock \emph{{Is Anyone Responsible?: How Television Frames Political
-  Issues}}.
-\newblock University of Chicago Press, Chicago, 1991.
+Iyengar, Shanto. 1991.
+{\em {Is Anyone Responsible?: How Television Frames Political Issues}}.
+Chicago:  University of Chicago Press.
 
-\bibitem[Jacobson and Kernell(1983)]{Jacobson:1983tg}
-Gary~C Jacobson and Samuel Kernell.
-\newblock \emph{{Strategy and Choice in Congressional Elections}}.
-\newblock Yale University Press, New Haven, 2nd edition, 1983.
+\bibitem[Jacobson \harvardand\ Kernell(1983)]{Jacobson:1983tg}
+Jacobson, Gary~C, \harvardand\ Samuel Kernell. 1983.
+{\em {Strategy and Choice in Congressional Elections}}.
+2nd ed. New Haven:  Yale University Press.
+
+\bibitem[Kastellec \harvardand\ Leoni(2007)]{Kastellec:2007ha}
+Kastellec, Jonathan~P, \harvardand\ Eduardo~L Leoni. 2007.
+``{Using Graphs Instead of Tables in Political Science}.'' {\em Perspectives on
+  Politics} 5 (December): 755--771.
 
 \bibitem[Katzenstein(1985)]{Katzenstein:1985ub}
-Peter~J Katzenstein.
-\newblock \emph{{Small States in World Markets}}.
-\newblock Industrial Policy in Europe. Ithaca, N.Y. : Cornell University Press,
-  1985.
+Katzenstein, Peter~J. 1985.
+{\em {Small States in World Markets}}.
+Industrial Policy in Europe Ithaca, N.Y. : Cornell University Press.
 
-\bibitem[Kayser(2007)]{Kayser:2007ig}
-Mark~Andreas Kayser.
-\newblock {How Domestic Is Domestic Politics? Globalization and Elections}.
-\newblock \emph{Annual Review of Political Science}, 10\penalty0 (1):\penalty0
-  341--362, June 2007.
+\bibitem[Katzenstein, Keohane, \harvardand\ Krasner(1998)]{Katzenstein:1998ef}
+Katzenstein, Peter~J, Robert~O Keohane, \harvardand\ Stephen~D Krasner. 1998.
+``{International organization and the study of world politics}.'' {\em
+  International Organization} 52~(4): 971--991.
+
+\bibitem[Kayser(2007)]{Kayser:2007iga}
+Kayser, Mark~Andreas. 2007.
+``{How Domestic Is Domestic Politics? Globalization and Elections}.'' {\em
+  Annual Review of Political Science} 10 (June): 341--362.
 
 \bibitem[Kim(2007)]{Kim:2007wu}
-So~Young Kim.
-\newblock {Openness, External Risk, Volatility}.
-\newblock \emph{International Organization}, pages 1--37, April 2007.
+Kim, So~Young. 2007.
+``{Openness, External Risk, Volatility}.'' {\em International Organization}
+  (April): 1--37.
 
 \bibitem[Mares(2004)]{Mares:2004el}
-Isabela Mares.
-\newblock {Economic Insecurity and Social Policy Expansion: Evidence from
-  Interwar Europe}.
-\newblock \emph{International Organization}, 58\penalty0 (04), October 2004.
+Mares, Isabela. 2004.
+``{Economic Insecurity and Social Policy Expansion: Evidence from Interwar
+  Europe}.'' {\em International Organization} 58 (October).
 
 \bibitem[Margalit(2011)]{Margalit:2011hm}
-Yotam Margalit.
-\newblock {Costly Jobs: Trade-related Layoffs, Government Compensation, and
-  Voting in U.S. Elections}.
-\newblock \emph{American Political Science Review}, 105\penalty0 (01):\penalty0
-  166--188, February 2011.
+Margalit, Yotam. 2011.
+``{Costly Jobs: Trade-related Layoffs, Government Compensation, and Voting in
+  U.S. Elections}.'' {\em American Political Science Review} 105 (February):
+  166--188.
 
 \bibitem[McChesney(2000)]{mcchesney2000rich}
-Robert McChesney.
-\newblock \emph{{Rich Media, Poor Democracy: Communication Politics in Dubious
-  Times}}.
-\newblock New Press, 2000.
+McChesney, Robert. 2000.
+{\em {Rich Media, Poor Democracy: Communication Politics in Dubious Times}}.
+New Press.
 
 \bibitem[McGraw(1990)]{McGraw:1990kk}
-Kathleen~M McGraw.
-\newblock {Avoiding Blame: An Experimental Investigation of Political Excuses
-  and Justifications}.
-\newblock \emph{British Journal of Political Science}, 20\penalty0
-  (01):\penalty0 119, January 1990.
+McGraw, Kathleen~M. 1990.
+``{Avoiding Blame: An Experimental Investigation of Political Excuses and
+  Justifications}.'' {\em British Journal of Political Science} 20 (January):
+  119.
 
 \bibitem[McGraw(1991)]{McGraw:1991up}
-Kathleen~M McGraw.
-\newblock {Managing Blame: An Experimental Test of the Effects of Political
-  Accounts}.
-\newblock \emph{American Political Science Review}, 85\penalty0 (4):\penalty0
-  1133--1157, December 1991.
+McGraw, Kathleen~M. 1991.
+``{Managing Blame: An Experimental Test of the Effects of Political
+  Accounts}.'' {\em American Political Science Review} 85 (December):
+  1133--1157.
 
-\bibitem[McGraw et~al.(1995)McGraw, Best, and Timpone]{McGraw:1995up}
-Kathleen~M McGraw, Samuel Best, and Richard Timpone.
-\newblock {"What They Say or What They Do?" The Impact of Elite Explanation and
-  Policy Outcomes on Public Opinion}.
-\newblock \emph{American Journal of Political Science}, 39\penalty0 (1),
-  February 1995.
+\bibitem[McGraw, Best, \harvardand\ Timpone(1995)]{McGraw:1995up}
+McGraw, Kathleen~M, Samuel Best, \harvardand\ Richard Timpone. 1995.
+``{"What They Say or What They Do?" The Impact of Elite Explanation and Policy
+  Outcomes on Public Opinion}.'' {\em American Journal of Political Science} 39
+  (February).
 
 \bibitem[Mutz(1992)]{Mutz:1992ww}
-DC~Mutz.
-\newblock {Mass Media and the Depoliticization of Personal Experience}.
-\newblock \emph{American Journal of Political Science}, 1992.
+Mutz, DC. 1992.
+``{Mass Media and the Depoliticization of Personal Experience}.'' {\em American
+  Journal of Political Science}.
 
 \bibitem[Mutz(1994)]{Mutz:1994kp}
-Diana~C Mutz.
-\newblock {Contextualizing Personal Experience: The Role of Mass Media}.
-\newblock \emph{The Journal of Politics}, 56\penalty0 (03):\penalty0 689,
-  August 1994.
+Mutz, Diana~C. 1994.
+``{Contextualizing Personal Experience: The Role of Mass Media}.'' {\em The
+  Journal of Politics} 56 (August): 689.
 
 \bibitem[Norris(2000)]{Norris:2000uf}
-Pippa Norris.
-\newblock \emph{{Virtuous Circle}}.
-\newblock Political Communications in Postindustrial Societies. Cambridge
-  University Press, Cambridge, UK, 2000.
+Norris, Pippa. 2000.
+{\em {Virtuous Circle}}.
+Political Communications in Postindustrial Societies Cambridge, UK:  Cambridge
+  University Press.
 
 \bibitem[Oatley(2011)]{Oatley:2011hv}
-Thomas Oatley.
-\newblock {The Reductionist Gamble: Open Economy Politics in the Global
-  Economy}.
-\newblock \emph{International Organization}, 65\penalty0 (02):\penalty0
-  311--341, April 2011.
+Oatley, Thomas. 2011.
+``{The Reductionist Gamble: Open Economy Politics in the Global Economy}.''
+  {\em International Organization} 65 (April): 311--341.
 
 \bibitem[Polanyi(2001)]{Polanyi:2001vc}
-Karl Polanyi.
-\newblock \emph{{The Great Transformation}}.
-\newblock The Political and Economic Origins of Our Time. Beacon Press, Boston,
-  2 edition, March 2001.
+Polanyi, Karl. 2001.
+{\em {The Great Transformation}}.
+Second ed. Boston:  Beacon Press.
 
 \bibitem[Putnam(1995)]{Putnam:1995vj}
-R~D Putnam.
-\newblock {Tuning in, tuning out: The strange disappearance of social capital
-  in America}.
-\newblock \emph{PS-WASHINGTON-}, 1995.
+Putnam, R~D. 1995.
+``{Tuning in, tuning out: The strange disappearance of social capital in
+  America}.'' {\em PS: Political Science {\&} Politics} 28~(4): 664--683.
 
 \bibitem[Rodrik(1998)]{Rodrik:1998te}
-Dani Rodrik.
-\newblock {Why Do More Open Economies Have Bigger Governments?}
-\newblock \emph{Journal of Political Economy}, pages 1--37, October 1998.
+Rodrik, Dani. 1998.
+``{Why Do More Open Economies Have Bigger Governments?}'' {\em Journal of
+  Political Economy} (October): 1--37.
 
 \bibitem[Rudra(2002)]{Rudra:2002ui}
-Nita Rudra.
-\newblock {Globalization and the Decline of the Welfare State in Less-Developed
-  Countries}.
-\newblock \emph{International Organization}, pages 1--36, October 2002.
+Rudra, Nita. 2002.
+``{Globalization and the Decline of the Welfare State in Less-Developed
+  Countries}.'' {\em International Organization} 56 (October): 1--36.
 
 \bibitem[Ruggie(1982)]{Ruggie:1982wx}
-John~Gerard Ruggie.
-\newblock {International Regimes, Transactions, and Change: Embedded Liberalism
-  in the Postwar Economic Order}.
-\newblock \emph{International Organization}, pages 1--38, October 1982.
+Ruggie, John~Gerard. 1982.
+``{International Regimes, Transactions, and Change: Embedded Liberalism in the
+  Postwar Economic Order}.'' {\em International Organization} (October): 1--38.
 
-\bibitem[Sattler et~al.(2008)Sattler, Freeman, and Brandt]{Sattler:2008vw}
-Thomas Sattler, John~R. Freeman, and Patrick~T Brandt.
-\newblock {Political Accountability and the Room to Maneuver A Search for a
-  Causal Chain}.
-\newblock \emph{Comparative Political Studies}, 2008.
+\bibitem[Sattler, Freeman, \harvardand\ Brandt(2008)]{Sattler:2008vw}
+Sattler, Thomas, John~R Freeman, \harvardand\ Patrick~T Brandt. 2008.
+``{Political Accountability and the Room to Maneuver A Search for a Causal
+  Chain}.'' {\em Comparative Political Studies}.
 
-\bibitem[Sattler et~al.(2010)Sattler, Brandt, and Freeman]{:2010fv}
-Thomas Sattler, Patrick~T Brandt, and John~R. Freeman.
-\newblock {Democratic Accountability in Open Economies}.
-\newblock \emph{Quarterly Journal of Political Science}, \penalty0
-  (5):\penalty0 71--97, April 2010.
+\bibitem[Sattler, Brandt, \harvardand\ Freeman(2010)]{:2010fv}
+Sattler, Thomas, Patrick~T Brandt, \harvardand\ John~R. Freeman. 2010.
+``{Democratic Accountability in Open Economies}.'' {\em Quarterly Journal of
+  Political Science} (April): 71--97.
 
-\bibitem[Snyder and Str{\"o}mberg(2012)]{JamesMSnyder:2012th}
-James M~Jr Snyder and David Str{\"o}mberg.
-\newblock {Press Coverage and Political Accountability}.
-\newblock \emph{Journal of Political Economy}, pages 1--47, March 2012.
+\bibitem[Snyder \harvardand\ Str{\"o}mberg(2012)]{JamesMSnyder:2012th}
+Snyder, James M~Jr, \harvardand\ David Str{\"o}mberg. 2012.
+``{Press Coverage and Political Accountability}.'' {\em Journal of Political
+  Economy} (March): 1--47.
 
-\bibitem[Warren(2013)]{Camber:2013ul}
-T~Camber Warren.
-\newblock {Not by the Sword Alone: Soft Power, Mass Media, and the Production
-  of State Sovereignty}, 2013.
-\newblock URL \url{http://www.camberwarren.net/Warren.SoftPower.pdf}.
+\bibitem[Walter(2010)]{Walter:2010ky}
+Walter, Stefanie. 2010.
+``{Globalization and the Welfare State: Testing the Microfoundations of the
+  Compensation Hypothesis}.'' {\em International Studies Quarterly} 54 (June):
+  403--426.
+
+\bibitem[Warren(2014)]{Camber:2013ul}
+Warren, Camber~T. 2014.
+``{Not by the Sword Alone: Soft Power, Mass Media, and the Production of State
+  Sovereignty}.'' {\em International Organization} 68 (January): 111--141.
 
 \bibitem[Weaver(1986)]{Weaver:1986ku}
-R~Kent Weaver.
-\newblock {The Politics of Blame Avoidance}.
-\newblock \emph{Journal of Public Policy}, 6\penalty0 (04):\penalty0 371--398,
-  October 1986.
+Weaver, R~Kent. 1986.
+``{The Politics of Blame Avoidance}.'' {\em Journal of Public Policy} 6
+  (October): 371--398.
 
-\bibitem[Wilson and Butler(2007)]{Wilson:2007kz}
-S~E Wilson and D~M Butler.
-\newblock {A Lot More to Do: The Sensitivity of Time-Series Cross-Section
-  Analyses to Simple Alternative Specifications}.
-\newblock \emph{Political Analysis}, 15\penalty0 (2):\penalty0 101--123,
-  February 2007.
+\bibitem[Wilson \harvardand\ Butler(2007)]{Wilson:2007kz}
+Wilson, S~E, \harvardand\ D~M Butler. 2007.
+``{A Lot More to Do: The Sensitivity of Time-Series Cross-Section Analyses to
+  Simple Alternative Specifications}.'' {\em Political Analysis} 15 (February):
+  101--123.
 
-\bibitem[Wlezien et~al.(1997)Wlezien, Franklin, and Twiggs]{Wlezien:1997ia}
-Christopher Wlezien, Mark Franklin, and Daniel Twiggs.
-\newblock {Economic Perceptions and Vote Choice: Disentangling the
-  Endogeneity}.
-\newblock \emph{Political Behavior}, 19\penalty0 (1):\penalty0 7--17, 1997.
+\bibitem[Wlezien, Franklin, \harvardand\ Twiggs(1997)]{Wlezien:1997ia}
+Wlezien, Christopher, Mark Franklin, \harvardand\ Daniel Twiggs. 1997.
+``{Economic Perceptions and Vote Choice: Disentangling the Endogeneity}.'' {\em
+  Political Behavior} 19~(1): 7--17.
 
-\bibitem[World~Bank(2012)]{WorldDevelopmentIn:2012wl}
-The World~Bank.
-\newblock {World Development Indicators}.
-\newblock http://data.worldbank.org/data-catalog/world-development-indicators,
-  2012.
+\bibitem[{World Bank}(2012)]{WorldDevelopmentIn:2012wl}
+{World Bank}. 2012.
+{World Development Indicators}. Technical report.
 
-\bibitem[Zaller and Chiu(1996)]{Zaller:1996vs}
-John Zaller and Dennis Chiu.
-\newblock {Government's Little Helper: U.S. Press Coverage of Foreign Policy
-  Crises, 1945-1991}, 1996.
+\bibitem[Zaller \harvardand\ Chiu(1996)]{Zaller:1996vs}
+Zaller, John, \harvardand\ Dennis Chiu. 1996.
+``{Government's Little Helper: U.S. Press Coverage of Foreign Policy Crises,
+  1945-1991}.'' {\em Political Communication} 13~(4): 385--405.
+
+\bibitem[Z{\"u}rn \harvardand\ Checkel(2005)]{Zurn:2005ja}
+Z{\"u}rn, Michael, \harvardand\ Jeffrey~T Checkel. 2005.
+``{Getting Socialized to Build Bridges: Constructivism and Rationalism, Europe
+  and the Nation-State}.'' {\em International Organization} 59 (October):
+  1045--1079.
 
 \end{thebibliography}
