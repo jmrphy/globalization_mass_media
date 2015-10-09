@@ -36,7 +36,7 @@ endnotes
 \bibtex_command bibtex
 \index_command default
 \paperfontsize 12
-\spacing onehalf
+\spacing double
 \use_hyperref false
 \papersize default
 \use_geometry true
@@ -80,7 +80,7 @@ endnotes
 
 \series bold
 \size large
-Mass Media and the Domestic Politics of Economic Globalization
+Mass Media and the Domestic Politics of Globalization
 \end_layout
 
 \begin_layout Abstract
@@ -103,10 +103,6 @@ ility, this article develops an argument about the effects of mass media
  The evidence shows that mass media diffuse the political backlash from
  groups harmed by globalization, leading to weakened welfare-state responsivenes
 s.
- A key implication is that this article provides novel empirical evidence
- of the socially-constructed nature of international politics and contributes
- to bridging the divide between rationalism and constructivism in international
- relations research.
 \end_layout
 
 \begin_layout Abstract
@@ -2574,17 +2570,17 @@ key "CrossNationalTime:td,WorldDevelopmentIn:2012wl"
 \end_inset
 
 ).
- Most models have around 130 countries with an average of roughly 8 observations
- per country.
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-See online appendix.
+Summary statistics can be found in Supplementary Information.
 \end_layout
 
 \end_inset
 
+ Most models have around 130 countries with an average of roughly 8 observations
+ per country.
  To test whether mass media affects domestic compensation for globalization
  at the state level, I fit several variants of the pooled cross-sectional,
  time-series regression equation:
@@ -3034,6 +3030,40 @@ Table 1 displays results from three regression models which provide initial
  In each of the three model specifications, the variable Trade*MDI is negative
  and statistically significant, suggesting that media density decreases
  the effect that trade has on government consumption expenditure.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Nickell bias can lead to rejecting a true null hypothesis when the number
+ of units is large relative to the time period
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gaibulloev:2014eg"
+
+\end_inset
+
+, although the proposed solution of subsetting the data to decrease the
+ number of units is disputed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beck:2014bo"
+
+\end_inset
+
+.
+ Given that the present panel contains a relatively large number of countries
+ with a sampling period of more than 30 years (the period beyond which Nickell
+ bias becomes trivial), an intuitive compromise solution to check against
+ Nickell bias here is to estimate the models on only those countries with
+ the longest sampling periods.
+ Table 12 in Supplementary Information shows the results of re-estimating
+ the present models on only countries with complete data for the 38 years
+ between 1961 and 1999.
+ The results are substantially the same as the those reported below.
+\end_layout
+
+\end_inset
+
  The coefficient of -.97 for Trade*MDI in Model 4 suggests that, on average,
  a two standard deviation increase in media density (109.3 points) in the
  long-run decreases the effect that a two standard deviation increase in
@@ -3226,6 +3256,9 @@ key "Iversen:2000ch"
 
 ) that deindustrialization rather than globalization has driven the expansion
  of welfare spending since the 1960s.
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
 filename "main_state_models_standardized.tex"
@@ -3233,12 +3266,19 @@ filename "main_state_models_standardized.tex"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
 filename "rival_models_standardized.tex"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 In Table 2, I re-estimate the error-correction model (as in Model 6 of Table
  1) controlling for each of the rival explanations above.
 \begin_inset Foot

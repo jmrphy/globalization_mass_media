@@ -10,8 +10,8 @@ source('analyses/2_clean.R')
 
 library(reporttools)
 
-tableContinuous(surveyvars[,sapply(surveyvars, is.numeric)], font.size=12)
-tableNominal(surveyvars[,!sapply(surveyvars, is.numeric)], font.size=12)
+# tableContinuous(surveyvars[,sapply(surveyvars, is.numeric)], font.size=12)
+# tableNominal(surveyvars[,!sapply(surveyvars, is.numeric)], font.size=12)
 
 setwd("~/Dropbox/gh_projects/globalization_mass_media/")
 #############################################
@@ -55,12 +55,12 @@ ggsave(filename="article/model1.pdf", width=6, height=6)
 x.high <- setx(model1, media = "Media")
 x.low <- setx(model1, media = "Other")
 s.out <- sim(model1, x = x.low, x1 = x.high)
-summary(s.out)
+# summary(s.out)
 
 x.high <- setx(model1, openprob2 = "Problem:Openness")
 x.low <- setx(model1, openprob2 = "Problem:Not Openness")
 s.out <- sim(model1, x = x.low, x1 = x.high)
-summary(s.out)
+# summary(s.out)
 
 ##############################################
 ## Supporting Information for Model 1: Blame
@@ -101,13 +101,13 @@ ggsave(filename="article/model1_altdv1.pdf", width=6, height=6)
 
 ############## Model 1.altdv1 - Gov't Blame Model Results Table #################
 
-stargazer(model1.altdv1,
-          title="Results Table for Model 1 with Alternative DV: Blame Government vs. All Others",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "ajps",
-          font.size = "footnotesize",
-          out="article/model1.altdv1.tex")
+# stargazer(model1.altdv1,
+#           title="Results Table for Model 1 with Alternative DV: Blame Government vs. All Others",
+#           dep.var.labels.include=FALSE,
+#           digits = 2,
+#           style = "ajps",
+#           font.size = "footnotesize",
+#           out="article/model1.altdv1.tex")
 
 ############## Model 1.C - Int'l Blame Effect Plot #################
 
@@ -118,7 +118,6 @@ model1.altdv2<-zelig(cause.intl ~ Age + gender + urban + Interest + college + oc
 
 ############## Model 1.C - Int't Blame Effect Plot #################
 
-nobs(model1.altdv2)
 coefplot(model1.altdv2,
          color="black",
          lwdInner=0,
@@ -133,13 +132,13 @@ ggsave(filename="article/model1_altdv2.pdf", width=6, height=6)
 
 ############## Model 1.altdv2 - Int'l Blame Model Results Table #################
 
-stargazer(model1.altdv2,
-          title="Results Table for Model 1 with Alternative DV: Blame International vs. All Others",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "ajps",
-          font.size = "footnotesize",
-          out="article/model1.altdv2.tex")
+# stargazer(model1.altdv2,
+#           title="Results Table for Model 1 with Alternative DV: Blame International vs. All Others",
+#           dep.var.labels.include=FALSE,
+#           digits = 2,
+#           style = "ajps",
+#           font.size = "footnotesize",
+#           out="article/model1.altdv2.tex")
 
 ###########################################################
 ### Model 2: Media -> Openprob2 -> Blame (indirect) #####
@@ -152,7 +151,6 @@ model2<-zelig(openprob2 ~ Age + gender + urban + Interest + college + occ + mitt
               cite=FALSE)
 
 ############## Model 1.2 - Media -> Openprob2 #################
-nobs(model2$result)
 coefplot(model2,
          newNames=c("(Intercept)"="Intercept",
                     "genderFemale"="Female",
@@ -179,7 +177,7 @@ ggsave(filename="article/model2.pdf", width=6, height=6)
 x.high <- setx(model2, media = "Media")
 x.low <- setx(model2, media = "Other")
 s.out <- sim(model2, x = x.low, x1 = x.high)
-summary(s.out)
+# summary(s.out)
 
 ##############################################
 ## Supporting Information for Model 2: Media->Openprob2->Blame
@@ -187,13 +185,13 @@ summary(s.out)
 
 ############## Model 2 - Media->Openprob2-> Blame Model Results Table #################
 
-stargazer(model2,
-          title="Results Table for Model 2: Openness as a Problem",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "ajps",
-          font.size = "footnotesize",
-          out="article/model2.tex")
+# stargazer(model2,
+#           title="Results Table for Model 2: Openness as a Problem",
+#           dep.var.labels.include=FALSE,
+#           digits = 2,
+#           style = "ajps",
+#           font.size = "footnotesize",
+#           out="article/model2.tex")
 
 ####################################
 ### Model 3: Government Handling ###
@@ -211,7 +209,7 @@ model3<-zelig(GovHandling ~ Age + gender + urban + Interest + college + occ + me
 x.high <- setx(model3, causes = "Blame International")
 x.low <- setx(model3, causes = "Blame Government")
 s.out <- sim(model3, x = x.low, x1 = x.high)
-summary(s.out)
+# summary(s.out)
 
 ################# Model 3 - Coefficient Plot #####################
 library(coefplot)
@@ -247,13 +245,13 @@ ggsave(filename="article/model3.pdf", width=6, height=6)
 #########################################
 
 ###################### Model 3 - Coefficient Table #####################
-stargazer(model3,
-          title="Results Table for Model 3: Government Handling",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "ajps",
-          font.size = "footnotesize",
-          out="article/model3.tex")
+# stargazer(model3,
+#           title="Results Table for Model 3: Government Handling",
+#           dep.var.labels.include=FALSE,
+#           digits = 2,
+#           style = "ajps",
+#           font.size = "footnotesize",
+#           out="article/model3.tex")
 
 ################# Model 3 with alternative, full cause variable #########
 x3b<-x[complete.cases(subset(x, select=c("Age", "gender", "urban", "Interest", "college", "occ", "mitterand", "GovHandling", "leftparty", "media", "genprob2", "PresSatIV", "cause",  "openprob2"))),]
@@ -277,13 +275,13 @@ coefplot(model3.altiv1,
 ggsave(filename="article/model3_altiv1.pdf", width=6, height=6)
 
 
-stargazer(model3.altiv1,
-          title="Results Table for Model 3 Alternative IV: All Causes",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "ajps",
-          font.size = "footnotesize",
-          out="article/model3_altiv1.tex")
+# stargazer(model3.altiv1,
+#           title="Results Table for Model 3 Alternative IV: All Causes",
+#           dep.var.labels.include=FALSE,
+#           digits = 2,
+#           style = "ajps",
+#           font.size = "footnotesize",
+#           out="article/model3_altiv1.tex")
 
 ################# Model 3.altdv1 - PresSat Model Table #####################
 
@@ -307,13 +305,13 @@ coefplot(model3.altdv1,
 ggsave(filename="article/model3_altdv1.pdf", width=6, height=6)
 
 
-stargazer(model3.altdv1,
-          title="Results Table for Model 3 Alternative DV: Presidential Satisfaction",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "ajps",
-          font.size = "footnotesize",
-          out="article/model3_altdv1.tex")
+# stargazer(model3.altdv1,
+#           title="Results Table for Model 3 Alternative DV: Presidential Satisfaction",
+#           dep.var.labels.include=FALSE,
+#           digits = 2,
+#           style = "ajps",
+#           font.size = "footnotesize",
+#           out="article/model3_altdv1.tex")
 
 ########################
 ### Model 3: Turnout
@@ -350,13 +348,13 @@ setwd("~/Dropbox/Data General/Article1")
 options(scipen=999)
 require(arm)
 
-mainvars<-subset(df, select=c("scode", "year", "spending.wb", "polity2", "trade.wb", "mdi", "gdpcap.wb", "dependency.wb", "land.wb"))
+mainvars<-subset(df, select=c("scode", "year", "region", "spending.wb", "polity2", "trade.wb", "mdi", "gdpcap.wb", "dependency.wb", "land.wb"))
 
-mainvars[,4:9]<-sapply(mainvars[,4:9], rescale)
+mainvars[,5:10]<-sapply(mainvars[,5:10], rescale)
 
-dfextra<-subset(dfextra, select=c("scode", "year", "spending.wb", "lefts", "netden", "pr", "unitarism", "polity2", "trade.wb", "mdi", "gdpcap.wb", "dependency.wb", "land.wb", "industry.wb"))
+dfextra<-subset(dfextra, select=c("scode", "year", "region", "spending.wb", "lefts", "netden", "pr", "unitarism", "polity2", "trade.wb", "mdi", "gdpcap.wb", "dependency.wb", "land.wb", "industry.wb"))
 
-dfextra[,4:14]<-sapply(dfextra[,4:14], rescale)
+dfextra[,5:14]<-sapply(dfextra[,5:14], rescale)
 
 modelvars<-mainvars[complete.cases(mainvars),]
 
@@ -387,14 +385,14 @@ require(lmtest)
 ## Simple Standard OLS
 
 model<-plm(spending.wb ~
-             lag(trade.wb, 1) +
-             lag(polity2, 1) +
-             lag(trade.wb, 1):lag(mdi, 1) +
-             lag(trade.wb, 1):lag(polity2, 1) +
-             lag(gdpcap.wb, 1) +
-             lag(dependency.wb, 1) +
-             lag(land.wb, 1) +
-             lag(spending.wb, 1) +
+             lag(trade.wb) +
+             lag(polity2) +
+             lag(trade.wb):lag(mdi) +
+             lag(trade.wb):lag(polity2) +
+             lag(gdpcap.wb) +
+             lag(dependency.wb) +
+             lag(land.wb) +
+             lag(spending.wb) +
              lag(spending.wb, 2),
            index = c("scode","year"),
            model="pooling",
@@ -408,14 +406,14 @@ pcdtest(model, test = c("lm"))
 
 ## Simple Standard OLS w/ Country Fixed Effects
 model<-plm(spending.wb ~
-             lag(trade.wb, 1) +
-             lag(mdi, 1) +
-             lag(polity2, 1) +
-             lag(trade.wb, 1):lag(polity2, 1) +
-             lag(gdpcap.wb, 1) +
-             lag(dependency.wb, 1) +
-             lag(land.wb, 1) +
-             lag(spending.wb, 1),
+             lag(trade.wb) +
+             lag(mdi) +
+             lag(polity2) +
+             lag(trade.wb):lag(polity2) +
+             lag(gdpcap.wb) +
+             lag(dependency.wb) +
+             lag(land.wb) +
+             lag(spending.wb),
            data=mainvars,
            index = c("scode","year"),
            model="within",
@@ -430,15 +428,15 @@ pbgtest(model)                         #Breusch-Godfrey/Woolridge test for seria
 
 # Two-way Fixed Effects 
 model.twoway<-plm(spending.wb ~
-                    lag(trade.wb, 1) +
-                    lag(mdi, 1) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(land.wb, 1) +
-                    lag(spending.wb, 1) +
+                    lag(trade.wb) +
+                    lag(mdi) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(spending.wb) +
                     lag(spending.wb, 2) +
-                    lag(trade.wb, 1):lag(mdi, 1),
+                    lag(trade.wb):lag(mdi),
                   index = c("scode","year"),
                   model="within",
                   effect="twoway",
@@ -456,14 +454,14 @@ adf.test(modelvars$spending.wb, k=2)                 #passes, p=0 means it is st
 
 # Testing for homoskedasticity of errors
 bptest(spending.wb ~
-         lag(trade.wb, 1) +
-         lag(mdi, 1) +
-         lag(trade.wb, 1):lag(mdi, 1) +
-         lag(polity2, 1) +
-         lag(trade.wb, 1):lag(polity2, 1) +
-         lag(gdpcap.wb, 1) +
-         lag(dependency.wb, 1) +
-         lag(spending.wb, 1) +
+         lag(trade.wb) +
+         lag(mdi) +
+         lag(trade.wb):lag(mdi) +
+         lag(polity2) +
+         lag(trade.wb):lag(polity2) +
+         lag(gdpcap.wb) +
+         lag(dependency.wb) +
+         lag(spending.wb) +
          lag(spending.wb, 2),
        data=df,
        studentize=F)                #BP test for homoscedasticity, p=0 means heteroskedastic
@@ -471,16 +469,16 @@ bptest(spending.wb ~
 
 # Two-way Fixed Effects with Democracy Interaction
 model.dem.twoway<-plm(spending.wb ~
-                    lag(trade.wb, 1) +
-                    lag(mdi, 1) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(land.wb, 1) +
-                    lag(spending.wb, 1) +
+                    lag(trade.wb) +
+                    lag(mdi) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(spending.wb) +
                     lag(spending.wb, 2) +
-                    lag(trade.wb, 1):lag(mdi, 1) +
-                    lag(trade.wb, 1):lag(polity2, 1),
+                    lag(trade.wb):lag(mdi) +
+                    lag(trade.wb):lag(polity2),
                   data=mainvars,
                   index = c("scode","year"),
                   model="within",
@@ -491,14 +489,15 @@ coeftest(model.dem.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"
 
 model.fd.twoway<-plm(diff(spending.wb) ~
                         lag(trade.wb) +
-                        lag(diff(trade.wb), 1) +
-                        lag(mdi, 1) +
-                        lag(diff(mdi), 1) +
-                        lag(diff(polity2), 1) +
-                        lag(diff(gdpcap.wb), 1) +
-                        lag(diff(dependency.wb), 1) +
-                        lag(spending.wb, 1) +
-                        lag(diff(spending.wb), 1) +
+                        lag(diff(trade.wb)) +
+                        lag(mdi) +
+                        lag(diff(mdi)) +
+                       lag(polity2) +
+                        lag(diff(polity2)) +
+                        lag(diff(gdpcap.wb)) +
+                        lag(diff(dependency.wb)) +
+                        lag(spending.wb) +
+                        lag(diff(spending.wb)) +
                         lag(trade.wb):lag(mdi) +
                         lag(diff(trade.wb)):lag(diff(mdi)) +
                         lag(trade.wb):lag(polity2) +
@@ -508,19 +507,122 @@ model.fd.twoway<-plm(diff(spending.wb) ~
                       model="within",
                       effect="twoway")
 summary(model.fd.twoway)
-coeftest(model.fd.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good!
+coeftest(model.fd.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
+
+stargazer(model.twoway, model.dem.twoway, model.fd.twoway,
+          title="Determinants of Government Consumption Expenditure",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/main_state_models_standardized.tex")
+
+### Guard against Nickell Bias by using only countries running the whole time period
+main.comp<-mainvars[complete.cases(mainvars),]
+obs.all <- tabulate(main.comp$scode) # incl lots of zeros for unused gvkey
+num.obs <- tabulate(obs.all)
+mode.num.obs <- which(num.obs == max(num.obs))
+nt.bal <- num.obs[mode.num.obs] * mode.num.obs
+pot.obs <- which(obs.all == mode.num.obs)
+
+# create new df w/o units that don't run the whole sample period
+
+pot.obs.index <- which(main.comp$scode %in% pot.obs)
+mainvars.bal <- main.comp[pot.obs.index, ]
+
+# Two-way Fixed Effects 
+model.twoway<-plm(spending.wb ~
+                    lag(trade.wb) +
+                    lag(mdi) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(spending.wb) +
+                    lag(spending.wb,2) +
+                    lag(trade.wb):lag(mdi),
+                  index = c("scode","year"),
+                  model="within",
+                  effect="twoway",
+                  data=mainvars.bal)
+summary(model.twoway)
+coeftest(model.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good!
+fixef(model.twoway)
+plmtest(model.twoway, type=c("bp"))   # Breusch-Pagan Multiplier Test; reject null of no significant differences between panels
+plmtest(model.twoway, c("time"), type=("bp")) # B-P L-M test for time effects; accept that we need time effects
+pbgtest(model.twoway)                         #Breusch-Godfrey/Woolridge test for serial autocorrelation, failed
+
+data<-plm.data(modelvars, index = c("scode", "year"))
+require(tseries)
+adf.test(modelvars$spending.wb, k=2)                 #passes, p=0 means it is stationary
+
+# Testing for homoskedasticity of errors
+bptest(spending.wb ~
+         lag(trade.wb) +
+         lag(mdi) +
+         lag(trade.wb):lag(mdi) +
+         lag(polity2) +
+         lag(trade.wb):lag(polity2) +
+         lag(gdpcap.wb) +
+         lag(dependency.wb) +
+         lag(spending.wb) +
+         lag(spending.wb, 2),
+       data=df,
+       studentize=F)                #BP test for homoscedasticity, p=0 means heteroskedastic
 
 
-require(estout)
+# Two-way Fixed Effects with Democracy Interaction
+model.dem.twoway<-plm(spending.wb ~
+                        lag(trade.wb) +
+                        lag(mdi) +
+                        lag(polity2) +
+                        lag(gdpcap.wb) +
+                        lag(dependency.wb) +
+                        lag(land.wb) +
+                        lag(spending.wb) +
+                        lag(spending.wb,2) +
+                        lag(trade.wb):lag(mdi) +
+                        lag(trade.wb):lag(polity2),
+                      data=mainvars.bal,
+                      index = c("scode","year"),
+                      model="within",
+                      effect="twoway")
+summary(model.dem.twoway)
+coeftest(model.dem.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good!
 
-estclear()
-eststo(model.twoway)
-eststo(model.dem.twoway)
-eststo(model.fd.twoway)
-esttab(filename="main_state_models_standardized")
-estclear()
 
+model.fd.twoway<-plm(diff(spending.wb) ~
+                       lag(trade.wb) +
+                       lag(diff(trade.wb)) +
+                       lag(mdi) +
+                       lag(diff(mdi)) +
+                       lag(polity2) +
+                       lag(diff(polity2)) +
+                       lag(diff(gdpcap.wb)) +
+                       lag(diff(dependency.wb)) +
+                       lag(spending.wb) +
+                       lag(diff(spending.wb)) +
+                       lag(trade.wb):lag(mdi) +
+                       lag(diff(trade.wb)):lag(diff(mdi)) +
+                       lag(trade.wb):lag(polity2) +
+                       lag(diff(trade.wb)):lag(diff(polity2)),
+                     data=modelvars,
+                     index = c("scode","year"),
+                     model="within",
+                     effect="twoway")
+summary(model.fd.twoway)
+coeftest(model.fd.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
 
+stargazer(model.twoway, model.dem.twoway, model.fd.twoway,
+          title="Table 1 re-estimated with only countries of N=38 (1961-1999)",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          font.size = "footnotesize",
+          out="article/balanced_models_table.tex")
+
+require(sjPlot)
+sjp.int(model.fd.twoway)
 
 # plmtest(model.twoway, c("time"), type=("bp")) # # Won't compute bc time effects accounted for
 pbgtest(model.twoway)                         #Breusch-Godfrey/Woolridge test for serial autocorrelation, passes with 2 LDVs
@@ -531,14 +633,14 @@ adf.test(modelvars$spending.wb, k=1)                 #passes, p=0 means it is st
 
 # Testing for homoskedasticity of errors
 bptest(spending.wb ~
-         lag(trade.wb, 1) +
-         lag(mdi, 1) +
-         lag(trade.wb, 1):lag(mdi, 1) +
-         lag(polity2, 1) +
-         lag(trade.wb, 1):lag(polity2, 1) +
-         lag(gdpcap.wb, 1) +
-         lag(dependency.wb, 1) +
-         lag(spending.wb, 1) +
+         lag(trade.wb) +
+         lag(mdi) +
+         lag(trade.wb):lag(mdi) +
+         lag(polity2) +
+         lag(trade.wb):lag(polity2) +
+         lag(gdpcap.wb) +
+         lag(dependency.wb) +
+         lag(spending.wb) +
          lag(spending.wb, 2),
        data=df,
        studentize=F)                #BP test for homoscedasticity, p=0 means heteroskedastic
@@ -549,20 +651,20 @@ coeftest(model.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  
 
 
 pr.model<-plm(diff(spending.wb) ~
-                lag(trade.wb, 1) +
-                lag(diff(trade.wb),1) +
-                lag(mdi, 1) +
-                lag(diff(mdi),1) +
-                lag(polity2, 1) +
-                lag(gdpcap.wb, 1) +
-                lag(dependency.wb, 1) +
-                lag(land.wb, 1) +
-                lag(trade.wb, 1):lag(mdi, 1) +
-                lag(diff(trade.wb), 1):lag(diff(mdi),1) +
-                lag(pr, 1) +
-                lag(trade.wb, 1):lag(pr, 1) +
-                lag(diff(trade.wb), 1):lag(diff(pr), 1) +
-                lag(spending.wb, 1),
+                lag(trade.wb) +
+                lag(diff(trade.wb)) +
+                lag(mdi) +
+                lag(diff(mdi)) +
+                lag(polity2) +
+                lag(gdpcap.wb) +
+                lag(dependency.wb) +
+                lag(land.wb) +
+                lag(trade.wb):lag(mdi) +
+                lag(diff(trade.wb)):lag(diff(mdi)) +
+                lag(pr) +
+                lag(trade.wb):lag(pr) +
+                lag(diff(trade.wb)):lag(diff(pr)) +
+                lag(spending.wb),
               index = c("scode","year"),
               model="within",
               effect="twoway",
@@ -572,20 +674,20 @@ summary(pr.model)
 coeftest(pr.model, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))
 
 unitarism.model<-plm(diff(spending.wb) ~
-                       lag(trade.wb, 1) +
-                       lag(diff(trade.wb),1) +
-                       lag(mdi, 1) +
-                       lag(diff(mdi),1) +
-                       lag(polity2, 1) +
-                       lag(gdpcap.wb, 1) +
-                       lag(dependency.wb, 1) +
-                       lag(land.wb, 1) +
-                       lag(trade.wb, 1):lag(mdi, 1) +
-                       lag(diff(trade.wb), 1):lag(diff(mdi),1) +
-                       lag(unitarism, 1) +
-                       lag(trade.wb, 1):lag(unitarism, 1) +
-                       lag(diff(trade.wb), 1):lag(diff(unitarism), 1) +
-                       lag(spending.wb, 1),
+                       lag(trade.wb) +
+                       lag(diff(trade.wb)) +
+                       lag(mdi) +
+                       lag(diff(mdi)) +
+                       lag(polity2) +
+                       lag(gdpcap.wb) +
+                       lag(dependency.wb) +
+                       lag(land.wb) +
+                       lag(trade.wb):lag(mdi) +
+                       lag(diff(trade.wb)):lag(diff(mdi)) +
+                       lag(unitarism) +
+                       lag(trade.wb):lag(unitarism) +
+                       lag(diff(trade.wb)):lag(diff(unitarism)) +
+                       lag(spending.wb),
                      index = c("scode","year"),
                      model="within",
                      effect="twoway",
@@ -595,20 +697,20 @@ summary(unitarism.model)
 coeftest(unitarism.model, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))
 
 netden.model<-plm(diff(spending.wb) ~
-                    lag(trade.wb, 1) +
-                    lag(diff(trade.wb),1) +
-                    lag(mdi, 1) +
-                    lag(diff(mdi),1) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(land.wb, 1) +
-                    lag(trade.wb, 1):lag(mdi, 1) +
-                    lag(diff(trade.wb), 1):lag(diff(mdi),1) +
-                    lag(netden, 1) +
-                    lag(trade.wb, 1):lag(netden, 1) +
-                    lag(diff(trade.wb), 1):lag(diff(netden), 1) +
-                    lag(spending.wb, 1),
+                    lag(trade.wb) +
+                    lag(diff(trade.wb)) +
+                    lag(mdi) +
+                    lag(diff(mdi)) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(trade.wb):lag(mdi) +
+                    lag(diff(trade.wb)):lag(diff(mdi)) +
+                    lag(netden) +
+                    lag(trade.wb):lag(netden) +
+                    lag(diff(trade.wb)):lag(diff(netden)) +
+                    lag(spending.wb),
                   index = c("scode","year"),
                   model="within",
                   effect="twoway",
@@ -618,20 +720,20 @@ summary(netden.model)
 coeftest(netden.model, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))
 
 lefts.model<-plm(diff(spending.wb) ~
-                    lag(trade.wb, 1) +
-                    lag(diff(trade.wb),1) +
-                    lag(mdi, 1) +
-                    lag(diff(mdi),1) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(land.wb, 1) +
-                    lag(trade.wb, 1):lag(mdi, 1) +
-                    lag(diff(trade.wb), 1):lag(diff(mdi),1) +
-                    lag(lefts, 1) +
-                    lag(trade.wb, 1):lag(lefts, 1) +
-                    lag(diff(trade.wb), 1):lag(diff(lefts), 1) +
-                    lag(spending.wb, 1),
+                    lag(trade.wb) +
+                    lag(diff(trade.wb)) +
+                    lag(mdi) +
+                    lag(diff(mdi)) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(trade.wb):lag(mdi) +
+                    lag(diff(trade.wb)):lag(diff(mdi)) +
+                    lag(lefts) +
+                    lag(trade.wb):lag(lefts) +
+                    lag(diff(trade.wb)):lag(diff(lefts)) +
+                    lag(spending.wb),
                   index = c("scode","year"),
                   model="within",
                   effect="twoway",
@@ -641,22 +743,22 @@ summary(lefts.model)
 coeftest(lefts.model, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))
 
 industry.model<-plm(diff(spending.wb) ~
-                      lag(trade.wb, 1) +
-                      lag(diff(trade.wb),1) +
-                      lag(mdi, 1) +
-                      lag(diff(mdi),1) +
-                      lag(trade.wb, 1):lag(mdi, 1) +
-                      lag(diff(trade.wb), 1):lag(diff(mdi),1) +
-                      lag(polity2, 1) +
-                      lag(gdpcap.wb, 1) +
-                      lag(dependency.wb, 1) +
-                      lag(land.wb, 1) +
-                      lag(diff(trade.wb), 1):lag(diff(mdi),1) +
-                      lag(industry.wb, 1) +
-                      lag(diff(industry.wb), 1) +
-                      lag(trade.wb, 1):lag(industry.wb, 1) +
-                      lag(diff(trade.wb), 1):lag(diff(industry.wb), 1) +
-                      lag(spending.wb, 1),
+                      lag(trade.wb) +
+                      lag(diff(trade.wb)) +
+                      lag(mdi) +
+                      lag(diff(mdi)) +
+                      lag(trade.wb):lag(mdi) +
+                      lag(diff(trade.wb)):lag(diff(mdi)) +
+                      lag(polity2) +
+                      lag(gdpcap.wb) +
+                      lag(dependency.wb) +
+                      lag(land.wb) +
+                      lag(diff(trade.wb)):lag(diff(mdi)) +
+                      lag(industry.wb) +
+                      lag(diff(industry.wb)) +
+                      lag(trade.wb):lag(industry.wb) +
+                      lag(diff(trade.wb)):lag(diff(industry.wb)) +
+                      lag(spending.wb),
                     index = c("scode","year"),
                     model="within",
                     effect="twoway",
@@ -682,13 +784,13 @@ require(Zelig)
 require(ZeligPanelmodels)
 
 z.out.fe <- zelig(spending.wb ~
-                    lag(trade.wb, 1) +
-                    lag(mdi, 1) +
-                    lag(trade.wb, 1):lag(mdi, 1) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(spending.wb, 1) +
+                    lag(trade.wb) +
+                    lag(mdi) +
+                    lag(trade.wb):lag(mdi) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(spending.wb) +
                     lag(spending.wb, 2),
                   model="pan.plm", 
                   pan.model="within",
@@ -723,33 +825,34 @@ summary(imputed)
 
 
 z.out.fe <- zelig(spending.wb ~
-                    lag(trade.wb, 1) +
-                    lag(mdi, 1) +
-                    lag(trade.wb, 1):lag(mdi, 1) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(spending.wb, 1) +
-                    lag(spending.wb, 2),
-                  model="pan.plm", 
-                  pan.model="within",
-                  pan.index=c("scode", "year"),
+                    lag(trade.wb) +
+                    lag(mdi) +
+                    lag(trade.wb):lag(mdi) +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(spending.wb),
+                    scode +
+                    year,
+                  model="ls",
                   data=imputed$imputations)
 
 summary(z.out.fe)
 
+
+
 z.out.fe <- zelig(diff(spending.wb) ~
-                    lag(trade.wb, 1) +
-                    lag(diff(trade.wb), 1) +
-                    lag(mdi, 1) +
-                    lag(diff(mdi), 1) +
-                    lag(trade.wb, 1):lag(mdi, 1) +
+                    lag(trade.wb) +
+                    lag(diff(trade.wb)) +
+                    lag(mdi) +
+                    lag(diff(mdi)) +
+                    lag(trade.wb):lag(mdi) +
                     lag(diff(trade.wb)):lag(diff(mdi)) +
-                    lag(polity2, 1) +
-                    lag(gdpcap.wb, 1) +
-                    lag(dependency.wb, 1) +
-                    lag(land.wb, 1) +
-                    lag(spending.wb, 1),
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(spending.wb),
                   model="pan.plm", 
                   pan.model="within",
                   pan.index=c("scode", "year"),
@@ -766,102 +869,3 @@ x.low <- setx(z.out.fe, trade.wb = 6:32)
 x.high <- setx(z.out.fe, trade.wb = 412.2)
 
 s.out.fe <- sim(z.out.fe, x = x.low, x1 = x.high)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#modelvars<-modelvars[duplicated(modelvars$scode),]
-#modelvars<-modelvars[duplicated(modelvars$year),]
-
-#modelvars<-subset(modelvars, modelvars$scode!=366 & modelvars$scode!=620 & modelvars$scode!=781 & modelvars$scode!=365 & modelvars$scode!=694 & modelvars$scode!=317 & modelvars$scode!=372)
-
-codes<-as.data.frame(table(modelvars$scode))
-codes$scode<-codes$Var1
-modelvars<-merge(modelvars, codes, by="scode")
-modelvars<-subset(modelvars, Freq>5)
-
-#library(plm)
-pdf<-pdata.frame(modelvars, index=c("scode", "year"), row.names=TRUE) #convert dataframe "pdf" to panel dataframe "panel.data"
-
-head(pdf)   # see first 6 rows
-
-summary(pdf$spending.wb)  #percentage of total variation due to units (countries) and time
-#more variation from countries than time
-
-model.fe <- plm(spending.wb~
-                  imports + exports + mdi + imports:mdi,
-                data=pdf,
-                model="within") # fixed-effects
-
-#library(lmtest)
-coeftest(model.fe, vcov=vcovBK)
-
-pcse
-
-
-
-model.lm<-lm(spending.wb~imports + exports + mdi + imports:mdi, data=modelvars)
-library(pcse)
-pcse(model.lm, groupN="scode", groupT="year")
-
-ls(model.lm)
-NROW(model.lm$residuals)
-NROW(model.lm$effects)
-NROW(model.lm$fitted.values)
-modelvars$fitted.values
-source("~/Dropbox/R Code/pcse2.R")
-pcse2(model.lm, groupN="scode", groupT="year")
-
-bk<-vcovBK(model.fe, cluster="time")
-coeftest(model.fe, vcov=)
-
-
-library(pcse)
-pcse(model.lm, groupN="scode", groupT="year")
-
-
-### Analysis of fixed effects
-fixef(model.fe, type="dmean") #default type = level
-summary(fixef(model.fe, type="dmean"))
-fixef(model.fe, type="dmean", effect="time") # time fixed-effects rather than country
-summary(fixef(model.fe, type="dmean", effect="time"))
-
-df2<-df[complete.cases(df[,2]),]
-
-
-
-library(pcse)
-
-lm(diff(df$spending) ~ 
-     
-     
-     source("~/Dropbox/R Code/pcse2.R")
-   
-
-   
-   
-   
-   
-   
-   
-   

@@ -103,6 +103,6 @@ open2plot <-
 #  State Descriptives ###########################################
 #################################################################
 
-y$Periods<-ifelse(z$year>=1995, "1995-2010", "1960-1994")
-ggplot(z, aes(x=Spending, y=LogTrade, color=Periods)) +    
+df$Periods<-ifelse(df$year>=1985, "1985-2010", "1960-1984")
+ggplot(df, aes(y=spending.wb, x=trade.wb, color=Periods)) +    
   geom_smooth(method=lm)

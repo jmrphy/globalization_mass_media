@@ -60,15 +60,15 @@
 \begin_body
 
 \begin_layout Title
-Mass Media and the Domestic Politics of Economic Globalization
-\end_layout
-
-\begin_layout Author
-Justin Murphy, PhD
+Mass Media and the Domestic Politics of Globalization
 \end_layout
 
 \begin_layout Date
 
+\end_layout
+
+\begin_layout Author
+Justin Murphy, PhD
 \end_layout
 
 \begin_layout Standard
@@ -92,11 +92,33 @@ Southampton, United Kingdom SO17 1BJ
 \end_layout
 
 \begin_layout Standard
-Email: j.murphy@soton.ac.uk
+Email: 
+\begin_inset CommandInset href
+LatexCommand href
+target "j.murphy@soton.ac.uk"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Tel: +44 07963 569256
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Replication repository: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/jmrphy/globalization_mass_media."
+
+\end_inset
+
+
 \end_layout
 
 \end_body
