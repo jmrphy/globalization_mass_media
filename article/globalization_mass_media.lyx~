@@ -83,29 +83,7 @@ endnotes
 Mass Media and the Domestic Politics of Globalization
 \end_layout
 
-\begin_layout Abstract
-
-\size normal
-Much is known about the domestic politics of globalization but political
- scientists have largely ignored one critical link between the international
- economy and many individuals around the world: mass media.
- Considering the likely effects of mass media on public perceptions of responsib
-ility, this article develops an argument about the effects of mass media
- on individuals' blame attributions for the adjustment costs of economic
- globalization.
- The article then develops a simple formal model of how these effects on
- blame attributions affect the incentives of policymakers, illustrating
- that mass media undermine the political pressures which have traditionally
- required policymakers to compensate domestic groups harmed by globalization.
- Individual-level implications of the theory are tested on survey data from
- France in 1992-1993 and state-level implications are tested on data from
- most countries around the world from 1960 to 2010.
- The evidence shows that mass media diffuse the political backlash from
- groups harmed by globalization, leading to weakened welfare-state responsivenes
-s.
-\end_layout
-
-\begin_layout Abstract
+\begin_layout Standard
 
 \size normal
 \begin_inset Newpage newpage
@@ -2581,23 +2559,6 @@ Summary statistics can be found in Supplementary Information.
 
  Most models have around 130 countries with an average of roughly 8 observations
  per country.
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Although Nickell bias can lead to rejecting a true null hypothesis when
- the number of units is large relative to the time period
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Gaibulloev:2014eg"
-
-\end_inset
-
-,
-\end_layout
-
-\end_inset
-
  To test whether mass media affects domestic compensation for globalization
  at the state level, I fit several variants of the pooled cross-sectional,
  time-series regression equation:
@@ -3047,6 +3008,40 @@ Table 1 displays results from three regression models which provide initial
  In each of the three model specifications, the variable Trade*MDI is negative
  and statistically significant, suggesting that media density decreases
  the effect that trade has on government consumption expenditure.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Nickell bias can lead to rejecting a true null hypothesis when the number
+ of units is large relative to the time period
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gaibulloev:2014eg"
+
+\end_inset
+
+, although the proposed solution of subsetting the data to decrease the
+ number of units is disputed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Beck:2014bo"
+
+\end_inset
+
+.
+ Given that the present panel contains a relatively large number of countries
+ with a sampling period of more than 30 years (the period beyond which Nickell
+ bias becomes trivial), an intuitive compromise solution to check against
+ Nickell bias here is to estimate the models on only those countries with
+ the longest sampling periods.
+ Table 12 in Supplementary Information shows the results of re-estimating
+ the present models on only countries with complete data for the 38 years
+ between 1961 and 1999.
+ The results are substantially the same as the those reported below.
+\end_layout
+
+\end_inset
+
  The coefficient of -.97 for Trade*MDI in Model 4 suggests that, on average,
  a two standard deviation increase in media density (109.3 points) in the
  long-run decreases the effect that a two standard deviation increase in

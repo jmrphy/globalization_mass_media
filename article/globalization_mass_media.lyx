@@ -83,29 +83,7 @@ endnotes
 Mass Media and the Domestic Politics of Globalization
 \end_layout
 
-\begin_layout Abstract
-
-\size normal
-Much is known about the domestic politics of globalization but political
- scientists have largely ignored one critical link between the international
- economy and many individuals around the world: mass media.
- Considering the likely effects of mass media on public perceptions of responsib
-ility, this article develops an argument about the effects of mass media
- on individuals' blame attributions for the adjustment costs of economic
- globalization.
- The article then develops a simple formal model of how these effects on
- blame attributions affect the incentives of policymakers, illustrating
- that mass media undermine the political pressures which have traditionally
- required policymakers to compensate domestic groups harmed by globalization.
- Individual-level implications of the theory are tested on survey data from
- France in 1992-1993 and state-level implications are tested on data from
- most countries around the world from 1960 to 2010.
- The evidence shows that mass media diffuse the political backlash from
- groups harmed by globalization, leading to weakened welfare-state responsivenes
-s.
-\end_layout
-
-\begin_layout Abstract
+\begin_layout Standard
 
 \size normal
 \begin_inset Newpage newpage
@@ -348,14 +326,14 @@ ed as evidence for the argument that policymakers are more likely to neglect
 \end_layout
 
 \begin_layout Standard
-These findings alter the prevailing wisdom in at least three ways.
+These findings alter the prevailing wisdom in at least two ways.
  First, they provide new evidence for the claim that economic openness makes
  citizens less likely to blame, and less likely to punish, incumbent governments
  for poor economic performance, but they also reveal that mass media exposure
  is an alternative and independent causal path to the same effect, controlling
  for perceptions of economic openness.
- Second, this is the first systematic investigation of mass media as a political
- 
+ Second, this is one of the first systematic investigations of mass media
+ as a political 
 \emph on
 institution
 \emph default
@@ -378,50 +356,6 @@ key "Hays:2005vo,Walter:2010ky"
 \end_inset
 
 ).
- Third, this research bears important implications for debates between rationali
-sm and constructivism as analytical frameworks for the study of international
- relations and comparative politics.
- It directly challenges the conventional dichotomy wherein the former is
- supposed to focus on strategic incentives or the 
-\begin_inset Quotes eld
-\end_inset
-
-logic of consequences
-\begin_inset Quotes erd
-\end_inset
-
- and the latter on over-arching norms or the 
-\begin_inset Quotes eld
-\end_inset
-
-logic of appropriateness
-\begin_inset Quotes erd
-\end_inset
-
- (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Dessler:2005io"
-
-\end_inset
-
-).
- The article shows that some dynamics in the logic of appropriateness (in
- this case, the reality-constructing power of the mass media) can also be
- modeled for the logic of their consequences.
- This approach permits quantitative tests of deductive hypotheses from rational-
-choice models in the service of an essentially constructivist argument.
- Thus the article provides a novel contribution to the long-standing project
- of bridging the divide between constructivism and rationalism in the study
- of international and comparative politics (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Katzenstein:1998ef,Checkel:1997cw,Zurn:2005ja"
-
-\end_inset
-
-).
- 
 \end_layout
 
 \begin_layout Standard
@@ -3393,24 +3327,7 @@ key "Hays:2005vo,Walter:2010ky"
 \end_inset
 
 ).
- Methodologically, the article employed a novel application of a rational-choice
- framework, simple formal modeling, and quantitative analyses at multiple
- levels of analysis in the service of an essentially constructivist argument
- about the social construction of the international political economy.
- The approach taken here, and its findings, should therefore be of interest
- to researchers seeking to bridge the divide between rationalist and constructiv
-ist approaches to the study of international and comparative politics (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Katzenstein:1998ef,Checkel:1997cw,Zurn:2005ja"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-Finally, the state-level findings in particular have an important substantive
+ Second, the state-level findings in particular have an important substantive
  implication, for they suggest that the omission of mass media in previous
  studies has led to biased conclusions which over-estimate the egalitarian
  responsiveness of welfare states in the globalization-welfare nexus.
