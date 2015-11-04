@@ -343,7 +343,7 @@ ggsave(filename="turnout.pdf", width=5, height=4)
 
 ### Variable Description Table and Summary Stats
 
-setwd("~/Dropbox/Data General/Article1")
+setwd("~/Dropbox/gh_projects/globalization_mass_media/")
 
 options(scipen=999)
 require(arm)
@@ -409,11 +409,11 @@ model<-plm(spending.wb ~
              lag(trade.wb) +
              lag(mdi) +
              lag(polity2) +
-             lag(trade.wb):lag(polity2) +
              lag(gdpcap.wb) +
              lag(dependency.wb) +
              lag(land.wb) +
-             lag(spending.wb),
+             lag(spending.wb) +
+             lag(spending.wb,2),
            data=mainvars,
            index = c("scode","year"),
            model="within",
@@ -426,6 +426,10 @@ plmtest(model, type=c("bp"))   # Breusch-Pagan Multiplier Test; reject null of n
 plmtest(model, c("time"), type=("bp")) # B-P L-M test for time effects; accept that we need time effects
 pbgtest(model)                         #Breusch-Godfrey/Woolridge test for serial autocorrelation, failed
 
+
+#############################
+# Model 1 in paper ##########
+############################
 # Two-way Fixed Effects 
 model.twoway<-plm(spending.wb ~
                     lag(trade.wb) +
@@ -492,11 +496,12 @@ model.fd.twoway<-plm(diff(spending.wb) ~
                         lag(diff(trade.wb)) +
                         lag(mdi) +
                         lag(diff(mdi)) +
-                       lag(polity2) +
+                        lag(polity2) +
                         lag(diff(polity2)) +
                         lag(diff(gdpcap.wb)) +
                         lag(diff(dependency.wb)) +
                         lag(spending.wb) +
+                        lag(spending.wb,3) +
                         lag(diff(spending.wb)) +
                         lag(trade.wb):lag(mdi) +
                         lag(diff(trade.wb)):lag(diff(mdi)) +
@@ -508,14 +513,91 @@ model.fd.twoway<-plm(diff(spending.wb) ~
                       effect="twoway")
 summary(model.fd.twoway)
 coeftest(model.fd.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
+pbgtest(model.fd.twoway)   
+
 
 stargazer(model.twoway, model.dem.twoway, model.fd.twoway,
           title="Determinants of Government Consumption Expenditure",
           dep.var.labels.include=FALSE,
           digits = 2,
           style = "ajps",
+          omit.stat=c("f"),
           font.size = "footnotesize",
           out="article/main_state_models_standardized.tex")
+
+#####################################################
+# Reviewers suggests trying Trade*MDI at time t
+###################################################
+
+# Two-way Fixed Effects 
+model.twoway.nolag<-plm(spending.wb ~
+                    trade.wb +
+                    mdi +
+                    lag(polity2) +
+                    lag(gdpcap.wb) +
+                    lag(dependency.wb) +
+                    lag(land.wb) +
+                    lag(spending.wb) +
+                    lag(spending.wb, 2) +
+                    trade.wb:mdi,
+                  index = c("scode","year"),
+                  model="within",
+                  effect="twoway",
+                  data=mainvars)
+summary(model.twoway.nolag)
+coeftest(model.twoway.nolag, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
+
+
+# Two-way Fixed Effects with Democracy Interaction
+model.dem.twoway.nolag<-plm(spending.wb ~
+                        trade.wb +
+                        mdi +
+                        lag(polity2) +
+                        lag(gdpcap.wb) +
+                        lag(dependency.wb) +
+                        lag(land.wb) +
+                        lag(spending.wb) +
+                        lag(spending.wb, 2) +
+                        trade.wb:mdi +
+                        lag(trade.wb):lag(polity2),
+                      data=mainvars,
+                      index = c("scode","year"),
+                      model="within",
+                      effect="twoway")
+summary(model.dem.twoway.nolag)
+coeftest(model.dem.twoway.nolag, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
+
+
+model.fd.twoway.nolag<-plm(diff(spending.wb) ~
+                       trade.wb +
+                       diff(trade.wb) +
+                       mdi +
+                       diff(mdi) +
+                       lag(polity2) +
+                       lag(diff(polity2)) +
+                       lag(diff(gdpcap.wb)) +
+                       lag(diff(dependency.wb)) +
+                       lag(spending.wb) +
+                       lag(diff(spending.wb)) +
+                       trade.wb:mdi +
+                       diff(trade.wb):diff(mdi) +
+                       lag(trade.wb):lag(polity2) +
+                       lag(diff(trade.wb)):lag(diff(polity2)),
+                     data=mainvars,
+                     index = c("scode","year"),
+                     model="within",
+                     effect="twoway")
+summary(model.fd.twoway.nolag)
+coeftest(model.fd.twoway.nolag, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
+
+stargazer(model.twoway.nolag, model.dem.twoway.nolag, model.fd.twoway.nolag,
+          title="Determinants of Government Consumption Expenditure",
+          dep.var.labels.include=FALSE,
+          digits = 2,
+          style = "ajps",
+          omit.stat=c("f"),
+          font.size = "footnotesize",
+          out="article/main_state_models_standardized_nolag.tex")
 
 ### Guard against Nickell Bias by using only countries running the whole time period
 main.comp<-mainvars[complete.cases(mainvars),]
@@ -588,7 +670,7 @@ model.dem.twoway<-plm(spending.wb ~
                       model="within",
                       effect="twoway")
 summary(model.dem.twoway)
-coeftest(model.dem.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good!
+coeftest(model.dem.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
 
 
 model.fd.twoway<-plm(diff(spending.wb) ~
@@ -606,7 +688,7 @@ model.fd.twoway<-plm(diff(spending.wb) ~
                        lag(diff(trade.wb)):lag(diff(mdi)) +
                        lag(trade.wb):lag(polity2) +
                        lag(diff(trade.wb)):lag(diff(polity2)),
-                     data=modelvars,
+                     data=mainvars.bal,
                      index = c("scode","year"),
                      model="within",
                      effect="twoway")
@@ -766,6 +848,29 @@ industry.model<-plm(diff(spending.wb) ~
 summary(industry.model)
 
 coeftest(industry.model, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))
+
+gdpcap.model<-plm(diff(spending.wb) ~
+                      lag(trade.wb) +
+                      lag(diff(trade.wb)) +
+                      lag(mdi) +
+                      lag(diff(mdi)) +
+                      lag(trade.wb):lag(mdi) +
+                      lag(diff(trade.wb)):lag(diff(mdi)) +
+                      lag(polity2) +
+
+                      lag(dependency.wb) +
+                      lag(land.wb) +
+                      lag(diff(gdpcap.wb)) +
+                      lag(trade.wb):lag(gdpcap.wb) +
+                      lag(diff(trade.wb)):lag(diff(gdpcap.wb)) +
+                      lag(spending.wb),
+                    index = c("scode","year"),
+                    model="within",
+                    effect="twoway",
+                    data=dfextra)
+summary(gdpcap.model)
+
+coeftest(gdpcap.model, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))
 
 require(estout)
 estclear()

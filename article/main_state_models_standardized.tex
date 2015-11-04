@@ -1,6 +1,6 @@
 
 % Table created by stargazer v.5.1 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Wed, Jun 10, 2015 - 18:43:58
+% Date and time: Wed, Nov 04, 2015 - 13:18:52
 \begin{table}[!htbp] \centering 
   \caption{Determinants of Government Consumption Expenditure} 
   \label{} 
@@ -9,15 +9,15 @@
 \\[-1.8ex]\hline \\[-1.8ex] 
 \\[-1.8ex] & \textbf{Model 1} & \textbf{Model 2} & \textbf{Model 3}\\ 
 \hline \\[-1.8ex] 
- lag(trade.wb) & 0.14 & 0.15 & 0.39$^{*}$ \\ 
-  & (0.21) & (0.21) & (0.22) \\ 
-  lag(diff(trade.wb)) &  &  & $-$0.96$^{**}$ \\ 
-  &  &  & (0.39) \\ 
-  lag(mdi) & $-$0.16 & $-$0.11 & 0.61$^{*}$ \\ 
-  & (0.40) & (0.40) & (0.32) \\ 
-  lag(diff(mdi)) &  &  & 0.56 \\ 
-  &  &  & (1.72) \\ 
-  lag(polity2) & 0.03 & $-$0.03 & $-$0.14 \\ 
+ lag(trade.wb) & 0.14 & 0.15 & 0.32 \\ 
+  & (0.21) & (0.21) & (0.23) \\ 
+  lag(diff(trade.wb)) &  &  & $-$0.88$^{**}$ \\ 
+  &  &  & (0.41) \\ 
+  lag(mdi) & $-$0.16 & $-$0.11 & 0.70$^{**}$ \\ 
+  & (0.40) & (0.40) & (0.33) \\ 
+  lag(diff(mdi)) &  &  & 1.01 \\ 
+  &  &  & (1.76) \\ 
+  lag(polity2) & 0.03 & $-$0.03 & $-$0.11 \\ 
   & (0.15) & (0.16) & (0.16) \\ 
   lag(gdpcap.wb) & 0.62$^{***}$ & 0.61$^{***}$ &  \\ 
   & (0.19) & (0.19) &  \\ 
@@ -25,30 +25,31 @@
   & (0.23) & (0.23) &  \\ 
   lag(land.wb) & 13.92 & 20.36 &  \\ 
   & (191.65) & (191.68) &  \\ 
-  lag(diff(polity2)) &  &  & 0.003 \\ 
-  &  &  & (0.29) \\ 
-  lag(diff(gdpcap.wb)) &  &  & 0.68 \\ 
-  &  &  & (0.72) \\ 
-  lag(diff(dependency.wb)) &  &  & 2.36 \\ 
-  &  &  & (1.80) \\ 
-  lag(spending.wb) & 0.72$^{***}$ & 0.72$^{***}$ & $-$0.16$^{***}$ \\ 
-  & (0.02) & (0.02) & (0.01) \\ 
+  lag(diff(polity2)) &  &  & 0.04 \\ 
+  &  &  & (0.30) \\ 
+  lag(diff(gdpcap.wb)) &  &  & 0.64 \\ 
+  &  &  & (0.73) \\ 
+  lag(diff(dependency.wb)) &  &  & 2.59 \\ 
+  &  &  & (1.86) \\ 
+  lag(spending.wb) & 0.72$^{***}$ & 0.72$^{***}$ & $-$0.19$^{***}$ \\ 
+  & (0.02) & (0.02) & (0.02) \\ 
   lag(spending.wb, 2) & 0.11$^{***}$ & 0.11$^{***}$ &  \\ 
   & (0.02) & (0.02) &  \\ 
-  lag(diff(spending.wb)) &  &  & $-$0.10$^{***}$ \\ 
+  lag(spending.wb, 3) &  &  & 0.03 \\ 
   &  &  & (0.02) \\ 
-  lag(trade.wb):lag(mdi) & $-$0.97$^{***}$ & $-$0.88$^{***}$ & $-$0.63$^{**}$ \\ 
-  & (0.32) & (0.33) & (0.32) \\ 
-  lag(diff(trade.wb)):lag(diff(mdi)) &  &  & 8.04 \\ 
-  &  &  & (15.68) \\ 
-  lag(trade.wb):lag(polity2) &  & $-$0.43 & $-$0.50 \\ 
-  &  & (0.30) & (0.30) \\ 
-  lag(diff(trade.wb)):lag(diff(polity2)) &  &  & $-$3.54$^{*}$ \\ 
-  &  &  & (1.96) \\ 
- N & 3911 & 3911 & 3914 \\ 
-R-squared & 0.67 & 0.67 & 0.10 \\ 
+  lag(diff(spending.wb)) &  &  & $-$0.09$^{***}$ \\ 
+  &  &  & (0.02) \\ 
+  lag(trade.wb):lag(mdi) & $-$0.97$^{***}$ & $-$0.88$^{***}$ & $-$0.71$^{**}$ \\ 
+  & (0.32) & (0.33) & (0.33) \\ 
+  lag(diff(trade.wb)):lag(diff(mdi)) &  &  & $-$0.29 \\ 
+  &  &  & (16.85) \\ 
+  lag(trade.wb):lag(polity2) &  & $-$0.43 & $-$0.45 \\ 
+  &  & (0.30) & (0.31) \\ 
+  lag(diff(trade.wb)):lag(diff(polity2)) &  &  & $-$3.53$^{*}$ \\ 
+  &  &  & (2.01) \\ 
+ N & 3911 & 3911 & 3785 \\ 
+R-squared & 0.67 & 0.67 & 0.11 \\ 
 Adj. R-squared & 0.64 & 0.64 & 0.10 \\ 
-F Statistic & 844.64$^{***}$ (df = 9; 3715) & 760.58$^{***}$ (df = 10; 3714) & 30.72$^{***}$ (df = 14; 3716) \\ 
 \hline \\[-1.8ex] 
 \multicolumn{4}{l}{$^{***}$p $<$ .01; $^{**}$p $<$ .05; $^{*}$p $<$ .1} \\ 
 \end{tabular} 
