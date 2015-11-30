@@ -1,54 +1,55 @@
 
 % Table created by stargazer v.5.1 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Wed, Jun 10, 2015 - 18:44:05
+% Date and time: Mon, Nov 09, 2015 - 20:02:29
 \begin{table}[!htbp] \centering 
-  \caption{Table 1 re-estimated with only countries of N=38 (1961-1999)} 
+  \caption{Table 1 Re-Estimated on Balanced Panel (1961-1999)} 
   \label{} 
 \footnotesize 
 \begin{tabular}{@{\extracolsep{5pt}}lccc} 
 \\[-1.8ex]\hline \\[-1.8ex] 
 \\[-1.8ex] & \textbf{Model 1} & \textbf{Model 2} & \textbf{Model 3}\\ 
 \hline \\[-1.8ex] 
- lag(trade.wb) & $-$0.27 & $-$0.22 & 0.24 \\ 
-  & (0.29) & (0.29) & (0.29) \\ 
-  lag(diff(trade.wb)) &  &  & $-$2.62$^{***}$ \\ 
-  &  &  & (0.64) \\ 
-  lag(mdi) & $-$0.10 & 0.02 & 0.29 \\ 
-  & (0.36) & (0.37) & (0.29) \\ 
-  lag(diff(mdi)) &  &  & 3.30$^{*}$ \\ 
-  &  &  & (1.74) \\ 
-  lag(polity2) & 0.11 & $-$0.07 & $-$0.16 \\ 
-  & (0.15) & (0.20) & (0.19) \\ 
-  lag(gdpcap.wb) & 0.37$^{**}$ & 0.34$^{*}$ &  \\ 
+ $Trade_{it-1}$ & $-$0.27 & $-$0.22 & 0.15 \\ 
+  & (0.29) & (0.29) & (0.30) \\ 
+  $\Delta Trade_{it-1}$ &  &  & $-$2.51$^{***}$ \\ 
+  &  &  & (0.66) \\ 
+  $MDI_{it-1}$ & $-$0.10 & 0.02 & 0.26 \\ 
+  & (0.36) & (0.37) & (0.30) \\ 
+  $\Delta MDI_{it-1}$ &  &  & 3.22$^{*}$ \\ 
+  &  &  & (1.77) \\ 
+  $Democracy_{it-1}$ & 0.11 & $-$0.07 & $-$0.17 \\ 
+  & (0.15) & (0.20) & (0.20) \\ 
+  $GDPPerCapita_{it-1}$ & 0.37$^{**}$ & 0.34$^{*}$ &  \\ 
   & (0.17) & (0.17) &  \\ 
-  lag(dependency.wb) & $-$0.35 & $-$0.33 &  \\ 
+  $Dependency_{it-1}$ & $-$0.35 & $-$0.33 &  \\ 
   & (0.25) & (0.25) &  \\ 
-  lag(land.wb) & 13.30 & 12.07 &  \\ 
+  $LandArea_{it-1}$ & 13.30 & 12.07 &  \\ 
   & (192.23) & (192.19) &  \\ 
-  lag(diff(polity2)) &  &  & 0.04 \\ 
+  $\Delta Democracy_{it-1}$ &  &  & 0.001 \\ 
   &  &  & (0.30) \\ 
-  lag(diff(gdpcap.wb)) &  &  & 1.21$^{*}$ \\ 
+  $\Delta GDPPerCapita_{it-1}$ &  &  & 1.23$^{*}$ \\ 
   &  &  & (0.71) \\ 
-  lag(diff(dependency.wb)) &  &  & 2.82 \\ 
-  &  &  & (2.17) \\ 
-  lag(spending.wb) & 0.83$^{***}$ & 0.82$^{***}$ & $-$0.10$^{***}$ \\ 
-  & (0.02) & (0.02) & (0.01) \\ 
-  lag(spending.wb, 2) & 0.07$^{***}$ & 0.07$^{***}$ &  \\ 
+  $\Delta Dependency_{it-1}$ &  &  & 3.59 \\ 
+  &  &  & (2.27) \\ 
+  $Spending_{it-1}$ & 0.83$^{***}$ & 0.82$^{***}$ & $-$0.08$^{***}$ \\ 
+  & (0.02) & (0.02) & (0.02) \\ 
+  $Spending_{it-2}$ & 0.07$^{***}$ & 0.07$^{***}$ &  \\ 
   & (0.02) & (0.02) &  \\ 
-  lag(diff(spending.wb)) &  &  & $-$0.07$^{***}$ \\ 
+  $Spending_{it-3}$ &  &  & $-$0.03 \\ 
   &  &  & (0.02) \\ 
-  lag(trade.wb):lag(mdi) & $-$1.24$^{***}$ & $-$0.98$^{**}$ & $-$0.95$^{**}$ \\ 
-  & (0.45) & (0.49) & (0.47) \\ 
-  lag(diff(trade.wb)):lag(diff(mdi)) &  &  & $-$0.88 \\ 
-  &  &  & (28.59) \\ 
-  lag(trade.wb):lag(polity2) &  & $-$0.64 & $-$0.74 \\ 
-  &  & (0.49) & (0.48) \\ 
-  lag(diff(trade.wb)):lag(diff(polity2)) &  &  & 22.16$^{***}$ \\ 
-  &  &  & (4.15) \\ 
- N & 1850 & 1850 & 1850 \\ 
+  $\Delta Spending_{it-1}$ &  &  & $-$0.09$^{***}$ \\ 
+  &  &  & (0.03) \\ 
+  $Trade_{t-1}$ * $MDI_{it-1}$ & $-$1.24$^{***}$ & $-$0.98$^{**}$ & $-$0.93$^{*}$ \\ 
+  & (0.45) & (0.49) & (0.49) \\ 
+  $\Delta Trade_{it-1}$ * $\Delta MDI_{it-1}$ &  &  & 0.05 \\ 
+  &  &  & (28.98) \\ 
+  $Trade_{it-1}$ * $Democracy_{it-1}$ &  & $-$0.64 & $-$0.73 \\ 
+  &  & (0.49) & (0.50) \\ 
+  $\Delta Trade_{it-1}$ * $\Delta Democracy_{it-1}$ &  &  & 21.61$^{***}$ \\ 
+  &  &  & (4.23) \\ 
+ N & 1850 & 1850 & 1800 \\ 
 R-squared & 0.79 & 0.80 & 0.10 \\ 
 Adj. R-squared & 0.75 & 0.75 & 0.09 \\ 
-F Statistic & 755.53$^{***}$ (df = 9; 1755) & 680.43$^{***}$ (df = 10; 1754) & 13.29$^{***}$ (df = 14; 1750) \\ 
 \hline \\[-1.8ex] 
 \multicolumn{4}{l}{$^{***}$p $<$ .01; $^{**}$p $<$ .05; $^{*}$p $<$ .1} \\ 
 \end{tabular} 

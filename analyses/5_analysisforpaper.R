@@ -519,11 +519,31 @@ pbgtest(model.fd.twoway)
 stargazer(model.twoway, model.dem.twoway, model.fd.twoway,
           title="Determinants of Government Consumption Expenditure",
           dep.var.labels.include=FALSE,
+          covariate.labels=c("$Trade_{it-1}$",
+                             "$\\Delta Trade_{it-1}$",
+                             "$MDI_{it-1}$",
+                             "$\\Delta MDI_{it-1}$",
+                             "$Democracy_{it-1}$",
+                             "$GDPPerCapita_{it-1}$",
+                             "$Dependency_{it-1}$",
+                             "$LandArea_{it-1}$",
+                             "$\\Delta Democracy_{it-1}$",
+                             "$\\Delta GDPPerCapita_{it-1}$",
+                             "$\\Delta Dependency_{it-1}$",
+                             "$Spending_{it-1}$",
+                             "$Spending_{it-2}$",
+                             "$Spending_{it-3}$",
+                             "$\\Delta Spending_{it-1}$",
+                             "$Trade_{it-1}$ * $MDI_{it-1}$",
+                             "$\\Delta Trade_{it-1}$ * $\\Delta MDI_{it-1}$",
+                             "$Trade_{it-1}$ * $Democracy_{it-1}$",
+                             "$\\Delta Trade_{it-1}$ * $\\Delta Democracy_{it-1}$"),
           digits = 2,
           style = "ajps",
           omit.stat=c("f"),
           font.size = "footnotesize",
           out="article/main_state_models_standardized.tex")
+
 
 #####################################################
 # Reviewers suggests trying Trade*MDI at time t
@@ -559,7 +579,7 @@ model.dem.twoway.nolag<-plm(spending.wb ~
                         lag(spending.wb) +
                         lag(spending.wb, 2) +
                         trade.wb:mdi +
-                        lag(trade.wb):lag(polity2),
+                        trade.wb:polity2,
                       data=mainvars,
                       index = c("scode","year"),
                       model="within",
@@ -573,16 +593,17 @@ model.fd.twoway.nolag<-plm(diff(spending.wb) ~
                        diff(trade.wb) +
                        mdi +
                        diff(mdi) +
-                       lag(polity2) +
-                       lag(diff(polity2)) +
+                       polity2 +
+                       diff(polity2) +
                        lag(diff(gdpcap.wb)) +
                        lag(diff(dependency.wb)) +
                        lag(spending.wb) +
+                       lag(spending.wb,3) +
                        lag(diff(spending.wb)) +
                        trade.wb:mdi +
                        diff(trade.wb):diff(mdi) +
-                       lag(trade.wb):lag(polity2) +
-                       lag(diff(trade.wb)):lag(diff(polity2)),
+                       trade.wb:polity2 +
+                       diff(trade.wb):diff(polity2),
                      data=mainvars,
                      index = c("scode","year"),
                      model="within",
@@ -591,7 +612,27 @@ summary(model.fd.twoway.nolag)
 coeftest(model.fd.twoway.nolag, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
 
 stargazer(model.twoway.nolag, model.dem.twoway.nolag, model.fd.twoway.nolag,
-          title="Determinants of Government Consumption Expenditure",
+          title="Table 1 Re-Estimated with Trade and MDI Variables Not Lagged",
+          covariate.labels=c("$Trade_{it}$",
+                             "$\\Delta Trade_{it}$",
+                             "$MDI_{it}$",
+                             "$Democracy_{it-1}$",
+                             "$GDPPerCapita_{it-1}$",
+                             "$Dependency_{it-1}$",
+                             "$LandArea_{it-1}$",
+                             "$\\Delta MDI_{it}$",
+                             "$Democracy_{it}$",
+                             "$\\Delta Democracy_{it}$",
+                             "$\\Delta GDPPerCapita_{it-1}$",
+                             "$\\Delta Dependency_{it-1}$",
+                             "$Spending_{it-1}$",
+                             "$Spending_{it-2}$",
+                             "$Spending_{it-3}$",
+                             "$\\Delta Spending_{it-1}$",
+                             "$Trade_{it}$ * $MDI_{it}$",
+                             "$\\Delta Trade_{it}$ * $\\Delta MDI_{it}$",
+                             "$Trade_{it}$ * $Democracy_{it}$",
+                             "$\\Delta Trade_{it}$ * $\\Delta Democracy_{it}$"),
           dep.var.labels.include=FALSE,
           digits = 2,
           style = "ajps",
@@ -599,7 +640,9 @@ stargazer(model.twoway.nolag, model.dem.twoway.nolag, model.fd.twoway.nolag,
           font.size = "footnotesize",
           out="article/main_state_models_standardized_nolag.tex")
 
+###################################################################
 ### Guard against Nickell Bias by using only countries running the whole time period
+#####################################################################
 main.comp<-mainvars[complete.cases(mainvars),]
 obs.all <- tabulate(main.comp$scode) # incl lots of zeros for unused gvkey
 num.obs <- tabulate(obs.all)
@@ -683,6 +726,7 @@ model.fd.twoway<-plm(diff(spending.wb) ~
                        lag(diff(gdpcap.wb)) +
                        lag(diff(dependency.wb)) +
                        lag(spending.wb) +
+                       lag(spending.wb,3) +
                        lag(diff(spending.wb)) +
                        lag(trade.wb):lag(mdi) +
                        lag(diff(trade.wb)):lag(diff(mdi)) +
@@ -696,10 +740,30 @@ summary(model.fd.twoway)
 coeftest(model.fd.twoway, vcov=function(x) vcovBK(x, type="HC1", cluster="time"))  #looks good
 
 stargazer(model.twoway, model.dem.twoway, model.fd.twoway,
-          title="Table 1 re-estimated with only countries of N=38 (1961-1999)",
+          title="Table 1 Re-Estimated on Balanced Panel (1961-1999)",
+          covariate.labels=c("$Trade_{it-1}$",
+                             "$\\Delta Trade_{it-1}$",
+                             "$MDI_{it-1}$",
+                             "$\\Delta MDI_{it-1}$",
+                             "$Democracy_{it-1}$",
+                             "$GDPPerCapita_{it-1}$",
+                             "$Dependency_{it-1}$",
+                             "$LandArea_{it-1}$",
+                             "$\\Delta Democracy_{it-1}$",
+                             "$\\Delta GDPPerCapita_{it-1}$",
+                             "$\\Delta Dependency_{it-1}$",
+                             "$Spending_{it-1}$",
+                             "$Spending_{it-2}$",
+                             "$Spending_{it-3}$",
+                             "$\\Delta Spending_{it-1}$",
+                             "$Trade_{t-1}$ * $MDI_{it-1}$",
+                             "$\\Delta Trade_{it-1}$ * $\\Delta MDI_{it-1}$",
+                             "$Trade_{it-1}$ * $Democracy_{it-1}$",
+                             "$\\Delta Trade_{it-1}$ * $\\Delta Democracy_{it-1}$"),
           dep.var.labels.include=FALSE,
           digits = 2,
           style = "ajps",
+          omit.stat=c("f"),
           font.size = "footnotesize",
           out="article/balanced_models_table.tex")
 

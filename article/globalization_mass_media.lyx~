@@ -84,18 +84,9 @@ Mass Media and the Domestic Politics of Globalization
 \end_layout
 
 \begin_layout Standard
-
-\size normal
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Although the relationship between economic globalization and modern welfare
- states has been one of the most studied issues in political economy over
- the past three decades (e.g., 
+Although the relationship between economic globalization and the modern
+ welfare state has been one of the most studied issues in political economy
+ over the past three decades (e.g., 
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "316"
@@ -163,8 +154,8 @@ key "Alcaniz:2010gb,Hellwig:2012vk"
 \end_inset
 
 ).
- Furthermore, citizens in countries highly exposed to the global economy
- are less likely to punish incumbents for a poorly performing economy (
+ Citizens in countries highly exposed to the global economy are less likely
+ to punish incumbents for a poorly performing economy (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Hellwig:2007gn"
@@ -182,9 +173,9 @@ key "Hellwig:2008ia"
  If domestic groups do not punish politicians for economic losses made possibile
  by the political decisions to maintain open national economies, then an
  essential causal link in current accounts of the globalization-welfare
- nexus would appear to be broken.
- Furthermore, this current of research has yet to take seriously the stylized
- empirical fact that economic globalization does not 
+ nexus may not hold under certain conditions.
+ Furthermore, this current of research has yet to take seriously that economic
+ globalization does not 
 \emph on
 inherently
 \emph default
@@ -196,11 +187,8 @@ room to maneuver
 \begin_inset Quotes erd
 \end_inset
 
- but rather has been 
-\emph on
-socially constructed
-\emph default
- as such by elites and typically through the mass media (
+ but rather has been socially constructed as such by elites and typically
+ through the mass media (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Hay:2011dh,Hay:2005dh,Hay:2002iy"
@@ -280,14 +268,14 @@ tion, the preponderance of previous research strongly converges on a set
  of counter-intuitive arguments: By amplifying the dominant construction
  of globalization as an external imperative constraining policymakers and
  in this way shifting citizen blame attributions away from governments and
- toward international forces, the mass media play an independent causal
- role in reducing the ability of domestic groups to hold national policymakers
- accountable for the effects of economic openness.
+ toward international forces, the mass media should reduce the ability of
+ domestic groups to hold national policymakers accountable for the effects
+ of economic openness.
  In turn, as the global economy and mass media penetrate states, national
- policymakers face less pressure to compensate protectionist domestic groups
- for economic hardships linked to the global economy.
+ policymakers should face less pressure to compensate protectionist domestic
+ groups for economic hardships linked to the global economy.
  As states become increasingly penetrated by both the global economy and
- mass media, the state-level outcome is a weakened compensatory relationship
+ mass media, at the state-level we should observe a weakened relationship
  between economic openness and welfare spending.
 \end_layout
 
@@ -295,10 +283,10 @@ tion, the preponderance of previous research strongly converges on a set
 These expectations are tested with survey data and state-level economic
  data ideally suited to assess the implications of these arguments at both
  levels of analysis.
- A Legidoscope survey from France in 1992-1993 provides a unique opportunity
- to test the argument that mass media has independent effects on individuals'
- perceptions, blame attributions, and behavior around issues of economic
- openness.
+ A Legidoscope survey from France in 1992-1993 provides a uniquely valuable
+ opportunity to test the argument that mass media has independent effects
+ on individuals' perceptions, blame attributions, and behavior around issues
+ of economic openness.
  The findings show that mass media exposure is positively associated with
  individuals' perceptions of economic openness as a problem and then, controllin
 g for whether economic openness is perceived as a problem, the attribution
@@ -330,8 +318,8 @@ These findings alter the prevailing wisdom in at least two ways.
  First, they provide new evidence for the claim that economic openness makes
  citizens less likely to blame, and less likely to punish, incumbent governments
  for poor economic performance, but they also reveal that mass media exposure
- is an alternative and independent causal path to the same effect, controlling
- for perceptions of economic openness.
+ may be an alternative and independent causal path to the same effect, controlli
+ng for perceptions of economic openness.
  Second, this is one of the first systematic investigations of mass media
  as a political 
 \emph on
@@ -526,10 +514,10 @@ le for the political decision of liberalization.
 status collapsed
 
 \begin_layout Plain Layout
-It should also be noted that expectations of government policymaking and
- blame attributions are not only driven by material or institutional changes
- in the political economy but may also be endogenous to vote choice or the
- partisan composition of an incumbent government (
+Expectations of government policymaking and blame attributions are not only
+ driven by material or institutional changes in the political economy but
+ may also be endogenous to vote choice or the partisan composition of an
+ incumbent government (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Wlezien:1997ia"
@@ -804,7 +792,7 @@ key "Sattler:2008vw"
 , a necessary next step in studying the domestic politics of globalization
  is to theorize more specifically how political communication---in particular,
  the mass media---directly and indirectly affects the relationship between
- objective patterns of economic openness and domestic economic outcomes.
+ objective patterns of economic openness and domestic political outcomes.
 \end_layout
 
 \begin_layout Section
@@ -854,8 +842,15 @@ Previous research amply demonstrates that the dominant social construction
  In addition to the multiple studies by Colin Hay and associates on elite
  discourse from multiple European countries, empirical evidence for an elite
  consensus is also ample from other research on the domestic politics of
- globalization, which finds that party elites consistently invoke room to
- maneuver constraints in research interviews (
+ globalization, which finds that party elites consistently invoke 
+\begin_inset Quotes eld
+\end_inset
+
+room to maneuver
+\begin_inset Quotes erd
+\end_inset
+
+ constraints in research interviews (
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "206-07"
@@ -941,15 +936,37 @@ n as an external constraint on policymaker autonomy rather than alternative
 \begin_layout Standard
 This basic indexing theory leads to two different versions of a first hypothesis
 , one implying a direct effect and the other implying an indirect effect.
- First, mass media will have an indirect effect on how individuals attribute
- blame for national problems, by informing individuals of objective problems
- pertaining to economic openness (merely transmitting information about
- any objectively constraining realities pertaining to economic openness).
- The stronger version of this argument is that mass media will have a direct
+ Mass media may have an indirect effect on how individuals attribute blame
+ for national problems, by informing individuals of objective problems pertainin
+g to economic openness (merely transmitting information about objectively
+ constraining realities pertaining to economic openness).
+ The stronger version of this argument is that mass media may have a direct
  effect on how individuals attribute blame for national problems, uniquely
  diffusing responsibility in their perception of national problems above
  and beyond its effect of making individuals more aware of the problems
  of economic openness per se.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+It stands to reason that various individual-level factors might condition
+ this general expectation.
+ Political partisanship, political interest and/or knowledge, economic anxiety,
+ and various other factors might deserve to be included not only as control
+ variables (as they are here, data permitting) but as interaction terms
+ capturing the heterogeneity of effects.
+ While a great number of additional complicating factors are plausible,
+ no general argument linking media to the globalization-welfare nexus has
+ yet been established in the literature.
+ Therefore I only seek to theorize and test one set of general causal links,
+ in order that future research may then investigate various plausible forms
+ of causal complexity within the general arguments and evidence presented
+ here.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -965,8 +982,15 @@ y (by increasing awareness of openness as politically problematic).
 
 \begin_layout Standard
 Hypothesis 2 captures implications of previous research suggesting that
- perceptions of a policymaker's room to maneuver affect how individuals
- evaluate government performance.
+ perceptions of a policymaker's 
+\begin_inset Quotes eld
+\end_inset
+
+room to maneuver
+\begin_inset Quotes erd
+\end_inset
+
+ affect how individuals evaluate government performance.
  If the effect of economic perceptions on vote choice weakens because increasing
  economic openness shifts blame attributions toward the global economy and
  away from governments, then blame attributions should be associated with
@@ -987,7 +1011,7 @@ Hypothesis 2: Individuals who blame international forces for national problems
 
 \begin_layout Standard
 To assess how mass media enters into models of the globalization-welfare
- nexus, consider a stylized restatement of 
+ nexus, consider 
 \begin_inset ERT
 status open
 
@@ -1128,7 +1152,10 @@ P
 \end_inset
 
  in cases of international recession.
- Voters then vote.
+\end_layout
+
+\begin_layout Standard
+Voters then vote.
  In this model, to open the domestic economy under competitive elections,
  a pro-trade political party must offer domestic spending to compensate
  
@@ -1256,10 +1283,22 @@ C
 P
 \emph default
  around trade policy.
- Thus, insofar as mass media tend to diffuse blame attributions for the
- negative effects of economic liberalization, this decreases the incentives
- for harmed groups to oppose liberalization by voting, and thus should have
- an effect equivalent to decreasing their turnout in this electoral game.
+ Insofar as mass media tend to diffuse blame attributions for the negative
+ effects of economic liberalization, this decreases the incentives for harmed
+ groups to oppose liberalization by voting, and thus should have an effect
+ equivalent to decreasing their turnout in this electoral game.
+ Therefore the provision of compensatory public spending in response to
+ economic openness should be conditional on levels of mass media.
+ The final hypothesis encapsulates this implication.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Hypothesis 3: At the state level, the interaction of economic globalization
+ and mass media penetration will be associated with lower levels of domestic
+ welfare spending than predicted by the level of economic globalization
+ alone.
 \end_layout
 
 \begin_layout Standard
@@ -1324,7 +1363,8 @@ Given the individual-level and state-level implications of the theory, data
 status collapsed
 
 \begin_layout Plain Layout
-Full summary statistics for both datasets can be found in the online appendix.
+Full summary statistics for both datasets can be found in Supplementary
+ Information.
 \end_layout
 
 \end_inset
@@ -1344,7 +1384,7 @@ key "Chrique:1993us"
 status collapsed
 
 \begin_layout Plain Layout
-See the online appendix for the text of the survey questions.
+See Supplementary Information for the text of the survey questions.
  
 \end_layout
 
@@ -1426,24 +1466,22 @@ Maastricht Treaty.
  Mitterrand, how well they think the government is handling the problem
  identified by the respondent as a top problem, and their intention to turnout
  for the March 1993 elections.
- There are several reasons why French survey data from the early 1990s is
- an attractive testing ground for the individual-level hypotheses.
+ There are several reasons why French survey data from the early 1990s represent
+s a uniquely useful laboratory for testing the individual-level hypotheses.
  First, while other surveys gauge perceptions of responsibility on many
  issues, and many other surveys gauge media exposure, this is the only survey
  known to the author which effectively gauges both perceptions of responsbility
  for issues of economic openness and media exposure.
  Second, although the survey data is limited to France and therefore limits
- our ability to generalize to other countries, France is a relatively hard
- case for testing the hypotheses, and so evidence for the hypotheses would
- suggest such a process is likely to occur in other countries as well.
+ our ability to generalize to other countries, France is a hard case for
+ testing the hypotheses, and so evidence for the hypotheses would suggest
+ such a process is likely to occur in other countries as well.
  First, the survey takes place around the time of the Maastricht Treaty,
- a time when the problems of economic openness are highly policy-related,
- relative to exogenous changes in openness such as global fluctuations of
- trade.
+ a time when the problems of economic openness are highly policy-related.
  If media diffuses blame away from governments and onto international forces
- in France in the early 1990s, it would seem even more likely to do the
+ in France in the early 1990s, mass media is even more likely to do the
  same in situations where problems of economic openness are less related
- to particular policy decisions.
+ to high-visibility policy decisions.
  Additionally, France has relatively high rates of political engagement,
  and a statist, egalitarian political culture in which elite opinion claims
  more control over globalization than in countries such as Italy or the
@@ -1456,14 +1494,13 @@ key "Hay:2011dh"
 \end_inset
 
 ).
- Thus, evidence that mass media leads French citizens near the time of Maastrich
-t to blame international forces rather than their government suggests that
- such a relationship is even more likely in the countries in which globalization
- is seen as more ineluctable.
+ Thus, evidence that mass media leads French citizens near the time of the
+ Maastricht Treaty to blame international forces rather than their government
+ suggests that such a relationship is even more likely in countries where
+ globalization is more widely seen as ineluctable.
  Although ideally the hypotheses could be tested in multiple countries at
- once, this particular survey data from France in the early 1990s represent
- a unique opportunity to test the hypotheses under conditions relatively
- favorable to generalization.
+ once, this particular survey offers an ideal opportunity to test the hypotheses
+ under conditions relatively favorable to generalization.
 \end_layout
 
 \begin_layout Standard
@@ -1518,9 +1555,11 @@ people like you and me.
 \begin_inset Quotes erd
 \end_inset
 
- However, the results obtained here are robust to multinomial specifications
- which include these alternative blame attributions and alternative binary
- codings (included in the online appendix).
+ However, the results obtained here are robust to alternative specifications
+ in which the dependent variable takes a value of 1 for respondents who
+ blame international forces and 0 for respondents who select any of the
+ other possible targets of blame.
+ See Supplementary Information.
 \end_layout
 
 \end_inset
@@ -1612,7 +1651,7 @@ To test Hypothesis 2 regarding the effect of blame attributions on evaluations
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-Gov\: Handling_{i}=\alpha+\beta_{1}ProblemArea_{i}+\beta_{2}Openness\: Problem_{i}+\beta_{3}Blame_{i}+\beta_{4}Controls_{i}+e_{i}
+GovHandling_{i}=\alpha+\beta_{1}ProblemArea_{i}+\beta_{2}OpennessProblem_{i}+\beta_{3}Blame_{i}+\beta_{4}Controls_{i}+e_{i}
 \end{equation}
 
 \end_inset
@@ -1659,15 +1698,15 @@ th respondent evaluates the government's handling of the top problem they
 \end_layout
 
 \begin_layout Standard
-To test Hypothesis 3, state-level economic data are gathered from the World
- Bank's World Development Indicators (
+To test Hypothesis 3, all state-level economic data are gathered from the
+ World Bank's World Development Indicators (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "WorldDevelopmentIn:2012wl"
 
 \end_inset
 
-).
+), unless otherwise noted.
  Media penetration rates come from the World Development Indicators and
  Arthur Banks' Cross-National Time-Series Data Archive (
 \begin_inset CommandInset citation
@@ -1686,6 +1725,19 @@ Summary statistics can be found in Supplementary Information.
 
 \end_inset
 
+ The variable 
+\emph on
+Democracy 
+\emph default
+is the conventional measure using the 20-point scale from Polity IV (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "PolityIVProjectP:2011uq"
+
+\end_inset
+
+), reflecting a country's score for democratic institutions minus its score
+ for autocratic institutions.
  Most models have around 130 countries with an average of roughly 8 observations
  per country.
  To test whether mass media affects domestic compensation for globalization
@@ -1722,11 +1774,13 @@ where the dependent variable,
  Final government consumpiton expenditure is a standard measure of social
  welfare spending
 \emph on
-; Trade
+.
+ Trade
 \emph default
- indicates imports plus exports as a percentage of GDP and 
+ indicates imports plus exports as a percentage of GDP.
+
 \emph on
-MDI
+ MDI
 \emph default
  indicates an additive index of media density measuring television, newspaper,
  and radios per capita (
@@ -1746,7 +1800,7 @@ tive interaction of trade and mass media (
 ) rather than the independent marginal effects.
  If mass media exposure has the individual-level effects hypothesized above,
  then an increasing density of mass media technologies within a state should
- weaken the positive relationship historically expected between levels of
+ weaken the positive relationship historically observed between levels of
  trade openness and levels of domestic spending.
  In other words, the coefficient 
 \begin_inset Formula $\beta_{3}$
@@ -1758,9 +1812,9 @@ tive interaction of trade and mass media (
  In the first models testing Hypothesis 3, a battery of controls are included
  to account for non-trade and non-media determinants of government consumption
  expenditure.
- Data for testing particular rival explanations are significantly more limited
- and therefore significantly reduce the geographic and temporal coverage
- of the main economic and media data.
+ Data for testing particular rival explanations are more limited and therefore
+ reduce the geographic and temporal coverage of the main economic and media
+ data.
  For this reason, I check the robustness of my models against alternative
  explanations in a set of subsequent models.
 \end_layout
@@ -1808,7 +1862,11 @@ key "Kastellec:2007ha"
 
 .
  Numerical model results are included in Supplementary Information.
- All models were estimated with the Zelig package in R (
+ All models were estimated with the 
+\emph on
+Zelig
+\emph default
+ package in R (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "ZeligEveryonesSt:2009ts"
@@ -2023,8 +2081,8 @@ status collapsed
 \begin_layout Plain Layout
 There is reason to suppose that blame attributions could be endogenous to
  evaluations of how the government is handling a problem, in the sense that
- poor or satisfactory government handling could actually increase or decrease
- the government's culpability.
+ perceptions of poor or satisfactory government handling could increase
+ or decrease the government's perceived culpability.
  First, however, it should be recalled that survey question I am using to
  measure blame attributions refers specifically to the cause of the problem.
  Thus, strictly speaking, evaluations of how the government handles the
@@ -2053,12 +2111,12 @@ other
 \begin_inset Quotes erd
 \end_inset
 
- as the baseline (see Online Appendix).
+ as the baseline (see Supplementary Information).
  The coefficient for blaming government is larger than that for blaming
  international forces but both remain signed as expected and significant.
  This alternative specification mitigates the possibility that blaming internati
-onal forces merey reflects (endogenously) respondents who are less likely
- to blame the government.
+onal forces merey reflects respondents who are less likely to blame the
+ government.
  Finally, if it can be assumed that endogeneity between evaluations of handling
  and blame would be most likely among partisans, then the control for partisansh
 ip and the two separate controls for support of President Mitterrand likely
@@ -2135,10 +2193,10 @@ Table 1 displays results from three regression models which provide initial
  support for the state-level expectations regarding the effect of mass media
  on the globalization-welfare relationship.
  Models 4 and 5 consider variable levels only, while Model 6 is an error-correct
-ion model using first-differences or year-to-year changes in the dependent
+ion model using first-differences (year-to-year changes) in the dependent
  variable and lagged levels of the dependent variable on the right-hand
- side of the equation, with levels and first-differences of the key independent
- variables.
+ side of the equation, alongside levels and first-differences of the key
+ independent variables.
 \begin_inset Foot
 status collapsed
 
@@ -2168,8 +2226,8 @@ For Model 6, inclusion of a second lag of level of spending (
 \begin_inset Formula $Spending_{it-3}$
 \end_inset
 
-on the right-hand side of the equation, which leads us to reject the null
- hypothesis of serial correlation (p=.13).
+on the right-hand side of the equation, which leads us to fail to reject
+ the null hypothesis of no serial correlation (p=.13).
 \end_layout
 
 \end_inset
@@ -2236,7 +2294,7 @@ key "Croissant:2013ty"
 \end_inset
 
  To control for the clustering of errors within countries and the possibility
- of downwardly biased standard errors, I also calculated panel-corrected
+ of downwardly biased standard errors, I also calculate panel-corrected
  standard errors following Beck and Katz (
 \begin_inset CommandInset citation
 LatexCommand citeyear
@@ -2248,15 +2306,15 @@ key "Beck:1995hm"
  Panel-corrected standard errors did not appreciably change the statistical
  significance of any estimates reported in this paper.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 It is common to display the panel-corrected standard errors rather than
  the untransformed errors, but it is not obvious that treating them as a
  default has improved our use of cross-sectional, time-series data.
- On this point, see
+ On this point, see 
 \begin_inset CommandInset citation
-LatexCommand citealt
+LatexCommand citet
 key "Wilson:2007kz"
 
 \end_inset
@@ -2305,7 +2363,7 @@ In each of the three model specifications, the variable
 \color inherit
  is negative and statistically significant, suggesting that media density
  decreases the association between levels of trade and subsequent levels
- government consumption expenditure.
+ of government consumption expenditure.
  The coefficient of -.97 for 
 \family roman
 \series medium
@@ -2365,9 +2423,11 @@ key "Adsera:2002vt"
 
 \end_inset
 
-), suggests that media density has a robust conditioning effect on the relations
-hip between trade and spending, while the interaction found by Adserà and
- Boix no longer appears statistically distinguishable from zero.
+).
+ The results here suggest that media density has a robust conditioning effect
+ on the relationship between trade and spending, while the interaction found
+ by Adserà and Boix no longer appears statistically distinguishable from
+ zero.
 \end_layout
 
 \begin_layout Standard
@@ -2508,7 +2568,7 @@ filename "rival_models_standardized.tex"
 \begin_layout Standard
 Several additional robustness checks were conducted.
  With panel data, Nickell bias can lead to rejecting a true null hypothesis
- when the number of units is large relative to the time period
+ when the number of units is large relative to the time period 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Gaibulloev:2014eg"
@@ -2641,6 +2701,29 @@ al forces (controlling for the awareness effect), most likely due to the
 \end_layout
 
 \begin_layout Standard
+The limitations of this study also point to avenues for future research
+ on the attitudinal and behavioral mechanisms shaping the domestic politics
+ of economic globalization.
+ While I considered many dominant rival hypotheses through the use of statistica
+l control variables and the inclusion of alternative interaction terms,
+ this article could not engage with all possible factors that may plausibly
+ condition the relationships posited by the three hypotheses presented.
+ Thus, future research must investigate the sensitivity and conditionality
+ of the general findings presented here.
+ For instance, it seems likely that political partisanship might condition
+ the relationship between media exposure and blame attributions, and/or
+ the relationship between blame attributions and evaluations of government.
+ Thus, rather than simply controlling for partisanship as above, future
+ research might investigate whether these relationships are dampened or
+ amplified under different conditions of citizen and government partisanship.
+ Additionally, for the state-level findings, future research might investigate
+ whether the conditioning effect of media on the globalization-welfare nexus
+ is not itself conditional on region, national government partisanship,
+ or various factors related to the national media environment (such as media
+ concentration, ownership, etc.).
+\end_layout
+
+\begin_layout Standard
 The findings have several implications for the study of international and
  comparative politics and for the prospects of democracy in a globalized
  world.
@@ -2688,7 +2771,7 @@ key "Hays:2005vo,Walter:2010ky"
 ).
  Second, the state-level findings in particular have an important substantive
  implication, for they suggest that the omission of mass media in previous
- studies has led to biased conclusions which over-estimate the egalitarian
+ studies may have led to biased conclusions which over-estimate the egalitarian
  responsiveness of welfare states in the globalization-welfare nexus.
  The evidence suggests that from the standpoint of democratic values, mass
  media can have subtle but perverse effects on the distributive politics

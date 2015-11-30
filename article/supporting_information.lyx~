@@ -1357,8 +1357,18 @@ end{center}
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "balanced_models_table.tex"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "main_state_models_standardized_nolag.tex"
 
 \end_inset
 
