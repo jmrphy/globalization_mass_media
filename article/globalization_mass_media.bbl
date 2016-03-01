@@ -10,11 +10,6 @@ Adser{\`a}, Al{\'\i}cia, \harvardand\ Carles Boix. 2002.
 ``{Trade, Democracy, Public Sector: The Political Underpinnings of Openness}.''
   {\em International Organization} 56 (March): 229--262.
 
-\bibitem[Adser{\`a}, Boix, \harvardand\ Payne(2003)]{Adsera:2003cc}
-Adser{\`a}, Al{\'\i}cia, Carles Boix, \harvardand\ Mark Payne. 2003.
-``{Are You Being Served? Political Accountability and Quality of Government}.''
-  {\em Journal of Law, Economics, and Organization} 19 (October): 445--490.
-
 \bibitem[Alca{\~n}iz \harvardand\ Hellwig(2010)]{Alcaniz:2010gb}
 Alca{\~n}iz, Isabella, \harvardand\ Timothy Hellwig. 2010.
 ``{Who{\textquoteright}s to Blame? The Distribution of Responsibility in
@@ -33,6 +28,22 @@ Arceneaux, Kevin. 2003.
   Economic Adversity and Turnout}.'' {\em Political Research Quarterly}
   (November): 1--10.
 
+\bibitem[Baker(2003)]{Baker:2003ci}
+Baker, Andy. 2003.
+``{Why is Trade Reform So Popular in Latin America?: A Consumption-Based Theory
+  of Trade Policy Preferences}.'' {\em World Politics} 55 (April): 423--455.
+
+\bibitem[Baker(2005)]{Baker:2005jg}
+Baker, Andy. 2005.
+``{Who Wants to Globalize? Consumer Tastes and Labor Markets in a Theory of
+  Trade Policy Beliefs}.'' {\em American Journal of Political Science} 49
+  (October): 924--938.
+
+\bibitem[Baker(2009)]{Baker:2009ta}
+Baker, Andy. 2009.
+{\em {The Market and the Masses in Latin America}}.
+Cambridge:  Cambridge University Press.
+
 \bibitem[Banks \harvardand\ Wilson(2005)]{CrossNationalTime:td}
 Banks, Arthur~A, \harvardand\ Kenneth~A Wilson. 2005.
 {\em {Cross-National Time-Series Data Archive}}.
@@ -42,11 +53,6 @@ Binghamton, NY:  Databanks International.
 Beck, Nathaniel, \harvardand\ Jonathan~N Katz. 1995.
 ``{What to do (and Not to Do) with Time-Series Cross-Section Data}.'' {\em
   American Political Science Review} 89 (September): 634--647.
-
-\bibitem[Beck, Katz, \harvardand\ Mignozzetti(2014)]{Beck:2014bo}
-Beck, Nathaniel~L, Jonathan~N Katz, \harvardand\ Umberto~G Mignozzetti. 2014.
-``{Of Nickell Bias and its Cures: Comment on Gaibulloev, Sandler, and Sul}.''
-  {\em Political Analysis} 22 (April): 274--278.
 
 \bibitem[Bennett(1990)]{Bennett:1990bp}
 Bennett, W~Lance. 1990.
@@ -59,11 +65,6 @@ Bennett, W~Lance, Regina~G Lawrence, \harvardand\ Steven Livingston. 2006.
   the Abu Ghraib Scandal}.'' {\em International Studies Quarterly} 56
   (September): 467--485.
 
-\bibitem[Besley \harvardand\ Burgess(2002)]{Besley:2002tg}
-Besley, Timothy, \harvardand\ Robin Burgess. 2002.
-``{The Political Economy of Government Responsiveness: Theory and Evidence from
-  India}.'' {\em The Quarterly Journal of Economics} (March): 1--38.
-
 \bibitem[Burgoon(2001)]{Burgoon:2001dp}
 Burgoon, Brian. 2001.
 ``{Globalization and Welfare Compensation: Disentangling the Ties that Bind}.''
@@ -71,14 +72,8 @@ Burgoon, Brian. 2001.
 
 \bibitem[Cameron(1978)]{Cameron:1978vb}
 Cameron, David~R. 1978.
-``{The Expansion of the Public Economy}.'' {\em American Political Science
-  Review} (December): 1--20.
-
-\bibitem[Checkel(1997)]{Checkel:1997cw}
-Checkel, Jeffrey~T. 1997.
-``{International Norms and Domestic Politics: Bridging the
-  Rationalist{\textemdash}Constructivist Divide}.'' {\em European Journal of
-  International Relations} 3 (December): 473--495.
+``{The Expansion of the Public Economy: A Comparative Analysis}.'' {\em
+  American Political Science Review} 72 (December): 1243--1261.
 
 \bibitem[Chrique(1997)]{Chrique:1993us}
 Chrique, Philippe. 1997.
@@ -94,11 +89,6 @@ Crepaz, Markus M~L. 1998.
 \bibitem[Croissant \harvardand\ Millo(2013)]{Croissant:2013ty}
 Croissant, Yves, \harvardand\ Giovanni Millo. 2013.
 ``{plm: Linear Models for Panel Data}.'' {\em R package}.
-
-\bibitem[Dessler \harvardand\ Owen(2005)]{Dessler:2005io}
-Dessler, David, \harvardand\ John Owen. 2005.
-``{Constructivism and the Problem of Explanation: A Review Article}.'' {\em
-  Perspectives on Politics} 3 (September): 597--610.
 
 \bibitem[Freeman(2008)]{Hellwig:2008cj}
 Freeman, John~R. 2008.
@@ -121,11 +111,6 @@ Gelman, Andrew. 2008.
 ``{Scaling regression inputs by dividing by two standard deviations}.'' {\em
   Statistics in Medicine} 27~(15): 2865--2873.
 
-\bibitem[Gelman, Pasarica, \harvardand\ Dodhia(2002)]{Gelman:2002ih}
-Gelman, Andrew, Cristian Pasarica, \harvardand\ Rahul Dodhia. 2002.
-``{Let's Practice What We Preach}.'' {\em The American Statistician} 56 (May):
-  121--130.
-
 \bibitem[Gourevitch(1978)]{Gourevitch:1978bn}
 Gourevitch, Peter. 1978.
 ``{The second image reversed: the international sources of domestic
@@ -138,10 +123,10 @@ Guisinger, Alexandra. 2009.
 
 \bibitem[Hay(2002)]{Hay:2002iy}
 Hay, Colin. 2002.
-``{Globalisation as a Problem of Political Analysis: Restoring Agents to
-  a'Process without a Subject'and Politics to a Logic of Economic
-  Compulsion{\textasteriskcentered}}.'' {\em Cambridge Review of International
-  Affairs}.
+``{Globalisation as a Problem of Political Analysis: Restoring Agents to a
+  `Process without a Subject' and Politics to a Logic of Economic
+  Compulsion}.'' {\em Cambridge Review of International Affairs} 15~(3):
+  379--392.
 
 \bibitem[Hay \harvardand\ Rosamond(2011)]{Hay:2011dh}
 Hay, Colin, \harvardand\ Ben Rosamond. 2011.
@@ -201,15 +186,9 @@ Hood, Christopher, Will jennings, Ruth Dixon, Brian Hogwood, \harvardand\ Craig
   strategies in two examination fiasco cases}.'' {\em European Journal of
   Political Research} 48 (October): 695--722.
 
-\bibitem[Hooghe(2002)]{Hooghe:2002bi}
-Hooghe, M. 2002.
-``{Watching Television and Civic Engagement: Disentangling the Effects of Time,
-  Programs, and Stations}.'' {\em The Harvard International Journal of
-  Press/Politics} 7 (April): 84--104.
-
 \bibitem[Imai, King, \harvardand\ Lau(2009)]{ZeligEveryonesSt:2009ts}
 Imai, Kosuke, Gary King, \harvardand\ Olivia Lau. 2009.
-``{Zelig: Everyone's Statistical Software}.''.
+``{Zelig: Everyone's Statistical Software}.'' {\em R package}.
 
 \bibitem[Iversen(2001)]{Iversen:2001vr}
 Iversen, T. 2001.
@@ -254,11 +233,6 @@ Katzenstein, Peter~J. 1985.
 {\em {Small States in World Markets}}.
 Industrial Policy in Europe Ithaca, N.Y. : Cornell University Press.
 
-\bibitem[Katzenstein, Keohane, \harvardand\ Krasner(1998)]{Katzenstein:1998ef}
-Katzenstein, Peter~J, Robert~O Keohane, \harvardand\ Stephen~D Krasner. 1998.
-``{International organization and the study of world politics}.'' {\em
-  International Organization} 52~(4): 971--991.
-
 \bibitem[Kayser(2007)]{Kayser:2007iga}
 Kayser, Mark~Andreas. 2007.
 ``{How Domestic Is Domestic Politics? Globalization and Elections}.'' {\em
@@ -280,10 +254,10 @@ Margalit, Yotam. 2011.
   U.S. Elections}.'' {\em American Political Science Review} 105 (February):
   166--188.
 
-\bibitem[McChesney(2000)]{mcchesney2000rich}
-McChesney, Robert. 2000.
-{\em {Rich Media, Poor Democracy: Communication Politics in Dubious Times}}.
-New Press.
+\bibitem[Marshall, Jaggers, \harvardand\ Gurr(2011)]{PolityIVProjectP:2011uq}
+Marshall, Monty~G, Keith Jaggers, \harvardand\ Ted~Robert Gurr. 2011.
+``{Polity IV Project: Political Regime Characteristics and Transitions,
+  1800-2010}.'' Center for Systemic Peace.
 
 \bibitem[McGraw(1990)]{McGraw:1990kk}
 McGraw, Kathleen~M. 1990.
@@ -359,11 +333,6 @@ Sattler, Thomas, Patrick~T Brandt, \harvardand\ John~R. Freeman. 2010.
 ``{Democratic Accountability in Open Economies}.'' {\em Quarterly Journal of
   Political Science} (April): 71--97.
 
-\bibitem[Snyder \harvardand\ Str{\"o}mberg(2012)]{JamesMSnyder:2012th}
-Snyder, James M~Jr, \harvardand\ David Str{\"o}mberg. 2012.
-``{Press Coverage and Political Accountability}.'' {\em Journal of Political
-  Economy} (March): 1--47.
-
 \bibitem[Walter(2010)]{Walter:2010ky}
 Walter, Stefanie. 2010.
 ``{Globalization and the Welfare State: Testing the Microfoundations of the
@@ -399,11 +368,5 @@ Wlezien, Christopher, Mark Franklin, \harvardand\ Daniel Twiggs. 1997.
 Zaller, John, \harvardand\ Dennis Chiu. 1996.
 ``{Government's Little Helper: U.S. Press Coverage of Foreign Policy Crises,
   1945-1991}.'' {\em Political Communication} 13~(4): 385--405.
-
-\bibitem[Z{\"u}rn \harvardand\ Checkel(2005)]{Zurn:2005ja}
-Z{\"u}rn, Michael, \harvardand\ Jeffrey~T Checkel. 2005.
-``{Getting Socialized to Build Bridges: Constructivism and Rationalism, Europe
-  and the Nation-State}.'' {\em International Organization} 59 (October):
-  1045--1079.
 
 \end{thebibliography}

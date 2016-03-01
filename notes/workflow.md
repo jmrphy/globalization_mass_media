@@ -1,0 +1,1 @@
+Lyx --> tex --> pdf --> PDF to Word converter ---> remove info text in trial version for each section--merge files

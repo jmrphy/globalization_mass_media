@@ -245,32 +245,14 @@ key "Norris:2000uf"
 
 \end_inset
 
-; 
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "Hooghe:2002bi"
-
-\end_inset
-
 ).
- Certainly, these effects are still debated and, in fact, the conventional
- wisdom in the political economy of media associates robust mass media systems
- with government responsiveness and accountability (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "JamesMSnyder:2012th,Besley:2002tg,Adsera:2003cc"
-
-\end_inset
-
-).
- Yet, in the specific context of the distributive domestic politics of globaliza
-tion, the preponderance of previous research strongly converges on a set
- of counter-intuitive arguments: By amplifying the dominant construction
- of globalization as an external imperative constraining policymakers and
- in this way shifting citizen blame attributions away from governments and
- toward international forces, the mass media should reduce the ability of
- domestic groups to hold national policymakers accountable for the effects
- of economic openness.
+ In the specific context of the distributive domestic politics of globalization,
+ the preponderance of previous research strongly converges on a set of counter-i
+ntuitive arguments: By amplifying the dominant construction of globalization
+ as an external imperative constraining policymakers and in this way shifting
+ citizen blame attributions away from governments and toward international
+ forces, the mass media should reduce the ability of domestic groups to
+ hold national policymakers accountable for the effects of economic openness.
  In turn, as the global economy and mass media penetrate states, national
  policymakers should face less pressure to compensate protectionist domestic
  groups for economic hardships linked to the global economy.
@@ -650,16 +632,8 @@ Given that public perceptions of the institutional context have been shown
  to affect political consequences of the economy, it is puzzling that scholarshi
 p on the domestic politics of economic globalization has largely neglected
  a serious inquiry into political communication and the mass media in particular.
- Individuals do not 
-\emph on
-directly
-\emph default
- monitor levels of economic openness independent of some political communication
- channel.
- Additionally, policymakers are not passive victims of globalization's encroachm
-ent on their room to maneuver.
- Rather, scholars of American politics have shown that national policymakers
- actively engage in strategies of 
+ Scholars of American politics have shown that national policymakers actively
+ engage in strategies of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -755,14 +729,14 @@ key "Norris:2000uf"
  mass media (
 \begin_inset CommandInset citation
 LatexCommand citealt
-key "Herman:1988ta,adorno2001culture,mcchesney2000rich"
+key "Herman:1988ta,adorno2001culture"
 
 \end_inset
 
 ).
- In light of these research currents, it is a surprising omission in previous
- research on the domestic politics of globalization that testimony by party
- elites in research interviews (
+ In light of these currents, it is a surprising omission in previous research
+ on the domestic politics of globalization that testimony by party elites
+ in research interviews (
 \begin_inset CommandInset citation
 LatexCommand citealt
 after "206-07"
@@ -946,7 +920,7 @@ g to economic openness (merely transmitting information about objectively
  and beyond its effect of making individuals more aware of the problems
  of economic openness per se.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 It stands to reason that various individual-level factors might condition
@@ -1533,7 +1507,7 @@ where
 l forces and 0 for respondents who blame the government for whichever national
  problem they have identified.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Because of space constraints and for ease of interpretation in light of
@@ -1559,7 +1533,7 @@ people like you and me.
  in which the dependent variable takes a value of 1 for respondents who
  blame international forces and 0 for respondents who select any of the
  other possible targets of blame.
- See Supplementary Information.
+ See Supplementary Information for full results.
 \end_layout
 
 \end_inset
@@ -1846,14 +1820,7 @@ key "Gelman:2008gz"
 status open
 
 \begin_layout Plain Layout
-On the use of graphs in lieu of tables, see 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Gelman:2002ih"
-
-\end_inset
-
- and 
+On the utility of graphs in lieu of tables, see 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Kastellec:2007ha"
@@ -1891,7 +1858,7 @@ key "ZeligEveryonesSt:2009ts"
  Relying primarily on mass media increases this probability to .41 (a mean
  change of .08 with a standard deviation of .03).
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Quotes eld
@@ -1956,7 +1923,7 @@ because
  To check the robustness of this finding, I also estimate several models
  using different operationalizations of the dependent variable.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Whereas Model 1 considers for simplicity the binary opposition between blaming
@@ -2076,7 +2043,7 @@ The coefficient plot for Model 3, testing Hypothesis 2, reveals statistical
 \emph default
 logit estimate = .38, standard error = .03).
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 There is reason to suppose that blame attributions could be endogenous to
@@ -2242,7 +2209,7 @@ status collapsed
 \begin_layout Plain Layout
 The error-correction specification is useful here for another reason.
  Although government spending and media density are not quite co-integrated,
- they are nearly cointegrated as both trend upward over time.
+ they are nearly cointegrated.
  In such situations, error-correction specifications are ideal for insuring
  against the possibility of spurious correlations driven by that shared
  integration.
@@ -2258,7 +2225,7 @@ The error-correction specification is useful here for another reason.
  for unobserved differences in countries or unobserved temporal shocks in
  any particular year.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 This was done using the 
@@ -2572,14 +2539,6 @@ Several additional robustness checks were conducted.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Gaibulloev:2014eg"
-
-\end_inset
-
-, although the proposed solution of subsetting the data to decrease the
- number of units is disputed 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Beck:2014bo"
 
 \end_inset
 
