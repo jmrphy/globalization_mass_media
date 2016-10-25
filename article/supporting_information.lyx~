@@ -1357,7 +1357,7 @@ end{center}
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "balanced_models_table.tex"
 
 \end_inset

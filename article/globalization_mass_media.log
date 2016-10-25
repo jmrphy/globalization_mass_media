@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  24 FEB 2016 09:32
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  27 JUL 2016 19:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -236,37 +236,38 @@ LaTeX Font Info:    ... okay on input line 26.
 
 \AtBeginShipoutBox=\box30
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 32.
+(Font)              <14.4> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 33.
 
 LaTeX Warning: No \author given.
 
 [1
 
-] [2] [3] [4]
+] [2] [3] [4] [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 209.
+(Font)              <12> on input line 219.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 209.
+(Font)              <8> on input line 219.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 209.
+(Font)              <6> on input line 219.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 213.
- [5] [6] [7] [8] [9] [10] [11]
+(Font)              <5> on input line 223.
+ [6] [7] [8] [9] [10] [11] [12]
 File: flowchart.pdf Graphic file (type QTm)
  <use  "flowchart.pdf" >
 Missing character: There is no ’ in font ecrm1000!
- [12]
-[13] [14] [15] [16] [17] [18]
-File: model1.pdf Graphic file (type QTm)
- <use  "model1.pdf" > [19] [20]
-File: model2.pdf Graphic file (type QTm)
 
-<use  "model2.pdf" >
+[13] [14] [15] [16] [17] [18] [19]
+File: model1.pdf Graphic file (type QTm)
+ <use  "model1.pdf" >
+File: model2.pdf Graphic file (type QTm)
+ <use  "model2.pdf" >
 File: model3.pdf Graphic file (type QTm)
- <use  "model3.pdf" > [21] [22] [23] [24] [25]
-(./main_state_models_standardized.tex) (./rival_models_standardized.tex
+
+<use  "model3.pdf" > [20] [21] [22] [23] [24] [25]
+(./main_state_models_standardized.tex) [26] [27]
+(./rival_models_standardized.tex
 Overfull \hbox (8.65887pt too wide) in paragraph at lines 6--65
  [][] 
  []
@@ -274,15 +275,15 @@ Overfull \hbox (8.65887pt too wide) in paragraph at lines 6--65
 
 LaTeX Warning: Float too large for page by 28.06737pt on input line 65.
 
-) [26] [27] [28] [29] [30] [31] (./globalization_mass_media.bbl [32] [33]
-[34] [35] [36] [37]) [38] (./globalization_mass_media.aux) ) 
+) [28] [29] [30] [31] [32] (./globalization_mass_media.bbl [33] [34] [35]
+[36] [37] [38]) [39] (./globalization_mass_media.aux) ) 
 Here is how much of TeX's memory you used:
  6569 strings out of 493706
  88856 string characters out of 6145769
- 157425 words of memory out of 5000000
+ 151425 words of memory out of 5000000
  9856 multiletter control sequences out of 15000+600000
  19499 words of font info for 42 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 25i,9n,32p,634b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,9n,32p,1112b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on globalization_mass_media.pdf (38 pages).
+Output written on globalization_mass_media.pdf (39 pages).

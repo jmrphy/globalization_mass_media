@@ -113,7 +113,7 @@ Descriptive Statistics for State-Level Data
 Text of Key Survey Questions
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 
 \series bold
 Variable: Media
@@ -159,13 +159,18 @@ Q-15.
  Don’t Know/No Response (Column 23)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 \noindent
 
 \series bold
 Variable: First and Second Most Important Problem
 \series default
- (After the respondent selects an issue area, they are given a list of specific
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+(After the respondent selects an issue area, they are given a list of specific
  problems from which they can identify the top problem.
  See full codebook for the complete list of problems provided.)
 \end_layout
@@ -329,7 +334,7 @@ Q-33.
  Don’t Know/No Response? (Column 50)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 \noindent
 
 \series bold
